@@ -19,7 +19,8 @@
 		"format": "biome format --write .",
 		"test:unit": "vitest",
 		"test": "vitest run",
-		"generate:fixtures": "node scripts/generate-audio-fixtures.mjs"
+		"generate:fixtures": "node scripts/generate-audio-fixtures.mjs",
+		"verify:audio": "node scripts/verify-audio-catalog.mjs"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "2.5.15",
