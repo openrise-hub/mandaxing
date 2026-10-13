@@ -20,7 +20,7 @@ test("runs a blind ear-training round and records the response", async ({
 
 	const count = await page.evaluate(async () => {
 		const db = await new Promise<IDBDatabase>((resolve, reject) => {
-			const request = indexedDB.open("MandaxingPhase1DB");
+			const request = indexedDB.open("mandaxing");
 			request.onsuccess = () => resolve(request.result);
 			request.onerror = () => reject(request.error);
 		});
