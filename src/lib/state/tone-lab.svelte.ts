@@ -10,6 +10,7 @@ import bank01 from "#lib/data/bank-01-pronouns.json";
 import isolatedTones from "#lib/data/isolated-tones.json";
 import minimalPairs from "#lib/data/minimal-pairs.json";
 import tonePairs from "#lib/data/tone-pairs.json";
+import { db } from "#lib/db/database";
 import { evaluateContour, type ScoreResult } from "#lib/dsp/scoring";
 import type {
 	IsolatedToneItem,
@@ -117,6 +118,7 @@ class ToneLab {
 	private minimalList = buildMinimalStimuli();
 	private referenceBuffers: AudioBuffer[] | null = null;
 	private tracker: MicPitchTracker | null = null;
+	private promptStartedAt = 0;
 
 	get list(): Stimulus[] {
 		if (this.mode === "single") return this.singleList;
@@ -221,6 +223,7 @@ class ToneLab {
 		this.status = "evaluating";
 		this.result = evaluateContour(this.user, this.reference);
 		this.status = "idle";
+		await this.persistCalibration();
 	}
 
 	async playMinimalPrompt(): Promise<void> {
@@ -237,6 +240,7 @@ class ToneLab {
 			];
 			await resumeAudioContext();
 			this.status = "playing";
+			this.promptStartedAt = performance.now();
 			await playSequence(context, buffers);
 			this.status = "idle";
 		} catch {
@@ -244,9 +248,19 @@ class ToneLab {
 		}
 	}
 
-	answerMinimal(choice: "A" | "B"): void {
+	async answerMinimal(choice: "A" | "B"): Promise<void> {
 		if (this.minimalAnswered) return;
 		this.minimalAnswered = choice;
+		const item = (minimalPairs as MinimalPairItem[])[this.index];
+		if (!item) return;
+		const played = this.minimalTarget === "A" ? item.itemA : item.itemB;
+		const selected = choice === "A" ? item.itemA : item.itemB;
+		await this.persistDiscrimination(
+			"MINIMAL",
+			played.pinyin,
+			selected.pinyin,
+			choice === this.minimalTarget,
+		);
 	}
 
 	get minimalResult(): boolean | null {
@@ -272,6 +286,7 @@ class ToneLab {
 			);
 			await resumeAudioContext();
 			this.status = "playing";
+			this.promptStartedAt = performance.now();
 			await playSequence(context, buffers);
 			this.status = "idle";
 		} catch {
@@ -279,11 +294,53 @@ class ToneLab {
 		}
 	}
 
-	answerBlindTone(tone: number): void {
+	async answerBlindTone(tone: number): Promise<void> {
 		const target = this.blindTarget;
 		if (!target || this.blindFeedback !== "idle") return;
 		this.blindFeedback =
 			(target.tones[0] ?? 0) === tone ? "correct" : "incorrect";
+		await this.persistDiscrimination(
+			"SINGLE",
+			target.pinyin,
+			String(tone),
+			this.blindFeedback === "correct",
+		);
+	}
+
+	private async persistCalibration(): Promise<void> {
+		const stimulus = this.currentStimulus;
+		if (!stimulus || !this.result) return;
+		try {
+			await db.calibrations.add({
+				timestamp: new Date(),
+				syllable: stimulus.syllables.map(({ syllable }) => syllable).join("-"),
+				expectedTone: stimulus.tones[0] ?? 0,
+				accuracyScore: this.result.score,
+				passed: this.result.passed,
+			});
+		} catch {
+			// persistence is best-effort; the score stays visible for the session
+		}
+	}
+
+	private async persistDiscrimination(
+		testType: "SINGLE" | "PAIR" | "MINIMAL",
+		targetPrompt: string,
+		userSelection: string,
+		correct: boolean,
+	): Promise<void> {
+		try {
+			await db.discriminationTests.add({
+				timestamp: new Date(),
+				testType,
+				targetPrompt,
+				userSelection,
+				correct,
+				responseTimeMs: Math.round(performance.now() - this.promptStartedAt),
+			});
+		} catch {
+			// persistence is best-effort
+		}
 	}
 }
 
