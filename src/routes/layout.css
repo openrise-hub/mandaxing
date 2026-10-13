@@ -1,1 +1,19 @@
 @import "tailwindcss";
+
+@theme {
+	--color-paper: #f4efea;
+	--color-card: #ffffff;
+	--color-panel: #e8e1d7;
+	--color-ink: #1e1b18;
+	--color-ink-muted: #5c554e;
+
+	--color-tone-1: #f59e0b;
+	--color-tone-2: #ea580c;
+	--color-tone-3: #dc2626;
+	--color-tone-4: #7f1d1d;
+	--color-tone-neutral: #8c827a;
+
+	--color-action: #1d4ed8;
+	--color-success: #15803d;
+	--color-alert: #b91c1c;
+}
