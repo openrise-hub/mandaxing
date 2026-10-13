@@ -22,6 +22,8 @@
 	},
 	"devDependencies": {
 		"@biomejs/biome": "2.5.15",
+		"@commitlint/cli": "^21.2.3",
+		"@commitlint/config-conventional": "^21.2.3",
 		"@sveltejs/adapter-static": "^4.0.0",
 		"@sveltejs/kit": "^3.0.0",
 		"@sveltejs/vite-plugin-svelte": "^7.2.0",
@@ -38,7 +40,8 @@
 		"#lib/*": "./src/lib/*"
 	},
 	"simple-git-hooks": {
-		"pre-commit": "corepack pnpm exec lint-staged"
+		"pre-commit": "corepack pnpm exec lint-staged",
+		"commit-msg": "corepack pnpm exec commitlint --edit $1"
 	},
 	"lint-staged": {
 		"*.{js,ts,json,css}": "biome check --write --no-errors-on-unmatched"
