@@ -1,5 +1,8 @@
 import { getAudioContext, resumeAudioContext } from "#lib/audio/audio-context";
-import { fetchAudioBuffer } from "#lib/audio/cdn-resolver";
+import {
+	AudioUnavailableError,
+	fetchAudioBuffer,
+} from "#lib/audio/cdn-resolver";
 import { MicPitchTracker } from "#lib/audio/pitch-tracker";
 import {
 	extractReferenceContour,
@@ -111,6 +114,7 @@ class ToneLab {
 	minimalAnswered = $state<"A" | "B" | null>(null);
 	blindTarget = $state<Stimulus | null>(null);
 	blindFeedback = $state<BlindFeedback>("idle");
+	unavailableIds = $state<string[]>([]);
 	readonly wordItems = bank01 as WordBankItem[];
 
 	private singleList = buildSingleStimuli();
@@ -128,6 +132,14 @@ class ToneLab {
 
 	get currentStimulus(): Stimulus | undefined {
 		return this.override ?? this.list[this.index];
+	}
+
+	get currentUnavailable(): boolean {
+		const stimulus = this.currentStimulus;
+		return (
+			this.status === "unavailable" ||
+			(!!stimulus && this.unavailableIds.includes(stimulus.id))
+		);
 	}
 
 	setMode(mode: LabMode): void {
@@ -160,8 +172,27 @@ class ToneLab {
 		this.minimalAnswered = null;
 	}
 
+	private recordUnavailable(id: string): void {
+		if (!this.unavailableIds.includes(id)) {
+			this.unavailableIds = [...this.unavailableIds, id];
+		}
+	}
+
+	private handleAudioFailure(error: unknown, stimulusId: string): void {
+		if (error instanceof AudioUnavailableError) {
+			this.recordUnavailable(stimulusId);
+			this.status = "unavailable";
+		} else {
+			this.status = "offline";
+		}
+	}
+
 	private async ensureReference(stimulus: Stimulus): Promise<boolean> {
 		if (this.referenceBuffers) return true;
+		if (this.unavailableIds.includes(stimulus.id)) {
+			this.status = "unavailable";
+			return false;
+		}
 		this.status = "loading";
 		try {
 			const context = getAudioContext();
@@ -173,8 +204,8 @@ class ToneLab {
 			this.reference = extractReferenceContour(this.referenceBuffers);
 			this.status = "idle";
 			return true;
-		} catch {
-			this.status = "offline";
+		} catch (error) {
+			this.handleAudioFailure(error, stimulus.id);
 			return false;
 		}
 	}
@@ -243,8 +274,8 @@ class ToneLab {
 			this.promptStartedAt = performance.now();
 			await playSequence(context, buffers);
 			this.status = "idle";
-		} catch {
-			this.status = "offline";
+		} catch (error) {
+			this.handleAudioFailure(error, item.id);
 		}
 	}
 
@@ -289,8 +320,8 @@ class ToneLab {
 			this.promptStartedAt = performance.now();
 			await playSequence(context, buffers);
 			this.status = "idle";
-		} catch {
-			this.status = "offline";
+		} catch (error) {
+			this.handleAudioFailure(error, target.id);
 		}
 	}
 

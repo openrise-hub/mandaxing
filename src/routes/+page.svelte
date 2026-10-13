@@ -47,11 +47,17 @@
 			tones={current?.tones ?? []}
 			label={current?.label}
 		/>
-		<PitchCanvas
-			reference={lab.reference}
-			user={lab.user}
-			highlightTones={current?.tones ?? []}
-		/>
+		{#if lab.currentUnavailable || lab.status === "offline"}
+			<p class="mech-card p-4 text-sm">
+				{lab.currentUnavailable ? t().common.audioUnavailable : t().common.offline}
+			</p>
+		{:else}
+			<PitchCanvas
+				reference={lab.reference}
+				user={lab.user}
+				highlightTones={current?.tones ?? []}
+			/>
+		{/if}
 		<div class="flex items-center gap-2">
 			<button type="button" class="mech-btn px-3 py-1.5 text-sm" onclick={() => lab.setIndex(-1)}>
 				{t().common.previous}
