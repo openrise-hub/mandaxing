@@ -18,7 +18,8 @@
 		"lint": "biome check .",
 		"format": "biome format --write .",
 		"test:unit": "vitest",
-		"test": "vitest run"
+		"test": "vitest run",
+		"generate:fixtures": "node scripts/generate-audio-fixtures.mjs"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "2.5.15",
