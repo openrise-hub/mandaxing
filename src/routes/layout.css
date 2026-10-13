@@ -1,6 +1,17 @@
+@import "@fontsource-variable/space-grotesk";
+@import "@fontsource-variable/inter";
+@import "@fontsource/dm-mono/500.css";
+@import "@fontsource-variable/noto-sans-sc";
 @import "tailwindcss";
 
 @theme {
+	--font-display:
+		"Space Grotesk Variable", ui-sans-serif, system-ui, sans-serif;
+	--font-sans: "Inter Variable", ui-sans-serif, system-ui, sans-serif;
+	--font-mono: "DM Mono", ui-monospace, "SFMono-Regular", monospace;
+	--font-hanzi:
+		"Noto Sans SC Variable", "PingFang SC", "Microsoft YaHei", sans-serif;
+
 	--color-paper: #f4efea;
 	--color-card: #ffffff;
 	--color-panel: #e8e1d7;
