@@ -37,9 +37,10 @@ test("disables playback honestly when the CDN has no audio", async ({
 	await blockAudioCdn(page);
 	await page.goto("/");
 
-	await page.getByRole("button", { name: "Listen", exact: true }).click();
+	const controlListen = page
+		.getByRole("button", { name: "Listen", exact: true })
+		.first();
+	await controlListen.click();
 	await expect(page.getByText("Audio unavailable").first()).toBeVisible();
-	await expect(
-		page.getByRole("button", { name: "Listen", exact: true }),
-	).toBeDisabled();
+	await expect(controlListen).toBeDisabled();
 });
