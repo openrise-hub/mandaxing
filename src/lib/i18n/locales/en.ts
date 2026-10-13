@@ -10,6 +10,8 @@ export const en: TranslationSchema = {
 		offline: "Offline",
 		language: "Language",
 		audioUnavailable: "Audio unavailable",
+		previous: "Previous",
+		next: "Next",
 	},
 	navigation: {
 		singleTones: "Single Tones",
