@@ -1,5 +1,6 @@
 <script lang="ts">
 	import ControlPanel from "#lib/components/ControlPanel.svelte";
+	import EarTrainingPad from "#lib/components/EarTrainingPad.svelte";
 	import PitchCanvas from "#lib/components/PitchCanvas.svelte";
 	import StimulusCard from "#lib/components/StimulusCard.svelte";
 	import WordBankPanel from "#lib/components/WordBankPanel.svelte";
@@ -18,6 +19,7 @@
 	let busy = $derived(lab.status === "loading" || lab.status === "evaluating");
 	let canUse = $derived(!!current && !lab.currentUnavailable && lab.status !== "offline");
 	let minimalOptions = $derived((current?.pinyin ?? "").split(" / "));
+	let blindBusy = $derived(lab.status === "loading" || lab.status === "playing");
 
 	function translationFor(): string {
 		const stimulus = current;
@@ -106,6 +108,32 @@
 				result={lab.result}
 			/>
 		{/if}
+	</section>
+
+	<section class="mech-card flex flex-col gap-3 p-4">
+		<div class="flex flex-wrap items-center gap-3">
+			<button
+				type="button"
+				class="mech-btn px-4 py-2 font-display font-bold disabled:opacity-40"
+				disabled={blindBusy}
+				onclick={() => void lab.playBlindPrompt()}
+			>
+				{t().toneLab.playReference}
+			</button>
+			{#if lab.blindFeedback !== "idle"}
+				<span
+					class="data-pill px-2 py-1 text-xs text-card"
+					class:bg-success={lab.blindFeedback === "correct"}
+					class:bg-alert={lab.blindFeedback === "incorrect"}
+				>
+					{lab.blindFeedback === "correct" ? t().common.valid : t().common.retry}
+				</span>
+			{/if}
+		</div>
+		<EarTrainingPad
+			disabled={lab.blindTarget === null || blindBusy || lab.blindFeedback !== "idle"}
+			onSelect={(tone) => void lab.answerBlindTone(tone)}
+		/>
 	</section>
 
 	<WordBankPanel items={lab.wordItems} onSelect={(item) => lab.selectWord(item)} />
