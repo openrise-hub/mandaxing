@@ -11,10 +11,10 @@
 
 	const GREETING_IDS = new Set(["wb1_nihao", "wb1_xiexie", "wb1_bukeqi", "wb1_zaijian"]);
 
-	const groups = [
+	const groups = $derived([
 		{ key: "pronouns", items: items.filter((item) => !GREETING_IDS.has(item.id)) },
 		{ key: "greetings", items: items.filter((item) => GREETING_IDS.has(item.id)) },
-	] as const;
+	] as const);
 </script>
 
 <section class="mech-card flex flex-col gap-4 p-4">
