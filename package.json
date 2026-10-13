@@ -33,7 +33,9 @@
 		"svelte-check": "4.7.6",
 		"typescript": "6.0.3",
 		"vite": "8.3.4",
-		"vitest": "5.0.4"
+		"vitest": "5.0.4",
+		"@tailwindcss/vite": "4.3.3",
+		"tailwindcss": "4.3.3"
 	},
 	"imports": {
 		"#lib": "./src/lib/index.js",
@@ -45,5 +47,6 @@
 	},
 	"lint-staged": {
 		"*.{js,ts,json,css}": "biome check --write --no-errors-on-unmatched"
-	}
+	},
+	"dependencies": {}
 }
