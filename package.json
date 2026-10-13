@@ -25,6 +25,8 @@
 		"@sveltejs/adapter-static": "^4.0.0",
 		"@sveltejs/kit": "^3.0.0",
 		"@sveltejs/vite-plugin-svelte": "^7.2.0",
+		"lint-staged": "^17.6.0",
+		"simple-git-hooks": "^2.14.0",
 		"svelte": "^5.57.1",
 		"svelte-check": "^4.6.0",
 		"typescript": "^6.0.3",
@@ -34,5 +36,11 @@
 	"imports": {
 		"#lib": "./src/lib/index.js",
 		"#lib/*": "./src/lib/*"
+	},
+	"simple-git-hooks": {
+		"pre-commit": "corepack pnpm exec lint-staged"
+	},
+	"lint-staged": {
+		"*.{js,ts,json,css}": "biome check --write --no-errors-on-unmatched"
 	}
 }
