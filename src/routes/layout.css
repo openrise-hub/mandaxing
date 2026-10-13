@@ -16,4 +16,13 @@
 	--color-action: #1d4ed8;
 	--color-success: #15803d;
 	--color-alert: #b91c1c;
+
+	--shadow-mechanical: 3px 3px 0 0 var(--color-ink);
+	--radius-mechanical: 3px;
+}
+
+@utility border-mech {
+	border-color: var(--color-ink);
+	border-style: solid;
+	border-width: 1.5px;
 }
