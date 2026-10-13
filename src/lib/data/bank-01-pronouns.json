@@ -1,0 +1,119 @@
+[
+	{
+		"id": "wb1_wo",
+		"characters": "我",
+		"pinyin": "wǒ",
+		"syllables": ["wo"],
+		"tones": [3],
+		"en": "I, me",
+		"es": "Yo"
+	},
+	{
+		"id": "wb1_ni",
+		"characters": "你",
+		"pinyin": "nǐ",
+		"syllables": ["ni"],
+		"tones": [3],
+		"en": "You",
+		"es": "Tú"
+	},
+	{
+		"id": "wb1_ta_he",
+		"characters": "他",
+		"pinyin": "tā",
+		"syllables": ["ta"],
+		"tones": [1],
+		"en": "He, him",
+		"es": "Él"
+	},
+	{
+		"id": "wb1_ta_she",
+		"characters": "她",
+		"pinyin": "tā",
+		"syllables": ["ta"],
+		"tones": [1],
+		"en": "She, her",
+		"es": "Ella"
+	},
+	{
+		"id": "wb1_ta_it",
+		"characters": "它",
+		"pinyin": "tā",
+		"syllables": ["ta"],
+		"tones": [1],
+		"en": "It",
+		"es": "Eso"
+	},
+	{
+		"id": "wb1_nin",
+		"characters": "您",
+		"pinyin": "nín",
+		"syllables": ["nin"],
+		"tones": [2],
+		"en": "You (formal)",
+		"es": "Usted"
+	},
+	{
+		"id": "wb1_women",
+		"characters": "我们",
+		"pinyin": "wǒmen",
+		"syllables": ["wo", "men"],
+		"tones": [3, 0],
+		"en": "We, us",
+		"es": "Nosotros"
+	},
+	{
+		"id": "wb1_nimen",
+		"characters": "你们",
+		"pinyin": "nǐmen",
+		"syllables": ["ni", "men"],
+		"tones": [3, 0],
+		"en": "You (plural)",
+		"es": "Ustedes"
+	},
+	{
+		"id": "wb1_tamen",
+		"characters": "他们",
+		"pinyin": "tāmen",
+		"syllables": ["ta", "men"],
+		"tones": [1, 0],
+		"en": "They, them",
+		"es": "Ellos"
+	},
+	{
+		"id": "wb1_nihao",
+		"characters": "你好",
+		"pinyin": "nǐhǎo",
+		"syllables": ["ni", "hao"],
+		"tones": [2, 3],
+		"en": "Hello",
+		"es": "Hola"
+	},
+	{
+		"id": "wb1_xiexie",
+		"characters": "谢谢",
+		"pinyin": "xièxie",
+		"syllables": ["xie", "xie"],
+		"tones": [4, 0],
+		"en": "Thank you",
+		"es": "Gracias"
+	},
+	{
+		"id": "wb1_bukeqi",
+		"characters": "不客气",
+		"pinyin": "bú kèqi",
+		"syllables": ["bu", "ke", "qi"],
+		"tones": [2, 4, 0],
+		"en": "You are welcome",
+		"es": "De nada"
+	},
+	{
+		"id": "wb1_zaijian",
+		"characters": "再见",
+		"pinyin": "zài jiàn",
+		"syllables": ["zai", "jian"],
+		"tones": [4, 4],
+		"en": "Goodbye",
+		"es": "Adiós"
+	}
+]
