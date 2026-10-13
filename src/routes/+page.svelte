@@ -17,6 +17,7 @@
 	let current = $derived(lab.currentStimulus);
 	let busy = $derived(lab.status === "loading" || lab.status === "evaluating");
 	let canUse = $derived(!!current && !lab.currentUnavailable && lab.status !== "offline");
+	let minimalOptions = $derived((current?.pinyin ?? "").split(" / "));
 
 	function translationFor(): string {
 		const stimulus = current;
@@ -57,17 +58,54 @@
 				{t().common.next}
 			</button>
 		</div>
-		<ControlPanel
-			{busy}
-			recording={lab.status === "recording"}
-			{canUse}
-			unavailable={lab.currentUnavailable}
-			offline={lab.status === "offline"}
-			onListen={() => void lab.play()}
-			onRecord={() => void lab.startRecording()}
-			onStop={() => void lab.stopRecording()}
-			result={lab.result}
-		/>
+		{#if lab.mode === "minimal"}
+			<section class="mech-card flex flex-wrap items-center gap-3 p-4">
+				<button
+					type="button"
+					class="mech-btn px-4 py-2 font-display font-bold disabled:opacity-40"
+					disabled={lab.status === "playing" || lab.status === "loading"}
+					onclick={() => void lab.playMinimalPrompt()}
+				>
+					{t().toneLab.playReference}
+				</button>
+				{#if lab.minimalAnswered === null}
+					<button
+						type="button"
+						class="mech-btn px-4 py-2 font-mono text-sm"
+						onclick={() => void lab.answerMinimal("A")}
+					>
+						A · {minimalOptions[0] ?? ""}
+					</button>
+					<button
+						type="button"
+						class="mech-btn px-4 py-2 font-mono text-sm"
+						onclick={() => void lab.answerMinimal("B")}
+					>
+						B · {minimalOptions[1] ?? ""}
+					</button>
+				{:else}
+					<span
+						class="data-pill px-2 py-1 text-xs text-card"
+						class:bg-success={lab.minimalResult === true}
+						class:bg-alert={lab.minimalResult === false}
+					>
+						{lab.minimalResult ? t().common.valid : t().common.retry}
+					</span>
+				{/if}
+			</section>
+		{:else}
+			<ControlPanel
+				{busy}
+				recording={lab.status === "recording"}
+				{canUse}
+				unavailable={lab.currentUnavailable}
+				offline={lab.status === "offline"}
+				onListen={() => void lab.play()}
+				onRecord={() => void lab.startRecording()}
+				onStop={() => void lab.stopRecording()}
+				result={lab.result}
+			/>
+		{/if}
 	</section>
 
 	<WordBankPanel items={lab.wordItems} onSelect={(item) => lab.selectWord(item)} />
