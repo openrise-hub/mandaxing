@@ -2,7 +2,7 @@ import { db } from "#lib/db/database";
 import { en } from "#lib/i18n/locales/en";
 import { es } from "#lib/i18n/locales/es";
 import type { Locale, TranslationSchema } from "#lib/i18n/types";
-import { browser } from "$app/environment";
+import { browser } from "$app/env";
 
 const catalogs: Record<Locale, TranslationSchema> = { en, es };
 
