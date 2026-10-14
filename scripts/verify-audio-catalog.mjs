@@ -21,6 +21,9 @@ const banks = [
 	"bank-01-pronouns.json",
 	"bank-02-questions.json",
 	"bank-03-verbs.json",
+	"bank-04-logical.json",
+	"bank-05-space-time.json",
+	"bank-06-numbers-classifiers.json",
 ].flatMap((fileName) =>
 	JSON.parse(readFileSync(join(dataDir, fileName), "utf8")),
 );
@@ -60,6 +63,7 @@ let available = 0;
 for (const [key, label] of [...slugs.entries()].sort(([a], [b]) =>
 	a.localeCompare(b),
 )) {
+	await new Promise((resolve) => setTimeout(resolve, 30));
 	const response = await fetch(`${CDN_BASE_URL}/${key}.mp3`, {
 		method: "HEAD",
 	});

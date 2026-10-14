@@ -1,0 +1,188 @@
+[
+	{
+		"id": "wb5_jintian",
+		"characters": "今天",
+		"pinyin": "jīntiān",
+		"syllables": ["jin", "tian"],
+		"tones": [1, 1],
+		"en": "Today",
+		"es": "Hoy",
+		"breakdown": [
+			{
+				"character": "今",
+				"radical": "人",
+				"radicalMeaning": { "en": "person", "es": "persona" },
+				"phonetic": null,
+				"phoneticHint": null
+			},
+			{
+				"character": "天",
+				"radical": "大",
+				"radicalMeaning": { "en": "big", "es": "grande" },
+				"phonetic": null,
+				"phoneticHint": null
+			}
+		]
+	},
+	{
+		"id": "wb5_zuotian",
+		"characters": "昨天",
+		"pinyin": "zuótiān",
+		"syllables": ["zuo", "tian"],
+		"tones": [2, 1],
+		"en": "Yesterday",
+		"es": "Ayer",
+		"breakdown": [
+			{
+				"character": "昨",
+				"radical": "日",
+				"radicalMeaning": { "en": "sun", "es": "sol" },
+				"phonetic": "乍",
+				"phoneticHint": "zhà"
+			},
+			{
+				"character": "天",
+				"radical": "大",
+				"radicalMeaning": { "en": "big", "es": "grande" },
+				"phonetic": null,
+				"phoneticHint": null
+			}
+		]
+	},
+	{
+		"id": "wb5_mingtian",
+		"characters": "明天",
+		"pinyin": "míngtiān",
+		"syllables": ["ming", "tian"],
+		"tones": [2, 1],
+		"en": "Tomorrow",
+		"es": "Mañana",
+		"breakdown": [
+			{
+				"character": "明",
+				"radical": "日",
+				"radicalMeaning": { "en": "sun", "es": "sol" },
+				"phonetic": "月",
+				"phoneticHint": "yuè"
+			},
+			{
+				"character": "天",
+				"radical": "大",
+				"radicalMeaning": { "en": "big", "es": "grande" },
+				"phonetic": null,
+				"phoneticHint": null
+			}
+		]
+	},
+	{
+		"id": "wb5_xianzai",
+		"characters": "现在",
+		"pinyin": "xiànzài",
+		"syllables": ["xian", "zai"],
+		"tones": [4, 4],
+		"en": "Now",
+		"es": "Ahora",
+		"breakdown": [
+			{
+				"character": "现",
+				"radical": "王",
+				"radicalMeaning": { "en": "jade/king", "es": "jade/rey" },
+				"phonetic": "见",
+				"phoneticHint": "jiàn"
+			},
+			{
+				"character": "在",
+				"radical": "土",
+				"radicalMeaning": { "en": "earth", "es": "tierra" },
+				"phonetic": "才",
+				"phoneticHint": "cái"
+			}
+		]
+	},
+	{
+		"id": "wb5_zheli",
+		"characters": "这里",
+		"pinyin": "zhèlǐ",
+		"syllables": ["zhe", "li"],
+		"tones": [4, 3],
+		"en": "Here",
+		"es": "Aquí",
+		"breakdown": [
+			{
+				"character": "这",
+				"radical": "辶",
+				"radicalMeaning": { "en": "walk", "es": "caminar" },
+				"phonetic": "文",
+				"phoneticHint": "wén"
+			},
+			{
+				"character": "里",
+				"radical": "里",
+				"radicalMeaning": { "en": "village", "es": "aldea" },
+				"phonetic": null,
+				"phoneticHint": null
+			}
+		]
+	},
+	{
+		"id": "wb5_nali",
+		"characters": "那里",
+		"pinyin": "nàlǐ",
+		"syllables": ["na", "li"],
+		"tones": [4, 3],
+		"en": "There",
+		"es": "Allí",
+		"breakdown": [
+			{
+				"character": "那",
+				"radical": "阝",
+				"radicalMeaning": { "en": "city", "es": "ciudad" },
+				"phonetic": null,
+				"phoneticHint": null
+			},
+			{
+				"character": "里",
+				"radical": "里",
+				"radicalMeaning": { "en": "village", "es": "aldea" },
+				"phonetic": null,
+				"phoneticHint": null
+			}
+		]
+	},
+	{
+		"id": "wb5_shang",
+		"characters": "上",
+		"pinyin": "shàng",
+		"syllables": ["shang"],
+		"tones": [4],
+		"en": "Up, above",
+		"es": "Arriba, sobre",
+		"breakdown": [
+			{
+				"character": "上",
+				"radical": "一",
+				"radicalMeaning": { "en": "one", "es": "uno" },
+				"phonetic": null,
+				"phoneticHint": null
+			}
+		]
+	},
+	{
+		"id": "wb5_xia",
+		"characters": "下",
+		"pinyin": "xià",
+		"syllables": ["xia"],
+		"tones": [4],
+		"en": "Down, below",
+		"es": "Abajo, bajo",
+		"breakdown": [
+			{
+				"character": "下",
+				"radical": "一",
+				"radicalMeaning": { "en": "one", "es": "uno" },
+				"phonetic": null,
+				"phoneticHint": null
+			}
+		]
+	}
+]
