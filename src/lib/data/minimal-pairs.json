@@ -1,0 +1,162 @@
+[
+	{
+		"id": "mp_b_p",
+		"contrast": "b vs p",
+		"itemA": {
+			"syllable": "ba",
+			"tone": 1,
+			"pinyin": "bā",
+			"hanzi": "八",
+			"en": "Eight",
+			"es": "Ocho"
+		},
+		"itemB": {
+			"syllable": "pa",
+			"tone": 1,
+			"pinyin": "pā",
+			"hanzi": "趴",
+			"en": "Lie down",
+			"es": "Acostarse boca abajo"
+		}
+	},
+	{
+		"id": "mp_d_t",
+		"contrast": "d vs t",
+		"itemA": {
+			"syllable": "da",
+			"tone": 3,
+			"pinyin": "dǎ",
+			"hanzi": "打",
+			"en": "Hit",
+			"es": "Pegar"
+		},
+		"itemB": {
+			"syllable": "ta",
+			"tone": 3,
+			"pinyin": "tǎ",
+			"hanzi": "塔",
+			"en": "Tower",
+			"es": "Torre"
+		}
+	},
+	{
+		"id": "mp_g_k",
+		"contrast": "g vs k",
+		"itemA": {
+			"syllable": "ge",
+			"tone": 1,
+			"pinyin": "gē",
+			"hanzi": "哥",
+			"en": "Older brother",
+			"es": "Hermano mayor"
+		},
+		"itemB": {
+			"syllable": "ke",
+			"tone": 1,
+			"pinyin": "kē",
+			"hanzi": "棵",
+			"en": "Tree classifier",
+			"es": "Clasificador para árboles"
+		}
+	},
+	{
+		"id": "mp_z_zh",
+		"contrast": "z vs zh",
+		"itemA": {
+			"syllable": "za",
+			"tone": 1,
+			"pinyin": "zā",
+			"hanzi": "扎",
+			"en": "Prick",
+			"es": "Pinchar"
+		},
+		"itemB": {
+			"syllable": "zha",
+			"tone": 1,
+			"pinyin": "zhā",
+			"hanzi": "渣",
+			"en": "Residue",
+			"es": "Sobras"
+		}
+	},
+	{
+		"id": "mp_c_ch",
+		"contrast": "c vs ch",
+		"itemA": {
+			"syllable": "ca",
+			"tone": 1,
+			"pinyin": "cā",
+			"hanzi": "擦",
+			"en": "Wipe",
+			"es": "Limpiar"
+		},
+		"itemB": {
+			"syllable": "cha",
+			"tone": 1,
+			"pinyin": "chā",
+			"hanzi": "叉",
+			"en": "Fork",
+			"es": "Tenedor"
+		}
+	},
+	{
+		"id": "mp_s_sh",
+		"contrast": "s vs sh",
+		"itemA": {
+			"syllable": "san",
+			"tone": 1,
+			"pinyin": "sān",
+			"hanzi": "三",
+			"en": "Three",
+			"es": "Tres"
+		},
+		"itemB": {
+			"syllable": "shan",
+			"tone": 1,
+			"pinyin": "shān",
+			"hanzi": "山",
+			"en": "Mountain",
+			"es": "Montaña"
+		}
+	},
+	{
+		"id": "mp_j_q",
+		"contrast": "j vs q",
+		"itemA": {
+			"syllable": "ji",
+			"tone": 1,
+			"pinyin": "jī",
+			"hanzi": "鸡",
+			"en": "Chicken",
+			"es": "Pollo"
+		},
+		"itemB": {
+			"syllable": "qi",
+			"tone": 1,
+			"pinyin": "qī",
+			"hanzi": "七",
+			"en": "Seven",
+			"es": "Siete"
+		}
+	},
+	{
+		"id": "mp_q_x",
+		"contrast": "q vs x",
+		"itemA": {
+			"syllable": "qi",
+			"tone": 1,
+			"pinyin": "qī",
+			"hanzi": "七",
+			"en": "Seven",
+			"es": "Siete"
+		},
+		"itemB": {
+			"syllable": "xi",
+			"tone": 1,
+			"pinyin": "xī",
+			"hanzi": "西",
+			"en": "West",
+			"es": "Oeste"
+		}
+	}
+]
