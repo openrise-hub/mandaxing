@@ -44,3 +44,20 @@ export interface WordBankItem {
 	en: string;
 	es: string;
 }
+
+export interface LocalizedText {
+	en: string;
+	es: string;
+}
+
+export interface ComponentBreakdown {
+	character: string;
+	radical: string;
+	radicalMeaning: LocalizedText;
+	phonetic: string | null;
+	phoneticHint: string | null;
+}
+
+export interface WordBankEntry extends WordBankItem {
+	breakdown: ComponentBreakdown[];
+}

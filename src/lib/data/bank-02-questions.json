@@ -1,0 +1,209 @@
+[
+	{
+		"id": "wb2_shenme",
+		"characters": "什么",
+		"pinyin": "shénme",
+		"syllables": ["shen", "me"],
+		"tones": [2, 0],
+		"en": "What",
+		"es": "Qué",
+		"breakdown": [
+			{
+				"character": "什",
+				"radical": "亻",
+				"radicalMeaning": { "en": "person", "es": "persona" },
+				"phonetic": "十",
+				"phoneticHint": "shí"
+			},
+			{
+				"character": "么",
+				"radical": "丿",
+				"radicalMeaning": { "en": "slash stroke", "es": "trazo oblicuo" },
+				"phonetic": null,
+				"phoneticHint": null
+			}
+		]
+	},
+	{
+		"id": "wb2_shei",
+		"characters": "谁",
+		"pinyin": "shéi",
+		"syllables": ["shei"],
+		"tones": [2],
+		"en": "Who",
+		"es": "Quién",
+		"breakdown": [
+			{
+				"character": "谁",
+				"radical": "讠",
+				"radicalMeaning": { "en": "speech", "es": "habla" },
+				"phonetic": null,
+				"phoneticHint": null
+			}
+		]
+	},
+	{
+		"id": "wb2_nar",
+		"characters": "哪儿",
+		"pinyin": "nǎr",
+		"syllables": ["nar"],
+		"tones": [3],
+		"en": "Where",
+		"es": "Dónde",
+		"breakdown": [
+			{
+				"character": "哪",
+				"radical": "口",
+				"radicalMeaning": { "en": "mouth", "es": "boca" },
+				"phonetic": "那",
+				"phoneticHint": "nà"
+			},
+			{
+				"character": "儿",
+				"radical": "儿",
+				"radicalMeaning": { "en": "legs", "es": "piernas" },
+				"phonetic": null,
+				"phoneticHint": null
+			}
+		]
+	},
+	{
+		"id": "wb2_zenme",
+		"characters": "怎么",
+		"pinyin": "zěnme",
+		"syllables": ["zen", "me"],
+		"tones": [3, 0],
+		"en": "How",
+		"es": "Cómo",
+		"breakdown": [
+			{
+				"character": "怎",
+				"radical": "心",
+				"radicalMeaning": { "en": "heart", "es": "corazón" },
+				"phonetic": "乍",
+				"phoneticHint": "zhà"
+			},
+			{
+				"character": "么",
+				"radical": "丿",
+				"radicalMeaning": { "en": "slash stroke", "es": "trazo oblicuo" },
+				"phonetic": null,
+				"phoneticHint": null
+			}
+		]
+	},
+	{
+		"id": "wb2_duoshao",
+		"characters": "多少",
+		"pinyin": "duōshao",
+		"syllables": ["duo", "shao"],
+		"tones": [1, 0],
+		"en": "How much, how many",
+		"es": "Cuánto",
+		"breakdown": [
+			{
+				"character": "多",
+				"radical": "夕",
+				"radicalMeaning": { "en": "evening", "es": "atardecer" },
+				"phonetic": null,
+				"phoneticHint": null
+			},
+			{
+				"character": "少",
+				"radical": "小",
+				"radicalMeaning": { "en": "small", "es": "pequeño" },
+				"phonetic": null,
+				"phoneticHint": null
+			}
+		]
+	},
+	{
+		"id": "wb2_ji",
+		"characters": "几",
+		"pinyin": "jǐ",
+		"syllables": ["ji"],
+		"tones": [3],
+		"en": "How many",
+		"es": "Cuántos",
+		"breakdown": [
+			{
+				"character": "几",
+				"radical": "几",
+				"radicalMeaning": { "en": "small table", "es": "mesa pequeña" },
+				"phonetic": null,
+				"phoneticHint": null
+			}
+		]
+	},
+	{
+		"id": "wb2_weishenme",
+		"characters": "为什么",
+		"pinyin": "wèishénme",
+		"syllables": ["wei", "shen", "me"],
+		"tones": [4, 2, 0],
+		"en": "Why",
+		"es": "Por qué",
+		"breakdown": [
+			{
+				"character": "为",
+				"radical": "丶",
+				"radicalMeaning": { "en": "dot", "es": "punto" },
+				"phonetic": null,
+				"phoneticHint": null
+			},
+			{
+				"character": "什",
+				"radical": "亻",
+				"radicalMeaning": { "en": "person", "es": "persona" },
+				"phonetic": "十",
+				"phoneticHint": "shí"
+			},
+			{
+				"character": "么",
+				"radical": "丿",
+				"radicalMeaning": { "en": "slash stroke", "es": "trazo oblicuo" },
+				"phonetic": null,
+				"phoneticHint": null
+			}
+		]
+	},
+	{
+		"id": "wb2_shenmeshihou",
+		"characters": "什么时候",
+		"pinyin": "shénme shíhou",
+		"syllables": ["shen", "me", "shi", "hou"],
+		"tones": [2, 0, 2, 0],
+		"en": "When",
+		"es": "Cuándo",
+		"breakdown": [
+			{
+				"character": "什",
+				"radical": "亻",
+				"radicalMeaning": { "en": "person", "es": "persona" },
+				"phonetic": "十",
+				"phoneticHint": "shí"
+			},
+			{
+				"character": "么",
+				"radical": "丿",
+				"radicalMeaning": { "en": "slash stroke", "es": "trazo oblicuo" },
+				"phonetic": null,
+				"phoneticHint": null
+			},
+			{
+				"character": "时",
+				"radical": "日",
+				"radicalMeaning": { "en": "sun", "es": "sol" },
+				"phonetic": null,
+				"phoneticHint": null
+			},
+			{
+				"character": "候",
+				"radical": "亻",
+				"radicalMeaning": { "en": "person", "es": "persona" },
+				"phonetic": "侯",
+				"phoneticHint": "hóu"
+			}
+		]
+	}
+]
