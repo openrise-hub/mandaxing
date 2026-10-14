@@ -3,7 +3,7 @@
 	import ToneStripeBanner from "#lib/components/ToneStripeBanner.svelte";
 	import LanguageSwitcher from "#lib/components/LanguageSwitcher.svelte";
 	import { i18n, t } from "#lib/i18n/index.svelte";
-	import { lab } from "#lib/state/tone-lab.svelte";
+	import { appView } from "#lib/state/app-view.svelte";
 	import favicon from "#lib/assets/favicon.svg";
 	import { onMount } from "svelte";
 	import type { LayoutProps } from "./$types";
@@ -14,10 +14,10 @@
 		void i18n.init();
 	});
 
-	const modes = [
-		{ key: "single", label: "singleTones" },
-		{ key: "pairs", label: "tonePairs" },
-		{ key: "minimal", label: "minimalPairs" },
+	const views = [
+		{ key: "lab", label: "toneLab" },
+		{ key: "studio", label: "hanziStudio" },
+		{ key: "review", label: "dailyReview" },
 	] as const;
 </script>
 
@@ -34,15 +34,15 @@
 			<div class="col-span-4 flex items-center gap-3 md:col-span-5 lg:col-span-8">
 				<span class="font-display text-lg font-bold tracking-tight">{t().common.appName}</span>
 				<nav class="flex items-center gap-2">
-					{#each modes as mode (mode.key)}
+					{#each views as view (view.key)}
 						<button
 							type="button"
 							class="data-pill px-2 py-1 text-xs"
-							class:bg-card={lab.mode === mode.key}
-							aria-pressed={lab.mode === mode.key}
-							onclick={() => lab.setMode(mode.key)}
+							class:bg-card={appView.current === view.key}
+							aria-pressed={appView.current === view.key}
+							onclick={() => appView.set(view.key)}
 						>
-							{t().navigation[mode.label]}
+							{t().navigation[view.label]}
 						</button>
 					{/each}
 				</nav>
