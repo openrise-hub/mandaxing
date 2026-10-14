@@ -17,8 +17,12 @@ const pairs = JSON.parse(
 const minimal = JSON.parse(
 	readFileSync(join(dataDir, "minimal-pairs.json"), "utf8"),
 );
-const bank = JSON.parse(
-	readFileSync(join(dataDir, "bank-01-pronouns.json"), "utf8"),
+const banks = [
+	"bank-01-pronouns.json",
+	"bank-02-questions.json",
+	"bank-03-verbs.json",
+].flatMap((fileName) =>
+	JSON.parse(readFileSync(join(dataDir, fileName), "utf8")),
 );
 
 const slugs = new Map();
@@ -44,7 +48,7 @@ for (const item of minimal) {
 	add(item.itemA.syllable, item.itemA.tone, item.id);
 	add(item.itemB.syllable, item.itemB.tone, item.id);
 }
-for (const item of bank) {
+for (const item of banks) {
 	item.syllables.forEach((syllable, index) => {
 		add(syllable, item.tones[index], `${item.id} ${item.characters}`);
 	});
