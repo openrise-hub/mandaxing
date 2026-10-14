@@ -1,0 +1,110 @@
+[
+	{
+		"id": "wb4_bu",
+		"characters": "不",
+		"pinyin": "bù",
+		"syllables": ["bu"],
+		"tones": [4],
+		"en": "No, not",
+		"es": "No",
+		"breakdown": [
+			{
+				"character": "不",
+				"radical": "一",
+				"radicalMeaning": { "en": "one", "es": "uno" },
+				"phonetic": null,
+				"phoneticHint": null
+			}
+		]
+	},
+	{
+		"id": "wb4_mei",
+		"characters": "没",
+		"pinyin": "méi",
+		"syllables": ["mei"],
+		"tones": [2],
+		"en": "Not have, did not",
+		"es": "No tener, no",
+		"breakdown": [
+			{
+				"character": "没",
+				"radical": "氵",
+				"radicalMeaning": { "en": "water", "es": "agua" },
+				"phonetic": null,
+				"phoneticHint": null
+			}
+		]
+	},
+	{
+		"id": "wb4_he",
+		"characters": "和",
+		"pinyin": "hé",
+		"syllables": ["he"],
+		"tones": [2],
+		"en": "And, with",
+		"es": "Y, con",
+		"breakdown": [
+			{
+				"character": "和",
+				"radical": "禾",
+				"radicalMeaning": { "en": "grain", "es": "grano" },
+				"phonetic": "口",
+				"phoneticHint": "kǒu"
+			}
+		]
+	},
+	{
+		"id": "wb4_de",
+		"characters": "的",
+		"pinyin": "de",
+		"syllables": ["de"],
+		"tones": [0],
+		"en": "Possessive particle",
+		"es": "Partícula posesiva",
+		"breakdown": [
+			{
+				"character": "的",
+				"radical": "白",
+				"radicalMeaning": { "en": "white", "es": "blanco" },
+				"phonetic": "勺",
+				"phoneticHint": "sháo"
+			}
+		]
+	},
+	{
+		"id": "wb4_ye",
+		"characters": "也",
+		"pinyin": "yě",
+		"syllables": ["ye"],
+		"tones": [3],
+		"en": "Also, too",
+		"es": "También",
+		"breakdown": [
+			{
+				"character": "也",
+				"radical": "乛",
+				"radicalMeaning": { "en": "hook stroke", "es": "gancho" },
+				"phonetic": null,
+				"phoneticHint": null
+			}
+		]
+	},
+	{
+		"id": "wb4_dou",
+		"characters": "都",
+		"pinyin": "dōu",
+		"syllables": ["dou"],
+		"tones": [1],
+		"en": "All, both",
+		"es": "Todos, ambos",
+		"breakdown": [
+			{
+				"character": "都",
+				"radical": "阝",
+				"radicalMeaning": { "en": "city", "es": "ciudad" },
+				"phonetic": "者",
+				"phoneticHint": "zhě"
+			}
+		]
+	}
+]
