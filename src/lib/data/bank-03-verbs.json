@@ -1,0 +1,254 @@
+[
+	{
+		"id": "wb3_shi",
+		"characters": "是",
+		"pinyin": "shì",
+		"syllables": ["shi"],
+		"tones": [4],
+		"en": "To be",
+		"es": "Ser",
+		"breakdown": [
+			{
+				"character": "是",
+				"radical": "日",
+				"radicalMeaning": { "en": "sun", "es": "sol" },
+				"phonetic": null,
+				"phoneticHint": null
+			}
+		]
+	},
+	{
+		"id": "wb3_you",
+		"characters": "有",
+		"pinyin": "yǒu",
+		"syllables": ["you"],
+		"tones": [3],
+		"en": "To have",
+		"es": "Tener",
+		"breakdown": [
+			{
+				"character": "有",
+				"radical": "月",
+				"radicalMeaning": { "en": "moon", "es": "luna" },
+				"phonetic": null,
+				"phoneticHint": null
+			}
+		]
+	},
+	{
+		"id": "wb3_zai",
+		"characters": "在",
+		"pinyin": "zài",
+		"syllables": ["zai"],
+		"tones": [4],
+		"en": "To be located",
+		"es": "Estar",
+		"breakdown": [
+			{
+				"character": "在",
+				"radical": "土",
+				"radicalMeaning": { "en": "earth", "es": "tierra" },
+				"phonetic": "才",
+				"phoneticHint": "cái"
+			}
+		]
+	},
+	{
+		"id": "wb3_yao",
+		"characters": "要",
+		"pinyin": "yào",
+		"syllables": ["yao"],
+		"tones": [4],
+		"en": "To want",
+		"es": "Querer",
+		"breakdown": [
+			{
+				"character": "要",
+				"radical": "覀",
+				"radicalMeaning": { "en": "cover", "es": "cubierta" },
+				"phonetic": null,
+				"phoneticHint": null
+			}
+		]
+	},
+	{
+		"id": "wb3_xiang",
+		"characters": "想",
+		"pinyin": "xiǎng",
+		"syllables": ["xiang"],
+		"tones": [3],
+		"en": "To want to, to think",
+		"es": "Querer, pensar",
+		"breakdown": [
+			{
+				"character": "想",
+				"radical": "心",
+				"radicalMeaning": { "en": "heart", "es": "corazón" },
+				"phonetic": "相",
+				"phoneticHint": "xiāng"
+			}
+		]
+	},
+	{
+		"id": "wb3_qu",
+		"characters": "去",
+		"pinyin": "qù",
+		"syllables": ["qu"],
+		"tones": [4],
+		"en": "To go",
+		"es": "Ir",
+		"breakdown": [
+			{
+				"character": "去",
+				"radical": "厶",
+				"radicalMeaning": { "en": "private", "es": "privado" },
+				"phonetic": null,
+				"phoneticHint": null
+			}
+		]
+	},
+	{
+		"id": "wb3_lai",
+		"characters": "来",
+		"pinyin": "lái",
+		"syllables": ["lai"],
+		"tones": [2],
+		"en": "To come",
+		"es": "Venir",
+		"breakdown": [
+			{
+				"character": "来",
+				"radical": "木",
+				"radicalMeaning": { "en": "tree", "es": "árbol" },
+				"phonetic": null,
+				"phoneticHint": null
+			}
+		]
+	},
+	{
+		"id": "wb3_chi",
+		"characters": "吃",
+		"pinyin": "chī",
+		"syllables": ["chi"],
+		"tones": [1],
+		"en": "To eat",
+		"es": "Comer",
+		"breakdown": [
+			{
+				"character": "吃",
+				"radical": "口",
+				"radicalMeaning": { "en": "mouth", "es": "boca" },
+				"phonetic": "乞",
+				"phoneticHint": "qǐ"
+			}
+		]
+	},
+	{
+		"id": "wb3_he",
+		"characters": "喝",
+		"pinyin": "hē",
+		"syllables": ["he"],
+		"tones": [1],
+		"en": "To drink",
+		"es": "Beber",
+		"breakdown": [
+			{
+				"character": "喝",
+				"radical": "口",
+				"radicalMeaning": { "en": "mouth", "es": "boca" },
+				"phonetic": "曷",
+				"phoneticHint": "hé"
+			}
+		]
+	},
+	{
+		"id": "wb3_mai",
+		"characters": "买",
+		"pinyin": "mǎi",
+		"syllables": ["mai"],
+		"tones": [3],
+		"en": "To buy",
+		"es": "Comprar",
+		"breakdown": [
+			{
+				"character": "买",
+				"radical": "乛",
+				"radicalMeaning": { "en": "hook", "es": "gancho" },
+				"phonetic": null,
+				"phoneticHint": null
+			}
+		]
+	},
+	{
+		"id": "wb3_kan",
+		"characters": "看",
+		"pinyin": "kàn",
+		"syllables": ["kan"],
+		"tones": [4],
+		"en": "To look, to watch",
+		"es": "Ver",
+		"breakdown": [
+			{
+				"character": "看",
+				"radical": "目",
+				"radicalMeaning": { "en": "eye", "es": "ojo" },
+				"phonetic": null,
+				"phoneticHint": null
+			}
+		]
+	},
+	{
+		"id": "wb3_ting",
+		"characters": "听",
+		"pinyin": "tīng",
+		"syllables": ["ting"],
+		"tones": [1],
+		"en": "To listen",
+		"es": "Escuchar",
+		"breakdown": [
+			{
+				"character": "听",
+				"radical": "口",
+				"radicalMeaning": { "en": "mouth", "es": "boca" },
+				"phonetic": null,
+				"phoneticHint": null
+			}
+		]
+	},
+	{
+		"id": "wb3_shuo",
+		"characters": "说",
+		"pinyin": "shuō",
+		"syllables": ["shuo"],
+		"tones": [1],
+		"en": "To speak",
+		"es": "Hablar",
+		"breakdown": [
+			{
+				"character": "说",
+				"radical": "讠",
+				"radicalMeaning": { "en": "speech", "es": "habla" },
+				"phonetic": null,
+				"phoneticHint": null
+			}
+		]
+	},
+	{
+		"id": "wb3_zuo",
+		"characters": "做",
+		"pinyin": "zuò",
+		"syllables": ["zuo"],
+		"tones": [4],
+		"en": "To do, to make",
+		"es": "Hacer",
+		"breakdown": [
+			{
+				"character": "做",
+				"radical": "亻",
+				"radicalMeaning": { "en": "person", "es": "persona" },
+				"phonetic": null,
+				"phoneticHint": null
+			}
+		]
+	}
+]
