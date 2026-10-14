@@ -1,0 +1,272 @@
+[
+	{
+		"id": "wb6_yi",
+		"characters": "一",
+		"pinyin": "yī",
+		"syllables": ["yi"],
+		"tones": [1],
+		"en": "One",
+		"es": "Uno",
+		"breakdown": [
+			{
+				"character": "一",
+				"radical": "一",
+				"radicalMeaning": { "en": "one", "es": "uno" },
+				"phonetic": null,
+				"phoneticHint": null
+			}
+		]
+	},
+	{
+		"id": "wb6_er",
+		"characters": "二",
+		"pinyin": "èr",
+		"syllables": ["er"],
+		"tones": [4],
+		"en": "Two",
+		"es": "Dos",
+		"breakdown": [
+			{
+				"character": "二",
+				"radical": "二",
+				"radicalMeaning": { "en": "two", "es": "dos" },
+				"phonetic": null,
+				"phoneticHint": null
+			}
+		]
+	},
+	{
+		"id": "wb6_san",
+		"characters": "三",
+		"pinyin": "sān",
+		"syllables": ["san"],
+		"tones": [1],
+		"en": "Three",
+		"es": "Tres",
+		"breakdown": [
+			{
+				"character": "三",
+				"radical": "一",
+				"radicalMeaning": { "en": "one", "es": "uno" },
+				"phonetic": null,
+				"phoneticHint": null
+			}
+		]
+	},
+	{
+		"id": "wb6_si",
+		"characters": "四",
+		"pinyin": "sì",
+		"syllables": ["si"],
+		"tones": [4],
+		"en": "Four",
+		"es": "Cuatro",
+		"breakdown": [
+			{
+				"character": "四",
+				"radical": "囗",
+				"radicalMeaning": { "en": "enclosure", "es": "cercado" },
+				"phonetic": null,
+				"phoneticHint": null
+			}
+		]
+	},
+	{
+		"id": "wb6_wu",
+		"characters": "五",
+		"pinyin": "wǔ",
+		"syllables": ["wu"],
+		"tones": [3],
+		"en": "Five",
+		"es": "Cinco",
+		"breakdown": [
+			{
+				"character": "五",
+				"radical": "二",
+				"radicalMeaning": { "en": "two", "es": "dos" },
+				"phonetic": null,
+				"phoneticHint": null
+			}
+		]
+	},
+	{
+		"id": "wb6_liu",
+		"characters": "六",
+		"pinyin": "liù",
+		"syllables": ["liu"],
+		"tones": [4],
+		"en": "Six",
+		"es": "Seis",
+		"breakdown": [
+			{
+				"character": "六",
+				"radical": "八",
+				"radicalMeaning": { "en": "eight", "es": "ocho" },
+				"phonetic": null,
+				"phoneticHint": null
+			}
+		]
+	},
+	{
+		"id": "wb6_qi",
+		"characters": "七",
+		"pinyin": "qī",
+		"syllables": ["qi"],
+		"tones": [1],
+		"en": "Seven",
+		"es": "Siete",
+		"breakdown": [
+			{
+				"character": "七",
+				"radical": "一",
+				"radicalMeaning": { "en": "one", "es": "uno" },
+				"phonetic": null,
+				"phoneticHint": null
+			}
+		]
+	},
+	{
+		"id": "wb6_ba",
+		"characters": "八",
+		"pinyin": "bā",
+		"syllables": ["ba"],
+		"tones": [1],
+		"en": "Eight",
+		"es": "Ocho",
+		"breakdown": [
+			{
+				"character": "八",
+				"radical": "八",
+				"radicalMeaning": { "en": "eight", "es": "ocho" },
+				"phonetic": null,
+				"phoneticHint": null
+			}
+		]
+	},
+	{
+		"id": "wb6_jiu",
+		"characters": "九",
+		"pinyin": "jiǔ",
+		"syllables": ["jiu"],
+		"tones": [3],
+		"en": "Nine",
+		"es": "Nueve",
+		"breakdown": [
+			{
+				"character": "九",
+				"radical": "乙",
+				"radicalMeaning": { "en": "second", "es": "segundo" },
+				"phonetic": null,
+				"phoneticHint": null
+			}
+		]
+	},
+	{
+		"id": "wb6_shi",
+		"characters": "十",
+		"pinyin": "shí",
+		"syllables": ["shi"],
+		"tones": [2],
+		"en": "Ten",
+		"es": "Diez",
+		"breakdown": [
+			{
+				"character": "十",
+				"radical": "十",
+				"radicalMeaning": { "en": "ten", "es": "diez" },
+				"phonetic": null,
+				"phoneticHint": null
+			}
+		]
+	},
+	{
+		"id": "wb6_bai",
+		"characters": "百",
+		"pinyin": "bǎi",
+		"syllables": ["bai"],
+		"tones": [3],
+		"en": "Hundred",
+		"es": "Cien",
+		"breakdown": [
+			{
+				"character": "百",
+				"radical": "白",
+				"radicalMeaning": { "en": "white", "es": "blanco" },
+				"phonetic": null,
+				"phoneticHint": null
+			}
+		]
+	},
+	{
+		"id": "wb6_ge",
+		"characters": "个",
+		"pinyin": "gè",
+		"syllables": ["ge"],
+		"tones": [4],
+		"en": "General classifier",
+		"es": "Clasificador general",
+		"breakdown": [
+			{
+				"character": "个",
+				"radical": "人",
+				"radicalMeaning": { "en": "person", "es": "persona" },
+				"phonetic": null,
+				"phoneticHint": null
+			}
+		]
+	},
+	{
+		"id": "wb6_ben",
+		"characters": "本",
+		"pinyin": "běn",
+		"syllables": ["ben"],
+		"tones": [3],
+		"en": "Classifier for books",
+		"es": "Clasificador de libros",
+		"breakdown": [
+			{
+				"character": "本",
+				"radical": "木",
+				"radicalMeaning": { "en": "tree/wood", "es": "árbol/madera" },
+				"phonetic": null,
+				"phoneticHint": null
+			}
+		]
+	},
+	{
+		"id": "wb6_zhang",
+		"characters": "张",
+		"pinyin": "zhāng",
+		"syllables": ["zhang"],
+		"tones": [1],
+		"en": "Classifier for flat sheets",
+		"es": "Clasificador de hojas/objetos planos",
+		"breakdown": [
+			{
+				"character": "张",
+				"radical": "弓",
+				"radicalMeaning": { "en": "bow", "es": "arco" },
+				"phonetic": "长",
+				"phoneticHint": "cháng"
+			}
+		]
+	},
+	{
+		"id": "wb6_bei",
+		"characters": "杯",
+		"pinyin": "bēi",
+		"syllables": ["bei"],
+		"tones": [1],
+		"en": "Cup, glass (classifier)",
+		"es": "Taza, vaso (clasificador)",
+		"breakdown": [
+			{
+				"character": "杯",
+				"radical": "木",
+				"radicalMeaning": { "en": "tree/wood", "es": "árbol/madera" },
+				"phonetic": "不",
+				"phoneticHint": "bù"
+			}
+		]
+	}
+]
