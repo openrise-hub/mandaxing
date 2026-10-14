@@ -7,6 +7,7 @@
 	import PitchCanvas from "#lib/components/PitchCanvas.svelte";
 	import SettingsView from "#lib/components/SettingsView.svelte";
 	import StimulusCard from "#lib/components/StimulusCard.svelte";
+	import VocabularyBrowser from "#lib/components/VocabularyBrowser.svelte";
 	import WordBankPanel from "#lib/components/WordBankPanel.svelte";
 	import { i18n, t } from "#lib/i18n/index.svelte";
 	import { appView } from "#lib/state/app-view.svelte";
@@ -226,6 +227,8 @@
 		</div>
 		<DailyReviewView />
 	</div>
+{:else if appView.current === "matrix"}
+	<VocabularyBrowser />
 {:else}
 	<HomeDashboard />
 {/if}
