@@ -35,7 +35,7 @@
 				<button
 					type="button"
 					onclick={() => appView.set("dashboard")}
-					class="font-display text-lg font-bold tracking-tight hover:text-[var(--color-action)] cursor-pointer text-left transition-colors"
+					class="font-display text-lg font-bold tracking-tight hover:opacity-75 cursor-pointer text-left transition-opacity"
 				>
 					{t().common.appName}
 				</button>

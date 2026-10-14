@@ -25,39 +25,43 @@
 
 <div class="relative w-full max-w-6xl mx-auto px-4 py-6 md:py-10">
 	<!-- Decorative background serpentine ribbon weaving between sections -->
-	<div class="absolute inset-0 pointer-events-none opacity-20 overflow-hidden -z-10 flex items-center justify-center">
-		<SerpentineRibbon class="w-[140%] max-w-none transform -rotate-3 scale-110" />
+	<div class="absolute inset-0 pointer-events-none opacity-60 overflow-hidden -z-10 flex items-center justify-center">
+		<SerpentineRibbon class="w-[140%] max-w-none transform -rotate-2 scale-105" />
 	</div>
 
-	<!-- Primary Study Emblems: 2x2 on desktop, 1 col on mobile -->
-	<div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 mb-8">
-		<TonesEmblem
-			title={i18n.current === "es" ? "Tonos" : "Tones"}
-			subtitle={i18n.current === "es" ? "Tono y Pronunciación" : "Pitch and Pronunciation"}
-			onclick={() => appView.set("lab")}
-		/>
+	<!-- Primary Study Emblems: Asymmetrical Swiss grid on desktop, single column on mobile -->
+	<div class="grid grid-cols-1 md:grid-cols-12 gap-6 md:gap-8 items-start mb-10">
+		<div class="md:col-span-7">
+			<TonesEmblem
+				title={i18n.current === "es" ? "Tonos" : "Tones"}
+				onclick={() => appView.set("lab")}
+			/>
+		</div>
 
-		<HanziEmblem
-			title={i18n.current === "es" ? "Caracteres" : "Hanzi"}
-			subtitle={i18n.current === "es" ? "Trazado y Memoria Motriz" : "Character Stroke Writing"}
-			onclick={() => appView.set("studio")}
-		/>
+		<div class="md:col-span-5 md:mt-8">
+			<HanziEmblem
+				title={i18n.current === "es" ? "Caracteres" : "Hanzi"}
+				onclick={() => appView.set("studio")}
+			/>
+		</div>
 
-		<SentencesEmblem
-			title={i18n.current === "es" ? "Oraciones" : "Sentences"}
-			subtitle={i18n.current === "es" ? "Ensamblado Sintáctico" : "Syntax Assembly"}
-			onclick={() => appView.set("sentences")}
-		/>
+		<div class="md:col-span-5 md:-mt-2">
+			<SentencesEmblem
+				title={i18n.current === "es" ? "Oraciones" : "Sentences"}
+				onclick={() => appView.set("sentences")}
+			/>
+		</div>
 
-		<VocabularyEmblem
-			title={i18n.current === "es" ? "Vocabulario" : "Vocabulary"}
-			subtitle={i18n.current === "es" ? "Bancos de Palabras Esenciales" : "Core Word Banks"}
-			onclick={() => appView.set("matrix")}
-		/>
+		<div class="md:col-span-7">
+			<VocabularyEmblem
+				title={i18n.current === "es" ? "Vocabulario" : "Vocabulary"}
+				onclick={() => appView.set("matrix")}
+			/>
+		</div>
 	</div>
 
 	<!-- Secondary Companion Row: Daily Review & Graded Reader -->
-	<div class="grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-6 pt-4 border-t-2 border-[var(--color-ink)]/15">
+	<div class="grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-6 pt-6 border-t-2 border-[var(--color-ink)]/15">
 		<!-- Daily Review Companion Card -->
 		<div
 			role="button"
@@ -70,7 +74,7 @@
 			<div class="flex items-center gap-3">
 				<ReviewVisual class="w-12 h-12 flex-shrink-0" />
 				<div>
-					<h3 class="font-display text-lg font-bold text-[var(--color-ink)] group-hover:text-[var(--color-action)] transition-colors">
+					<h3 class="font-display text-lg font-bold text-[var(--color-ink)] transition-colors">
 						{i18n.current === "es" ? "Repaso Diario" : "Daily Review"}
 					</h3>
 					<p class="font-sans text-xs text-[var(--color-ink-muted)]">
@@ -104,7 +108,7 @@
 			<div class="flex items-center gap-3">
 				<ReaderVisual class="w-12 h-12 flex-shrink-0" />
 				<div>
-					<h3 class="font-display text-lg font-bold text-[var(--color-ink)] group-hover:text-[var(--color-action)] transition-colors">
+					<h3 class="font-display text-lg font-bold text-[var(--color-ink)] transition-colors">
 						{i18n.current === "es" ? "Lecturas" : "Graded Reader"}
 					</h3>
 					<p class="font-sans text-xs text-[var(--color-ink-muted)]">
