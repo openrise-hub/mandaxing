@@ -3,7 +3,7 @@ import { expect, test } from "@playwright/test";
 
 test("exports a JSON backup and restores it", async ({ page }) => {
 	await page.goto("/");
-	await page.getByRole("button", { name: "Daily Review" }).click();
+	await page.getByRole("button", { name: "Daily Review", exact: true }).click();
 	await expect(page.getByText("Due now: 35")).toBeVisible();
 
 	await page.getByRole("button", { name: "Show answer" }).click();
@@ -36,7 +36,7 @@ test("exports a JSON backup and restores it", async ({ page }) => {
 	await expect(page.getByText("Backup restored")).toBeVisible();
 
 	await page.reload();
-	await page.getByRole("button", { name: "Daily Review" }).click();
+	await page.getByRole("button", { name: "Daily Review", exact: true }).click();
 	await expect(page.getByText("Due now: 33")).toBeVisible();
 
 	const reviewCount = await page.evaluate(async () => {

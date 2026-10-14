@@ -4,6 +4,7 @@ import { blockAudioCdn, interceptAudioCdn } from "./helpers";
 test("loads the lab and switches between all three modes", async ({ page }) => {
 	await interceptAudioCdn(page);
 	await page.goto("/");
+	await page.getByRole("button", { name: "Tone Lab", exact: true }).click();
 
 	await expect(
 		page.getByRole("heading", { name: "Tone and Pinyin Lab" }),
@@ -19,6 +20,7 @@ test("loads the lab and switches between all three modes", async ({ page }) => {
 test("persists the language choice across reloads", async ({ page }) => {
 	await interceptAudioCdn(page);
 	await page.goto("/");
+	await page.getByRole("button", { name: "Tone Lab", exact: true }).click();
 
 	await page.getByRole("button", { name: "es", exact: true }).click();
 	await expect(
@@ -26,6 +28,9 @@ test("persists the language choice across reloads", async ({ page }) => {
 	).toBeVisible();
 
 	await page.reload();
+	await page
+		.getByRole("button", { name: "Laboratorio de tonos", exact: true })
+		.click();
 	await expect(
 		page.getByRole("heading", { name: "Laboratorio de Tonos y Pinyin" }),
 	).toBeVisible();
@@ -36,6 +41,7 @@ test("disables playback honestly when the CDN has no audio", async ({
 }) => {
 	await blockAudioCdn(page);
 	await page.goto("/");
+	await page.getByRole("button", { name: "Tone Lab", exact: true }).click();
 
 	const controlListen = page
 		.getByRole("button", { name: "Listen", exact: true })

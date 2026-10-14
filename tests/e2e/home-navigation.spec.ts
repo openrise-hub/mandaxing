@@ -11,19 +11,19 @@ test.describe("Home dashboard navigation", () => {
 		page,
 	}) => {
 		await expect(
-			page.getByRole("button", { name: /Tones: Pitch and Pronunciation/i }),
+			page.getByRole("button", { name: "Tones", exact: true }),
 		).toBeVisible();
 		await expect(
-			page.getByRole("button", { name: /Hanzi: Character Stroke Writing/i }),
+			page.getByRole("button", { name: "Hanzi", exact: true }),
 		).toBeVisible();
 		await expect(
-			page.getByRole("button", { name: /Sentences: Syntax Assembly/i }),
+			page.getByRole("button", { name: "Sentences", exact: true }),
 		).toBeVisible();
 		await expect(
-			page.getByRole("button", { name: /Vocabulary: Core Word Banks/i }),
+			page.getByRole("button", { name: "Vocabulary", exact: true }),
 		).toBeVisible();
 		await expect(
-			page.getByRole("button", { name: /Daily Review/i }),
+			page.getByRole("button", { name: "Daily Review", exact: true }),
 		).toBeVisible();
 		await expect(
 			page.getByRole("button", { name: /Graded Reader/i }),
@@ -31,9 +31,7 @@ test.describe("Home dashboard navigation", () => {
 	});
 
 	test("navigates to Tone Lab and returns to dashboard", async ({ page }) => {
-		await page
-			.getByRole("button", { name: /Tones: Pitch and Pronunciation/i })
-			.click();
+		await page.getByRole("button", { name: "Tones", exact: true }).click();
 		await expect(
 			page.getByRole("heading", { name: "Tone and Pinyin Lab" }),
 		).toBeVisible();
@@ -43,16 +41,14 @@ test.describe("Home dashboard navigation", () => {
 			.first()
 			.click();
 		await expect(
-			page.getByRole("button", { name: /Tones: Pitch and Pronunciation/i }),
+			page.getByRole("button", { name: "Tones", exact: true }),
 		).toBeVisible();
 	});
 
 	test("navigates to Hanzi Studio and returns to dashboard", async ({
 		page,
 	}) => {
-		await page
-			.getByRole("button", { name: /Hanzi: Character Stroke Writing/i })
-			.click();
+		await page.getByRole("button", { name: "Hanzi", exact: true }).click();
 		await expect(
 			page.getByRole("heading", { name: "Hanzi Blueprint Studio" }),
 		).toBeVisible();
@@ -62,14 +58,12 @@ test.describe("Home dashboard navigation", () => {
 			.first()
 			.click();
 		await expect(
-			page.getByRole("button", { name: /Hanzi: Character Stroke Writing/i }),
+			page.getByRole("button", { name: "Hanzi", exact: true }),
 		).toBeVisible();
 	});
 
 	test("navigates to Sentences and returns to dashboard", async ({ page }) => {
-		await page
-			.getByRole("button", { name: /Sentences: Syntax Assembly/i })
-			.click();
+		await page.getByRole("button", { name: "Sentences", exact: true }).click();
 		await expect(
 			page.getByRole("heading", { name: "Sentence Builder" }),
 		).toBeVisible();
@@ -79,18 +73,16 @@ test.describe("Home dashboard navigation", () => {
 			.first()
 			.click();
 		await expect(
-			page.getByRole("button", { name: /Sentences: Syntax Assembly/i }),
+			page.getByRole("button", { name: "Sentences", exact: true }),
 		).toBeVisible();
 	});
 
 	test("navigates to Vocabulary Browser and returns to dashboard", async ({
 		page,
 	}) => {
-		await page
-			.getByRole("button", { name: /Vocabulary: Core Word Banks/i })
-			.click();
+		await page.getByRole("button", { name: "Vocabulary", exact: true }).click();
 		await expect(
-			page.getByRole("heading", { name: "Vocabulary Browser" }),
+			page.getByRole("heading", { name: /Vocabulary Matrix/i }),
 		).toBeVisible();
 
 		await page
@@ -98,21 +90,21 @@ test.describe("Home dashboard navigation", () => {
 			.first()
 			.click();
 		await expect(
-			page.getByRole("button", { name: /Vocabulary: Core Word Banks/i }),
+			page.getByRole("button", { name: "Vocabulary", exact: true }),
 		).toBeVisible();
 	});
 
 	test("navigates to Settings and returns via back button", async ({
 		page,
 	}) => {
-		await page.getByRole("button", { name: "Settings" }).click();
+		await page.getByRole("button", { name: /Settings/i }).click();
 		await expect(
-			page.getByRole("heading", { name: "Settings and Data" }),
+			page.getByRole("heading", { name: /Settings & Data/i }),
 		).toBeVisible();
 
 		await page.getByRole("button", { name: "Back", exact: true }).click();
 		await expect(
-			page.getByRole("button", { name: /Tones: Pitch and Pronunciation/i }),
+			page.getByRole("button", { name: "Tones", exact: true }),
 		).toBeVisible();
 	});
 });

@@ -2,7 +2,7 @@ import { expect, test } from "@playwright/test";
 
 test("grades a card and shrinks the due queue", async ({ page }) => {
 	await page.goto("/");
-	await page.getByRole("button", { name: "Daily Review" }).click();
+	await page.getByRole("button", { name: "Daily Review", exact: true }).click();
 	await expect(page.getByText("Due now: 35")).toBeVisible();
 	await expect(page.getByText("我")).toBeVisible();
 

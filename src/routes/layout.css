@@ -6,11 +6,13 @@
 
 @theme {
 	--font-display:
-		"Space Grotesk Variable", ui-sans-serif, system-ui, sans-serif;
-	--font-sans: "Inter Variable", ui-sans-serif, system-ui, sans-serif;
+		"Space Grotesk", "Space Grotesk Variable", ui-sans-serif, system-ui,
+		sans-serif;
+	--font-sans: "Inter", "Inter Variable", ui-sans-serif, system-ui, sans-serif;
 	--font-mono: "DM Mono", ui-monospace, "SFMono-Regular", monospace;
 	--font-hanzi:
-		"Noto Sans SC Variable", "PingFang SC", "Microsoft YaHei", sans-serif;
+		"Noto Sans SC", "Noto Sans SC Variable", "PingFang SC", "Microsoft YaHei",
+		sans-serif;
 
 	--color-paper: #f4efea;
 	--color-card: #ffffff;
@@ -29,6 +31,7 @@
 	--color-alert: #b91c1c;
 
 	--shadow-mechanical: 3px 3px 0 0 var(--color-ink);
+	--shadow-linear-70s: 4px 4px 0 0 var(--color-ink);
 	--radius-mechanical: 3px;
 }
 
@@ -50,7 +53,7 @@
 	h3,
 	h4 {
 		font-family: var(--font-display);
-		font-weight: 700;
+		font-weight: 800;
 	}
 
 	:focus-visible {
@@ -97,8 +100,28 @@
 		background-color: var(--color-panel);
 		border: 1px solid var(--color-ink);
 		font-family: var(--font-mono);
-		letter-spacing: 0.05em;
-		text-transform: uppercase;
+		letter-spacing: 0.03em;
+	}
+
+	.retro-badge-card {
+		background-color: var(--color-card);
+		border: 2px solid var(--color-ink);
+		border-radius: 4px;
+		box-shadow: var(--shadow-linear-70s);
+		transition:
+			box-shadow 80ms ease,
+			transform 80ms ease;
+		user-select: none;
+	}
+
+	.retro-badge-card:hover {
+		transform: translate(-1px, -1px);
+		box-shadow: 5px 5px 0 0 var(--color-ink);
+	}
+
+	.retro-badge-card:active {
+		transform: translate(2px, 2px);
+		box-shadow: 2px 2px 0 0 var(--color-ink);
 	}
 }
 

@@ -12,7 +12,7 @@ test.describe("Graded reader workspace", () => {
 	});
 
 	test("displays beginner story text with speed controls", async ({ page }) => {
-		await expect(page.getByText("Beginner A1")).toBeVisible();
+		await expect(page.getByText("HSK 1")).toBeVisible();
 		await expect(page.getByText("My Friend")).toBeVisible();
 
 		const speed075 = page.getByRole("button", { name: "0.75x" });
@@ -47,20 +47,24 @@ test.describe("Graded reader workspace", () => {
 		await charBtn.click();
 
 		await expect(page.getByText("I, me")).toBeVisible();
-		await expect(page.getByText("Pinyin: wǒ")).toBeVisible();
+		await expect(page.getByText("wǒ").first()).toBeVisible();
 		await expect(
-			page.getByRole("button", { name: /Practice in Studio/i }),
+			page.getByRole("button", {
+				name: /Trace in Hanzi Studio|Practicar Trazo/i,
+			}),
 		).toBeVisible();
 	});
 
 	test("advances to next reading passage", async ({ page }) => {
-		await expect(page.getByText("1 / 3")).toBeVisible();
+		await expect(page.getByText("1 / 2")).toBeVisible();
 		const nextBtn = page.getByRole("button", {
-			name: /Next Story|Siguiente Lectura/i,
+			name: /Next Passage|Siguiente Texto/i,
 		});
 		await nextBtn.click();
 
-		await expect(page.getByText("2 / 3")).toBeVisible();
-		await expect(page.getByRole("heading", { name: /去茶馆/i })).toBeVisible();
+		await expect(page.getByText("2 / 2")).toBeVisible();
+		await expect(
+			page.getByRole("heading", { name: /一天的生活/i }),
+		).toBeVisible();
 	});
 });

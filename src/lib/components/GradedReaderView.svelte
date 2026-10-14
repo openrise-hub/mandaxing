@@ -108,15 +108,15 @@
 							<button
 								type="button"
 								onclick={() => gradedReader.selectCharacter(char)}
-								class="flex flex-col items-center group cursor-pointer hover:text-[var(--color-action)] transition-colors p-0.5 rounded-xs"
+								class="flex flex-col items-center group cursor-pointer hover:bg-[var(--color-panel)] transition-colors p-0.5 rounded-xs"
 								title="Click to view definition"
 							>
 								{#if gradedReader.showPinyin}
-									<span class="font-mono text-xs text-[var(--color-ink-muted)] group-hover:text-[var(--color-action)]">
+									<span class="font-mono text-xs text-[var(--color-ink-muted)]">
 										{sentence.pinyin.split(" ")[index] ?? ""}
 									</span>
 								{/if}
-								<span class="font-hanzi text-2xl md:text-3xl font-bold text-[var(--color-ink)] group-hover:text-[var(--color-action)] group-hover:underline">
+								<span class="font-hanzi text-2xl md:text-3xl font-bold text-[var(--color-ink)] group-hover:underline">
 									{char}
 								</span>
 							</button>
