@@ -1,0 +1,127 @@
+[
+	{
+		"id": "wb7_shui",
+		"characters": "水",
+		"pinyin": "shuǐ",
+		"syllables": ["shui"],
+		"tones": [3],
+		"en": "Water",
+		"es": "Agua",
+		"breakdown": [
+			{
+				"character": "水",
+				"radical": "水",
+				"radicalMeaning": { "en": "water", "es": "agua" },
+				"phonetic": null,
+				"phoneticHint": null
+			}
+		]
+	},
+	{
+		"id": "wb7_fan",
+		"characters": "饭",
+		"pinyin": "fàn",
+		"syllables": ["fan"],
+		"tones": [4],
+		"en": "Food, meal",
+		"es": "Comida, arroz",
+		"breakdown": [
+			{
+				"character": "饭",
+				"radical": "饣",
+				"radicalMeaning": { "en": "food", "es": "comida" },
+				"phonetic": "反",
+				"phoneticHint": "fǎn"
+			}
+		]
+	},
+	{
+		"id": "wb7_qian",
+		"characters": "钱",
+		"pinyin": "qián",
+		"syllables": ["qian"],
+		"tones": [2],
+		"en": "Money",
+		"es": "Dinero",
+		"breakdown": [
+			{
+				"character": "钱",
+				"radical": "钅",
+				"radicalMeaning": { "en": "metal/gold", "es": "metal/oro" },
+				"phonetic": null,
+				"phoneticHint": null
+			}
+		]
+	},
+	{
+		"id": "wb7_cesuo",
+		"characters": "厕所",
+		"pinyin": "cèsuǒ",
+		"syllables": ["ce", "suo"],
+		"tones": [4, 3],
+		"en": "Restroom, toilet",
+		"es": "Baño, servicio",
+		"breakdown": [
+			{
+				"character": "厕",
+				"radical": "厂",
+				"radicalMeaning": { "en": "cliff", "es": "acantilado" },
+				"phonetic": "则",
+				"phoneticHint": "zé"
+			},
+			{
+				"character": "所",
+				"radical": "户",
+				"radicalMeaning": { "en": "door/household", "es": "puerta/hogar" },
+				"phonetic": "斤",
+				"phoneticHint": "jīn"
+			}
+		]
+	},
+	{
+		"id": "wb7_ren",
+		"characters": "人",
+		"pinyin": "rén",
+		"syllables": ["ren"],
+		"tones": [2],
+		"en": "Person, people",
+		"es": "Persona",
+		"breakdown": [
+			{
+				"character": "人",
+				"radical": "人",
+				"radicalMeaning": { "en": "person", "es": "persona" },
+				"phonetic": null,
+				"phoneticHint": null
+			}
+		]
+	},
+	{
+		"id": "wb7_pengyou",
+		"characters": "朋友",
+		"pinyin": "péngyou",
+		"syllables": ["peng", "you"],
+		"tones": [2, 0],
+		"en": "Friend",
+		"es": "Amigo",
+		"breakdown": [
+			{
+				"character": "朋",
+				"radical": "月",
+				"radicalMeaning": { "en": "moon", "es": "luna" },
+				"phonetic": null,
+				"phoneticHint": null
+			},
+			{
+				"character": "友",
+				"radical": "又",
+				"radicalMeaning": {
+					"en": "right hand/again",
+					"es": "mano derecha/otra vez"
+				},
+				"phonetic": null,
+				"phoneticHint": null
+			}
+		]
+	}
+]
