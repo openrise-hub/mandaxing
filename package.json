@@ -18,7 +18,9 @@
 		"lint": "biome check .",
 		"format": "biome format --write .",
 		"test:unit": "vitest",
-		"test": "vitest run"
+		"test": "vitest run",
+		"generate:fixtures": "node scripts/generate-audio-fixtures.mjs",
+		"verify:audio": "node scripts/verify-audio-catalog.mjs"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "2.5.15",
@@ -53,6 +55,7 @@
 		"@fontsource-variable/noto-sans-sc": "5.3.1",
 		"@fontsource-variable/space-grotesk": "5.3.0",
 		"@fontsource/dm-mono": "5.3.0",
-		"dexie": "4.4.6"
+		"dexie": "4.4.6",
+		"pitchfinder": "2.3.4"
 	}
 }
