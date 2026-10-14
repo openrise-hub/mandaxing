@@ -37,8 +37,13 @@ describe("translation catalogs", () => {
 		const sections = [
 			"backup",
 			"common",
+			"dashboard",
 			"hanziStudio",
+			"matrix",
 			"navigation",
+			"reader",
+			"sentenceBuilder",
+			"settings",
 			"srs",
 			"toneLab",
 			"wordBank",
