@@ -10,10 +10,14 @@ export interface TranslationSchema {
 		offline: string;
 		language: string;
 		audioUnavailable: string;
+		playAudio: string;
 		previous: string;
 		next: string;
 	};
 	navigation: {
+		toneLab: string;
+		hanziStudio: string;
+		dailyReview: string;
 		singleTones: string;
 		tonePairs: string;
 		minimalPairs: string;
@@ -41,5 +45,45 @@ export interface TranslationSchema {
 		title: string;
 		pronouns: string;
 		greetings: string;
+	};
+	hanziStudio: {
+		title: string;
+		subtitle: string;
+		strokesLabel: string;
+		clearCanvas: string;
+		radicalLabel: string;
+		phoneticLabel: string;
+		noPhonetic: string;
+		compoundWords: string;
+		mastered: string;
+		strokeHintStart: string;
+		strokeHintEnd: string;
+		strokeHintDeviation: string;
+		unavailable: string;
+	};
+	srs: {
+		title: string;
+		subtitle: string;
+		dueCount: string;
+		emptyState: string;
+		revealAnswer: string;
+		ratings: {
+			again: string;
+			hard: string;
+			good: string;
+			easy: string;
+		};
+		minutesUnit: string;
+		daysUnit: string;
+		lessThanAMinute: string;
+		shortcutsHint: string;
+	};
+	backup: {
+		title: string;
+		exportAction: string;
+		importAction: string;
+		importSuccess: string;
+		importError: string;
+		exportError: string;
 	};
 }
