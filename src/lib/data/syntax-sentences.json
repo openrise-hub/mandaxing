@@ -1,0 +1,218 @@
+[
+	{
+		"id": "sent_01",
+		"promptEn": "I drink water today.",
+		"promptEs": "Yo bebo agua hoy.",
+		"targetCharacters": "我今天喝水",
+		"targetOrder": ["w_wo", "w_jintian", "w_he", "w_shui"],
+		"allowedAlternatives": [["w_jintian", "w_wo", "w_he", "w_shui"]],
+		"wordPool": [
+			{
+				"id": "w_wo",
+				"characters": "我",
+				"pinyin": "wǒ",
+				"role": "subject",
+				"en": "I, me",
+				"es": "Yo"
+			},
+			{
+				"id": "w_jintian",
+				"characters": "今天",
+				"pinyin": "jīntiān",
+				"role": "time",
+				"en": "Today",
+				"es": "Hoy"
+			},
+			{
+				"id": "w_he",
+				"characters": "喝",
+				"pinyin": "hē",
+				"role": "verb",
+				"en": "To drink",
+				"es": "Beber"
+			},
+			{
+				"id": "w_shui",
+				"characters": "水",
+				"pinyin": "shuǐ",
+				"role": "object",
+				"en": "Water",
+				"es": "Agua"
+			},
+			{
+				"id": "w_ta",
+				"characters": "他",
+				"pinyin": "tā",
+				"role": "subject",
+				"en": "He, him",
+				"es": "Él"
+			},
+			{
+				"id": "w_bu",
+				"characters": "不",
+				"pinyin": "bù",
+				"role": "negation",
+				"en": "Not",
+				"es": "No"
+			}
+		]
+	},
+	{
+		"id": "sent_02",
+		"promptEn": "He eats a meal at the restaurant.",
+		"promptEs": "Él come en el restaurante.",
+		"targetCharacters": "他在饭店吃饭",
+		"targetOrder": ["w_ta", "w_zai_fandian", "w_chi", "w_fan"],
+		"allowedAlternatives": [],
+		"wordPool": [
+			{
+				"id": "w_ta",
+				"characters": "他",
+				"pinyin": "tā",
+				"role": "subject",
+				"en": "He",
+				"es": "Él"
+			},
+			{
+				"id": "w_zai_fandian",
+				"characters": "在饭店",
+				"pinyin": "zài fàndiàn",
+				"role": "location",
+				"en": "At restaurant",
+				"es": "En el restaurante"
+			},
+			{
+				"id": "w_chi",
+				"characters": "吃",
+				"pinyin": "chī",
+				"role": "verb",
+				"en": "To eat",
+				"es": "Comer"
+			},
+			{
+				"id": "w_fan",
+				"characters": "饭",
+				"pinyin": "fàn",
+				"role": "object",
+				"en": "Meal, food",
+				"es": "Comida"
+			},
+			{
+				"id": "w_mingtian",
+				"characters": "明天",
+				"pinyin": "míngtiān",
+				"role": "time",
+				"en": "Tomorrow",
+				"es": "Mañana"
+			},
+			{
+				"id": "w_shui",
+				"characters": "水",
+				"pinyin": "shuǐ",
+				"role": "object",
+				"en": "Water",
+				"es": "Agua"
+			}
+		]
+	},
+	{
+		"id": "sent_03",
+		"promptEn": "We buy books tomorrow.",
+		"promptEs": "Nosotros compramos libros mañana.",
+		"targetCharacters": "我们明天买书",
+		"targetOrder": ["w_women", "w_mingtian", "w_mai", "w_shu"],
+		"allowedAlternatives": [["w_mingtian", "w_women", "w_mai", "w_shu"]],
+		"wordPool": [
+			{
+				"id": "w_women",
+				"characters": "我们",
+				"pinyin": "wǒmen",
+				"role": "subject",
+				"en": "We, us",
+				"es": "Nosotros"
+			},
+			{
+				"id": "w_mingtian",
+				"characters": "明天",
+				"pinyin": "míngtiān",
+				"role": "time",
+				"en": "Tomorrow",
+				"es": "Mañana"
+			},
+			{
+				"id": "w_mai",
+				"characters": "买",
+				"pinyin": "mǎi",
+				"role": "verb",
+				"en": "To buy",
+				"es": "Comprar"
+			},
+			{
+				"id": "w_shu",
+				"characters": "书",
+				"pinyin": "shū",
+				"role": "object",
+				"en": "Book",
+				"es": "Libro"
+			},
+			{
+				"id": "w_mei",
+				"characters": "没",
+				"pinyin": "méi",
+				"role": "negation",
+				"en": "Not have",
+				"es": "No tener"
+			}
+		]
+	},
+	{
+		"id": "sent_04",
+		"promptEn": "I do not drink water.",
+		"promptEs": "Yo no bebo agua.",
+		"targetCharacters": "我不喝水",
+		"targetOrder": ["w_wo", "w_bu", "w_he", "w_shui"],
+		"allowedAlternatives": [],
+		"wordPool": [
+			{
+				"id": "w_wo",
+				"characters": "我",
+				"pinyin": "wǒ",
+				"role": "subject",
+				"en": "I",
+				"es": "Yo"
+			},
+			{
+				"id": "w_bu",
+				"characters": "不",
+				"pinyin": "bù",
+				"role": "negation",
+				"en": "Not",
+				"es": "No"
+			},
+			{
+				"id": "w_he",
+				"characters": "喝",
+				"pinyin": "hē",
+				"role": "verb",
+				"en": "To drink",
+				"es": "Beber"
+			},
+			{
+				"id": "w_shui",
+				"characters": "水",
+				"pinyin": "shuǐ",
+				"role": "object",
+				"en": "Water",
+				"es": "Agua"
+			},
+			{
+				"id": "w_qian",
+				"characters": "钱",
+				"pinyin": "qián",
+				"role": "object",
+				"en": "Money",
+				"es": "Dinero"
+			}
+		]
+	}
+]
