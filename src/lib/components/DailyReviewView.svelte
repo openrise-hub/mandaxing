@@ -40,6 +40,12 @@
 <section class="flex flex-col gap-4">
 	<div class="flex flex-wrap items-end justify-between gap-2">
 		<div class="flex flex-col gap-1">
+			<div class="flex h-1.5 w-24 mb-1 rounded-xs overflow-hidden">
+				<div class="flex-1 bg-[var(--color-tone-1)]"></div>
+				<div class="flex-1 bg-[var(--color-tone-2)]"></div>
+				<div class="flex-1 bg-[var(--color-tone-3)]"></div>
+				<div class="flex-1 bg-[var(--color-tone-4)]"></div>
+			</div>
 			<h1 class="font-display text-2xl font-bold">{t().srs.title}</h1>
 			<p class="text-sm text-ink-muted">{t().srs.subtitle}</p>
 		</div>

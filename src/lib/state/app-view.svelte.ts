@@ -1,7 +1,15 @@
-export type AppView = "lab" | "studio" | "review";
+export type AppView =
+	| "dashboard"
+	| "lab"
+	| "studio"
+	| "sentences"
+	| "matrix"
+	| "review"
+	| "reader"
+	| "settings";
 
 class AppViewStore {
-	current = $state<AppView>("lab");
+	current = $state<AppView>("dashboard");
 
 	set(view: AppView): void {
 		this.current = view;

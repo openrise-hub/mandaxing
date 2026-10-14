@@ -1,0 +1,298 @@
+[
+	{
+		"id": "passage_01",
+		"titleHanzi": "我的朋友",
+		"titlePinyin": "Wǒ de péngyou",
+		"titleEn": "My Friend",
+		"titleEs": "Mi Amigo",
+		"level": "HSK 1",
+		"sentences": [
+			{
+				"id": "p1_s1",
+				"hanzi": "我叫李明，他是我的朋友。",
+				"pinyin": "Wǒ jiào Lǐ Míng, tā shì wǒ de péngyou.",
+				"en": "My name is Li Ming, he is my friend.",
+				"es": "Me llamo Li Ming, él es mi amigo.",
+				"syllables": [
+					"wo",
+					"jiao",
+					"li",
+					"ming",
+					"ta",
+					"shi",
+					"wo",
+					"de",
+					"peng",
+					"you"
+				],
+				"tones": [3, 4, 3, 2, 1, 4, 3, 0, 2, 0]
+			},
+			{
+				"id": "p1_s2",
+				"hanzi": "我们今天去饭店。",
+				"pinyin": "Wǒmen jīntiān qù fàndiàn.",
+				"en": "We go to the restaurant today.",
+				"es": "Nosotros vamos al restaurante hoy.",
+				"syllables": ["wo", "men", "jin", "tian", "qu", "fan", "dian"],
+				"tones": [3, 0, 1, 1, 4, 4, 4]
+			},
+			{
+				"id": "p1_s3",
+				"hanzi": "我们在饭店吃饭，喝水。",
+				"pinyin": "Wǒmen zài fàndiàn chī fàn, hē shuǐ.",
+				"en": "We eat a meal and drink water at the restaurant.",
+				"es": "Comemos y bebemos agua en el restaurante.",
+				"syllables": [
+					"wo",
+					"men",
+					"zai",
+					"fan",
+					"dian",
+					"chi",
+					"fan",
+					"he",
+					"shui"
+				],
+				"tones": [3, 0, 4, 4, 4, 1, 4, 1, 3]
+			},
+			{
+				"id": "p1_s4",
+				"hanzi": "这里的饭很好，不贵。",
+				"pinyin": "Zhèlǐ de fàn hěn hǎo, bù guì.",
+				"en": "The food here is good, not expensive.",
+				"es": "La comida aquí es buena, no es cara.",
+				"syllables": ["zhe", "li", "de", "fan", "hen", "hao", "bu", "gui"],
+				"tones": [4, 3, 0, 4, 3, 3, 4, 4]
+			}
+		],
+		"vocabulary": [
+			{ "character": "我", "pinyin": "wǒ", "en": "I, me", "es": "Yo" },
+			{
+				"character": "叫",
+				"pinyin": "jiào",
+				"en": "To be called",
+				"es": "Llamarse"
+			},
+			{
+				"character": "李",
+				"pinyin": "lǐ",
+				"en": "Plum, surname Li",
+				"es": "Ciruela, apellido Li"
+			},
+			{
+				"character": "明",
+				"pinyin": "míng",
+				"en": "Bright",
+				"es": "Brillante, claro"
+			},
+			{ "character": "他", "pinyin": "tā", "en": "He, him", "es": "Él" },
+			{ "character": "是", "pinyin": "shì", "en": "To be", "es": "Ser" },
+			{
+				"character": "的",
+				"pinyin": "de",
+				"en": "Possessive particle",
+				"es": "Partícula posesiva"
+			},
+			{ "character": "朋", "pinyin": "péng", "en": "Friend", "es": "Amigo" },
+			{
+				"character": "友",
+				"pinyin": "yǒu",
+				"en": "Companion, friend",
+				"es": "Compañero, amigo"
+			},
+			{
+				"character": "们",
+				"pinyin": "men",
+				"en": "Plural suffix for people",
+				"es": "Sufijo plural"
+			},
+			{
+				"character": "今",
+				"pinyin": "jīn",
+				"en": "Present, now",
+				"es": "Presente, hoy"
+			},
+			{
+				"character": "天",
+				"pinyin": "tiān",
+				"en": "Day, sky",
+				"es": "Día, cielo"
+			},
+			{ "character": "去", "pinyin": "qù", "en": "To go", "es": "Ir" },
+			{
+				"character": "饭",
+				"pinyin": "fàn",
+				"en": "Rice, meal",
+				"es": "Arroz, comida"
+			},
+			{
+				"character": "店",
+				"pinyin": "diàn",
+				"en": "Shop, store, inn",
+				"es": "Tienda, local"
+			},
+			{
+				"character": "在",
+				"pinyin": "zài",
+				"en": "To be located at",
+				"es": "Estar en"
+			},
+			{ "character": "吃", "pinyin": "chī", "en": "To eat", "es": "Comer" },
+			{ "character": "喝", "pinyin": "hē", "en": "To drink", "es": "Beber" },
+			{ "character": "水", "pinyin": "shuǐ", "en": "Water", "es": "Agua" },
+			{ "character": "这", "pinyin": "zhè", "en": "This", "es": "Este, esta" },
+			{
+				"character": "里",
+				"pinyin": "lǐ",
+				"en": "Inside, here",
+				"es": "Dentro, aquí"
+			},
+			{ "character": "很", "pinyin": "hěn", "en": "Very", "es": "Muy" },
+			{ "character": "好", "pinyin": "hǎo", "en": "Good", "es": "Bueno" },
+			{ "character": "不", "pinyin": "bù", "en": "Not, no", "es": "No" },
+			{ "character": "贵", "pinyin": "guì", "en": "Expensive", "es": "Caro" }
+		]
+	},
+	{
+		"id": "passage_02",
+		"titleHanzi": "一天的生活",
+		"titlePinyin": "Yī tiān de shēnghuó",
+		"titleEn": "A Day in Life",
+		"titleEs": "Un Día en la Vida",
+		"level": "HSK 1",
+		"sentences": [
+			{
+				"id": "p2_s1",
+				"hanzi": "今天早上，我喝了一杯水。",
+				"pinyin": "Jīntiān zǎoshang, wǒ hē le yī bēi shuǐ.",
+				"en": "This morning, I drank a cup of water.",
+				"es": "Esta mañana, bebí una taza de agua.",
+				"syllables": [
+					"jin",
+					"tian",
+					"zao",
+					"shang",
+					"wo",
+					"he",
+					"le",
+					"yi",
+					"bei",
+					"shui"
+				],
+				"tones": [1, 1, 3, 0, 3, 1, 0, 1, 1, 3]
+			},
+			{
+				"id": "p2_s2",
+				"hanzi": "下午我和朋友买了两本书。",
+				"pinyin": "Xiàwǔ wǒ hé péngyou mǎi le liǎng běn shū.",
+				"en": "In the afternoon, my friend and I bought two books.",
+				"es": "Por la tarde, mi amigo y yo compramos dos libros.",
+				"syllables": [
+					"xia",
+					"wu",
+					"wo",
+					"he",
+					"peng",
+					"you",
+					"mai",
+					"le",
+					"liang",
+					"ben",
+					"shu"
+				],
+				"tones": [4, 3, 3, 2, 2, 0, 3, 0, 3, 3, 1]
+			},
+			{
+				"id": "p2_s3",
+				"hanzi": "明天我们要坐火车去北京。",
+				"pinyin": "Míngtiān wǒmen yào zuò huǒchē qù Běijīng.",
+				"en": "Tomorrow we will take the train to Beijing.",
+				"es": "Mañana tomaremos el tren a Beijing.",
+				"syllables": [
+					"ming",
+					"tian",
+					"wo",
+					"men",
+					"yao",
+					"zuo",
+					"huo",
+					"che",
+					"qu",
+					"bei",
+					"jing"
+				],
+				"tones": [2, 1, 3, 0, 4, 4, 3, 1, 4, 3, 1]
+			}
+		],
+		"vocabulary": [
+			{ "character": "一", "pinyin": "yī", "en": "One", "es": "Uno" },
+			{ "character": "天", "pinyin": "tiān", "en": "Day", "es": "Día" },
+			{
+				"character": "生",
+				"pinyin": "shēng",
+				"en": "Life, birth",
+				"es": "Vida"
+			},
+			{ "character": "活", "pinyin": "huó", "en": "To live", "es": "Vivir" },
+			{
+				"character": "早",
+				"pinyin": "zǎo",
+				"en": "Early, morning",
+				"es": "Temprano, mañana"
+			},
+			{ "character": "上", "pinyin": "shang", "en": "Up, on", "es": "Arriba" },
+			{
+				"character": "下",
+				"pinyin": "xià",
+				"en": "Down, below",
+				"es": "Abajo"
+			},
+			{ "character": "午", "pinyin": "wǔ", "en": "Noon", "es": "Mediodía" },
+			{
+				"character": "杯",
+				"pinyin": "bēi",
+				"en": "Cup (classifier)",
+				"es": "Taza (clasificador)"
+			},
+			{
+				"character": "本",
+				"pinyin": "běn",
+				"en": "Book (classifier)",
+				"es": "Libro (clasificador)"
+			},
+			{ "character": "书", "pinyin": "shū", "en": "Book", "es": "Libro" },
+			{
+				"character": "明",
+				"pinyin": "míng",
+				"en": "Bright, tomorrow",
+				"es": "Mañana"
+			},
+			{
+				"character": "要",
+				"pinyin": "yào",
+				"en": "To want, will",
+				"es": "Querer, ir a"
+			},
+			{
+				"character": "坐",
+				"pinyin": "zuò",
+				"en": "To sit, to take (transport)",
+				"es": "Sentarse, tomar (transporte)"
+			},
+			{ "character": "火", "pinyin": "huǒ", "en": "Fire", "es": "Fuego" },
+			{
+				"character": "车",
+				"pinyin": "chē",
+				"en": "Vehicle, car",
+				"es": "Vehículo, tren"
+			},
+			{ "character": "北", "pinyin": "běi", "en": "North", "es": "Norte" },
+			{
+				"character": "京",
+				"pinyin": "jīng",
+				"en": "Capital city",
+				"es": "Capital"
+			}
+		]
+	}
+]

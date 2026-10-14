@@ -1,0 +1,110 @@
+[
+	{
+		"id": "wb8_hao",
+		"characters": "好",
+		"pinyin": "hǎo",
+		"syllables": ["hao"],
+		"tones": [3],
+		"en": "Good, well",
+		"es": "Bueno, bien",
+		"breakdown": [
+			{
+				"character": "好",
+				"radical": "女",
+				"radicalMeaning": { "en": "woman", "es": "mujer" },
+				"phonetic": "子",
+				"phoneticHint": "zǐ"
+			}
+		]
+	},
+	{
+		"id": "wb8_da",
+		"characters": "大",
+		"pinyin": "dà",
+		"syllables": ["da"],
+		"tones": [4],
+		"en": "Big, large",
+		"es": "Grande",
+		"breakdown": [
+			{
+				"character": "大",
+				"radical": "大",
+				"radicalMeaning": { "en": "big", "es": "grande" },
+				"phonetic": null,
+				"phoneticHint": null
+			}
+		]
+	},
+	{
+		"id": "wb8_xiao",
+		"characters": "小",
+		"pinyin": "xiǎo",
+		"syllables": ["xiao"],
+		"tones": [3],
+		"en": "Small, little",
+		"es": "Pequeño",
+		"breakdown": [
+			{
+				"character": "小",
+				"radical": "小",
+				"radicalMeaning": { "en": "small", "es": "pequeño" },
+				"phonetic": null,
+				"phoneticHint": null
+			}
+		]
+	},
+	{
+		"id": "wb8_gui",
+		"characters": "贵",
+		"pinyin": "guì",
+		"syllables": ["gui"],
+		"tones": [4],
+		"en": "Expensive, honorable",
+		"es": "Caro, honorable",
+		"breakdown": [
+			{
+				"character": "贵",
+				"radical": "贝",
+				"radicalMeaning": { "en": "cowrie shell/money", "es": "concha/dinero" },
+				"phonetic": null,
+				"phoneticHint": null
+			}
+		]
+	},
+	{
+		"id": "wb8_re",
+		"characters": "热",
+		"pinyin": "rè",
+		"syllables": ["re"],
+		"tones": [4],
+		"en": "Hot",
+		"es": "Caliente",
+		"breakdown": [
+			{
+				"character": "热",
+				"radical": "灬",
+				"radicalMeaning": { "en": "fire", "es": "fuego" },
+				"phonetic": "执",
+				"phoneticHint": "zhí"
+			}
+		]
+	},
+	{
+		"id": "wb8_leng",
+		"characters": "冷",
+		"pinyin": "lěng",
+		"syllables": ["leng"],
+		"tones": [3],
+		"en": "Cold",
+		"es": "Frío",
+		"breakdown": [
+			{
+				"character": "冷",
+				"radical": "冫",
+				"radicalMeaning": { "en": "ice", "es": "hielo" },
+				"phonetic": "令",
+				"phoneticHint": "lìng"
+			}
+		]
+	}
+]

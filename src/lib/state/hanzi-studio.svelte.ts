@@ -128,6 +128,16 @@ class HanziStudio {
 		await this.load();
 	}
 
+	async selectCharacter(char: string): Promise<void> {
+		const targetIndex = STUDIO_CHARACTERS.findIndex(
+			(c) => c.character === char,
+		);
+		if (targetIndex !== -1) {
+			this.index = targetIndex;
+			await this.load();
+		}
+	}
+
 	clear(): void {
 		this.completedStrokes = 0;
 		this.feedback = "idle";

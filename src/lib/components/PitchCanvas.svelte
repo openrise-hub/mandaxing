@@ -95,13 +95,16 @@
 		}
 		context.globalAlpha = 1;
 
-		context.strokeStyle = cssVar("--color-ink-muted", canvas);
-		context.setLineDash([4, 6]);
+		context.strokeStyle = "rgba(30, 27, 24, 0.15)";
 		context.lineWidth = 1;
-		context.beginPath();
-		context.moveTo(PADDING, height / 2);
-		context.lineTo(width - PADDING, height / 2);
-		context.stroke();
+		context.setLineDash([3, 4]);
+		for (let i = 1; i <= 3; i++) {
+			const gridY = PADDING + i * bandHeight;
+			context.beginPath();
+			context.moveTo(PADDING, gridY);
+			context.lineTo(width - PADDING, gridY);
+			context.stroke();
+		}
 		context.setLineDash([]);
 
 		drawCurve(context, reference, cssVar("--color-ink", canvas), true, width, height, scale);
@@ -123,12 +126,14 @@
 	});
 </script>
 
-<div bind:this={container} class="relative h-64 w-full md:h-72">
-	<canvas bind:this={canvas} class="h-full w-full"></canvas>
-	<span class="data-pill absolute top-2 left-2 px-2 py-0.5 text-xs">
-		{t().toneLab.pitchAnchors.high}
-	</span>
-	<span class="data-pill absolute bottom-2 left-2 px-2 py-0.5 text-xs">
-		{t().toneLab.pitchAnchors.low}
-	</span>
+<div class="mech-card bg-[var(--color-paper)] p-2">
+	<div bind:this={container} class="relative h-64 w-full md:h-72">
+		<canvas bind:this={canvas} class="h-full w-full"></canvas>
+		<span class="data-pill absolute top-2 left-2 px-2 py-0.5 text-xs">
+			{t().toneLab.pitchAnchors.high}
+		</span>
+		<span class="data-pill absolute bottom-2 left-2 px-2 py-0.5 text-xs">
+			{t().toneLab.pitchAnchors.low}
+		</span>
+	</div>
 </div>
