@@ -1,0 +1,97 @@
+@import "@fontsource-variable/space-grotesk";
+@import "@fontsource-variable/inter";
+@import "@fontsource/dm-mono/500.css";
+@import "@fontsource-variable/noto-sans-sc";
+@import "tailwindcss";
+
+@theme {
+	--font-display:
+		"Space Grotesk Variable", ui-sans-serif, system-ui, sans-serif;
+	--font-sans: "Inter Variable", ui-sans-serif, system-ui, sans-serif;
+	--font-mono: "DM Mono", ui-monospace, "SFMono-Regular", monospace;
+	--font-hanzi:
+		"Noto Sans SC Variable", "PingFang SC", "Microsoft YaHei", sans-serif;
+
+	--color-paper: #f4efea;
+	--color-card: #ffffff;
+	--color-panel: #e8e1d7;
+	--color-ink: #1e1b18;
+	--color-ink-muted: #5c554e;
+
+	--color-tone-1: #f59e0b;
+	--color-tone-2: #ea580c;
+	--color-tone-3: #dc2626;
+	--color-tone-4: #7f1d1d;
+	--color-tone-neutral: #8c827a;
+
+	--color-action: #1d4ed8;
+	--color-success: #15803d;
+	--color-alert: #b91c1c;
+
+	--shadow-mechanical: 3px 3px 0 0 var(--color-ink);
+	--radius-mechanical: 3px;
+}
+
+@utility border-mech {
+	border-color: var(--color-ink);
+	border-style: solid;
+	border-width: 1.5px;
+}
+
+@layer base {
+	html {
+		background-color: var(--color-paper);
+		color: var(--color-ink);
+		font-family: var(--font-sans);
+	}
+
+	h1,
+	h2,
+	h3,
+	h4 {
+		font-family: var(--font-display);
+		font-weight: 700;
+	}
+
+	:focus-visible {
+		outline: 2px solid var(--color-action);
+		outline-offset: 2px;
+	}
+}
+
+@layer components {
+	.mech-card {
+		background-color: var(--color-card);
+		border: 1.5px solid var(--color-ink);
+		border-radius: var(--radius-mechanical);
+		box-shadow: var(--shadow-mechanical);
+	}
+
+	.mech-btn {
+		background-color: var(--color-card);
+		border: 1.5px solid var(--color-ink);
+		border-radius: var(--radius-mechanical);
+		box-shadow: var(--shadow-mechanical);
+		transition:
+			box-shadow 80ms ease,
+			transform 80ms ease;
+	}
+
+	.mech-btn:active {
+		box-shadow: 1px 1px 0 0 var(--color-ink);
+		transform: translate(2px, 2px);
+	}
+
+	.data-pill {
+		background-color: var(--color-panel);
+		border: 1px solid var(--color-ink);
+		font-family: var(--font-mono);
+		letter-spacing: 0.05em;
+		text-transform: uppercase;
+	}
+}
+
+@utility hanzi {
+	font-family: var(--font-hanzi);
+	font-weight: 700;
+}
