@@ -3,9 +3,12 @@ import type {
 	IsolatedToneItem,
 	MinimalPairItem,
 	TonePairItem,
+	WordBankEntry,
 	WordBankItem,
 } from "#lib/types/catalogs";
 import bank01 from "./bank-01-pronouns.json";
+import bank02 from "./bank-02-questions.json";
+import bank03 from "./bank-03-verbs.json";
 import isolatedTones from "./isolated-tones.json";
 import minimalPairs from "./minimal-pairs.json";
 import tonePairs from "./tone-pairs.json";
@@ -17,6 +20,8 @@ const isolated = isolatedTones as IsolatedToneItem[];
 const pairs = tonePairs as TonePairItem[];
 const minimal = minimalPairs as MinimalPairItem[];
 const bank = bank01 as WordBankItem[];
+const questions = bank02 as WordBankEntry[];
+const verbs = bank03 as WordBankEntry[];
 
 function expectUniqueIds(items: Array<{ id: string }>): void {
 	const ids = items.map((item) => item.id);
@@ -29,6 +34,73 @@ function expectValidTone(tone: number, context: string): void {
 	);
 	expect(tone, `${context}: tone must be at least 0`).toBeGreaterThanOrEqual(0);
 	expect(tone, `${context}: tone must be at most 4`).toBeLessThanOrEqual(4);
+}
+
+function expectAudioReadyEntries(items: WordBankItem[]): void {
+	expectUniqueIds(items);
+	for (const item of items) {
+		expect(
+			item.syllables.length,
+			`${item.id}: syllable/tone length mismatch`,
+		).toBe(item.tones.length);
+		for (const syllable of item.syllables) {
+			expect(syllable, `${item.id}: syllable must be ASCII pinyin`).toMatch(
+				SYLLABLE_PATTERN,
+			);
+		}
+		for (const tone of item.tones) {
+			expectValidTone(tone, item.id);
+		}
+		expect(
+			item.characters.trim(),
+			`${item.id}: characters must not be empty`,
+		).not.toBe("");
+		expect(item.en.trim(), `${item.id}: en must not be empty`).not.toBe("");
+		expect(item.es.trim(), `${item.id}: es must not be empty`).not.toBe("");
+	}
+}
+
+function expectPhonosemanticBreakdown(items: WordBankEntry[]): void {
+	for (const item of items) {
+		const characters = Array.from(item.characters);
+		expect(
+			item.breakdown.length,
+			`${item.id}: breakdown must cover every character`,
+		).toBe(characters.length);
+		for (const [index, entry] of item.breakdown.entries()) {
+			expect(
+				entry.character,
+				`${item.id}: breakdown character mismatch at ${index}`,
+			).toBe(characters[index]);
+			expect(
+				entry.radical.trim(),
+				`${item.id}/${entry.character}: radical must not be empty`,
+			).not.toBe("");
+			expect(
+				entry.radicalMeaning.en.trim(),
+				`${item.id}/${entry.character}: radicalMeaning.en must not be empty`,
+			).not.toBe("");
+			expect(
+				entry.radicalMeaning.es.trim(),
+				`${item.id}/${entry.character}: radicalMeaning.es must not be empty`,
+			).not.toBe("");
+			if (entry.phonetic === null) {
+				expect(
+					entry.phoneticHint,
+					`${item.id}/${entry.character}: hint must be null without a phonetic`,
+				).toBeNull();
+			} else {
+				expect(
+					entry.phonetic.trim(),
+					`${item.id}/${entry.character}: phonetic must not be empty`,
+				).not.toBe("");
+				expect(
+					entry.phoneticHint === null ? "" : entry.phoneticHint.trim(),
+					`${item.id}/${entry.character}: phonetic needs a reading hint`,
+				).not.toBe("");
+			}
+		}
+	}
 }
 
 describe("isolated tones catalog", () => {
@@ -125,36 +197,40 @@ describe("minimal pairs catalog", () => {
 
 describe("word bank 1", () => {
 	it("has unique ids and audio-ready entries", () => {
-		expectUniqueIds(bank);
-		for (const item of bank) {
-			expect(
-				item.syllables.length,
-				`${item.id}: syllable/tone length mismatch`,
-			).toBe(item.tones.length);
-			for (const syllable of item.syllables) {
-				expect(syllable, `${item.id}: syllable must be ASCII pinyin`).toMatch(
-					SYLLABLE_PATTERN,
-				);
-			}
-			for (const tone of item.tones) {
-				expectValidTone(tone, item.id);
-			}
-			expect(
-				item.characters.trim(),
-				`${item.id}: characters must not be empty`,
-			).not.toBe("");
-			expect(item.en.trim(), `${item.id}: en must not be empty`).not.toBe("");
-			expect(item.es.trim(), `${item.id}: es must not be empty`).not.toBe("");
-		}
+		expectAudioReadyEntries(bank);
 	});
 
 	it("keeps the known unresolvable syllables explicit", () => {
-		const used = new Set([...pairs, ...bank].flatMap((item) => item.syllables));
+		const used = new Set(
+			[...pairs, ...bank, ...questions, ...verbs].flatMap(
+				(item) => item.syllables,
+			),
+		);
 		for (const syllable of KNOWN_UNRESOLVABLE_SYLLABLES) {
 			expect(
 				used.has(syllable),
 				`${syllable} is expected in the travel 3+2 entry`,
 			).toBe(true);
 		}
+	});
+});
+
+describe("word bank 2", () => {
+	it("has unique ids and audio-ready question words", () => {
+		expectAudioReadyEntries(questions);
+	});
+
+	it("documents radical and phonetic components for every character", () => {
+		expectPhonosemanticBreakdown(questions);
+	});
+});
+
+describe("word bank 3", () => {
+	it("has unique ids and audio-ready core verbs", () => {
+		expectAudioReadyEntries(verbs);
+	});
+
+	it("documents radical and phonetic components for every character", () => {
+		expectPhonosemanticBreakdown(verbs);
 	});
 });
