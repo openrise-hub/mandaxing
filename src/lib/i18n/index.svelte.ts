@@ -18,6 +18,10 @@ function detectLocale(): Locale {
 class I18n {
 	locale = $state<Locale>(detectLocale());
 
+	get current(): Locale {
+		return this.locale;
+	}
+
 	constructor() {
 		if (browser) {
 			document.documentElement.lang = this.locale;
