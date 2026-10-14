@@ -2,6 +2,7 @@
 	import ControlPanel from "#lib/components/ControlPanel.svelte";
 	import DailyReviewView from "#lib/components/DailyReviewView.svelte";
 	import EarTrainingPad from "#lib/components/EarTrainingPad.svelte";
+	import GradedReaderView from "#lib/components/GradedReaderView.svelte";
 	import HanziStudioView from "#lib/components/HanziStudioView.svelte";
 	import HomeDashboard from "#lib/components/HomeDashboard.svelte";
 	import PitchCanvas from "#lib/components/PitchCanvas.svelte";
@@ -232,6 +233,8 @@
 	<VocabularyBrowser />
 {:else if appView.current === "sentences"}
 	<SentenceBuilder />
+{:else if appView.current === "reader"}
+	<GradedReaderView />
 {:else}
 	<HomeDashboard />
 {/if}
