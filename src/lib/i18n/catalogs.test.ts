@@ -32,4 +32,18 @@ describe("translation catalogs", () => {
 	it("share the same brand name", () => {
 		expect(es.common.appName).toBe(en.common.appName);
 	});
+
+	it("cover every schema section in both catalogs", () => {
+		const sections = [
+			"backup",
+			"common",
+			"hanziStudio",
+			"navigation",
+			"srs",
+			"toneLab",
+			"wordBank",
+		];
+		expect(Object.keys(en).sort()).toEqual(sections);
+		expect(Object.keys(es).sort()).toEqual(sections);
+	});
 });
