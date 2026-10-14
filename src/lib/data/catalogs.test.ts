@@ -9,6 +9,9 @@ import type {
 import bank01 from "./bank-01-pronouns.json";
 import bank02 from "./bank-02-questions.json";
 import bank03 from "./bank-03-verbs.json";
+import bank04 from "./bank-04-logical.json";
+import bank05 from "./bank-05-space-time.json";
+import bank06 from "./bank-06-numbers-classifiers.json";
 import isolatedTones from "./isolated-tones.json";
 import minimalPairs from "./minimal-pairs.json";
 import tonePairs from "./tone-pairs.json";
@@ -22,6 +25,9 @@ const minimal = minimalPairs as MinimalPairItem[];
 const bank = bank01 as WordBankItem[];
 const questions = bank02 as WordBankEntry[];
 const verbs = bank03 as WordBankEntry[];
+const logical = bank04 as WordBankEntry[];
+const spaceTime = bank05 as WordBankEntry[];
+const numbersClassifiers = bank06 as WordBankEntry[];
 
 function expectUniqueIds(items: Array<{ id: string }>): void {
 	const ids = items.map((item) => item.id);
@@ -232,5 +238,35 @@ describe("word bank 3", () => {
 
 	it("documents radical and phonetic components for every character", () => {
 		expectPhonosemanticBreakdown(verbs);
+	});
+});
+
+describe("word bank 4", () => {
+	it("has unique ids and audio-ready logical operators and negation", () => {
+		expectAudioReadyEntries(logical);
+	});
+
+	it("documents radical and phonetic components for every character", () => {
+		expectPhonosemanticBreakdown(logical);
+	});
+});
+
+describe("word bank 5", () => {
+	it("has unique ids and audio-ready space and time coordinates", () => {
+		expectAudioReadyEntries(spaceTime);
+	});
+
+	it("documents radical and phonetic components for every character", () => {
+		expectPhonosemanticBreakdown(spaceTime);
+	});
+});
+
+describe("word bank 6", () => {
+	it("has unique ids and audio-ready numbers and measure words", () => {
+		expectAudioReadyEntries(numbersClassifiers);
+	});
+
+	it("documents radical and phonetic components for every character", () => {
+		expectPhonosemanticBreakdown(numbersClassifiers);
 	});
 });
