@@ -20,7 +20,8 @@
 		"test:unit": "vitest",
 		"test": "vitest run",
 		"generate:fixtures": "node scripts/generate-audio-fixtures.mjs",
-		"verify:audio": "node scripts/verify-audio-catalog.mjs"
+		"verify:audio": "node scripts/verify-audio-catalog.mjs",
+		"test:e2e": "playwright test"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "2.5.15",
@@ -37,7 +38,8 @@
 		"vite": "8.3.4",
 		"vitest": "5.0.4",
 		"@tailwindcss/vite": "4.3.3",
-		"tailwindcss": "4.3.3"
+		"tailwindcss": "4.3.3",
+		"@playwright/test": "1.64.0"
 	},
 	"imports": {
 		"#lib": "./src/lib/index.js",

@@ -30,7 +30,7 @@ export class MandaxingDatabase extends Dexie {
 	preferences!: Table<UserPreferencesRecord, string>;
 
 	constructor() {
-		super("MandaxingPhase1DB");
+		super("mandaxing");
 		this.version(1).stores({
 			calibrations: "++id, syllable, expectedTone, passed, timestamp",
 			discriminationTests: "++id, testType, correct, timestamp",
