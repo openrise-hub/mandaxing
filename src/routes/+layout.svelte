@@ -1,8 +1,9 @@
 <script lang="ts">
-	import "./layout.css";
+	import './layout.css';
 	import ToneStripeBanner from "#lib/components/ToneStripeBanner.svelte";
 	import LanguageSwitcher from "#lib/components/LanguageSwitcher.svelte";
 	import { i18n, t } from "#lib/i18n/index.svelte";
+	import { lab } from "#lib/state/tone-lab.svelte";
 	import favicon from "#lib/assets/favicon.svg";
 	import { onMount } from "svelte";
 	import type { LayoutProps } from "./$types";
@@ -12,6 +13,12 @@
 	onMount(() => {
 		void i18n.init();
 	});
+
+	const modes = [
+		{ key: "single", label: "singleTones" },
+		{ key: "pairs", label: "tonePairs" },
+		{ key: "minimal", label: "minimalPairs" },
+	] as const;
 </script>
 
 <svelte:head>
@@ -27,9 +34,17 @@
 			<div class="col-span-4 flex items-center gap-3 md:col-span-5 lg:col-span-8">
 				<span class="font-display text-lg font-bold tracking-tight">{t().common.appName}</span>
 				<nav class="flex items-center gap-2">
-					<span class="data-pill px-2 py-1 text-xs">{t().navigation.singleTones}</span>
-					<span class="data-pill px-2 py-1 text-xs">{t().navigation.tonePairs}</span>
-					<span class="data-pill px-2 py-1 text-xs">{t().navigation.minimalPairs}</span>
+					{#each modes as mode (mode.key)}
+						<button
+							type="button"
+							class="data-pill px-2 py-1 text-xs"
+							class:bg-card={lab.mode === mode.key}
+							aria-pressed={lab.mode === mode.key}
+							onclick={() => lab.setMode(mode.key)}
+						>
+							{t().navigation[mode.label]}
+						</button>
+					{/each}
 				</nav>
 			</div>
 			<div class="col-span-4 flex items-center justify-end gap-2 md:col-span-3 lg:col-span-4">

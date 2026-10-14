@@ -10,6 +10,8 @@ export interface TranslationSchema {
 		offline: string;
 		language: string;
 		audioUnavailable: string;
+		previous: string;
+		next: string;
 	};
 	navigation: {
 		singleTones: string;
