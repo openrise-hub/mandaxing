@@ -3,7 +3,9 @@
 	import DailyReviewView from "#lib/components/DailyReviewView.svelte";
 	import EarTrainingPad from "#lib/components/EarTrainingPad.svelte";
 	import HanziStudioView from "#lib/components/HanziStudioView.svelte";
+	import HomeDashboard from "#lib/components/HomeDashboard.svelte";
 	import PitchCanvas from "#lib/components/PitchCanvas.svelte";
+	import SettingsView from "#lib/components/SettingsView.svelte";
 	import StimulusCard from "#lib/components/StimulusCard.svelte";
 	import WordBankPanel from "#lib/components/WordBankPanel.svelte";
 	import { i18n, t } from "#lib/i18n/index.svelte";
@@ -42,20 +44,34 @@
 	}
 </script>
 
-{#if appView.current === "lab"}
+{#if appView.current === "dashboard"}
+	<HomeDashboard />
+{:else if appView.current === "settings"}
+	<SettingsView />
+{:else if appView.current === "lab"}
 	<div class="flex flex-col gap-5">
-		<div class="flex flex-wrap items-center gap-2">
-			{#each modes as mode (mode.key)}
-				<button
-					type="button"
-					class="data-pill px-2 py-1 text-xs"
-					class:bg-card={lab.mode === mode.key}
-					aria-pressed={lab.mode === mode.key}
-					onclick={() => lab.setMode(mode.key)}
-				>
-					{t().navigation[mode.label]}
-				</button>
-			{/each}
+		<div class="flex items-center justify-between border-b border-[var(--color-ink)]/15 pb-2">
+			<button
+				type="button"
+				onclick={() => appView.set("dashboard")}
+				class="mech-btn px-3 py-1 font-display text-xs font-bold flex items-center gap-1.5 cursor-pointer"
+			>
+				<span aria-hidden="true">&larr;</span>
+				<span>{i18n.current === "es" ? "Inicio" : "Home"}</span>
+			</button>
+			<div class="flex flex-wrap items-center gap-2">
+				{#each modes as mode (mode.key)}
+					<button
+						type="button"
+						class="data-pill px-2 py-1 text-xs"
+						class:bg-card={lab.mode === mode.key}
+						aria-pressed={lab.mode === mode.key}
+						onclick={() => lab.setMode(mode.key)}
+					>
+						{t().navigation[mode.label]}
+					</button>
+				{/each}
+			</div>
 		</div>
 
 		<div class="flex flex-col gap-1">
@@ -183,7 +199,33 @@
 		<WordBankPanel items={lab.wordItems} onSelect={(item) => lab.selectWord(item)} />
 	</div>
 {:else if appView.current === "studio"}
-	<HanziStudioView />
+	<div class="flex flex-col gap-4">
+		<div>
+			<button
+				type="button"
+				onclick={() => appView.set("dashboard")}
+				class="mech-btn px-3 py-1 font-display text-xs font-bold inline-flex items-center gap-1.5 cursor-pointer"
+			>
+				<span aria-hidden="true">&larr;</span>
+				<span>{i18n.current === "es" ? "Inicio" : "Home"}</span>
+			</button>
+		</div>
+		<HanziStudioView />
+	</div>
+{:else if appView.current === "review"}
+	<div class="flex flex-col gap-4">
+		<div>
+			<button
+				type="button"
+				onclick={() => appView.set("dashboard")}
+				class="mech-btn px-3 py-1 font-display text-xs font-bold inline-flex items-center gap-1.5 cursor-pointer"
+			>
+				<span aria-hidden="true">&larr;</span>
+				<span>{i18n.current === "es" ? "Inicio" : "Home"}</span>
+			</button>
+		</div>
+		<DailyReviewView />
+	</div>
 {:else}
-	<DailyReviewView />
+	<HomeDashboard />
 {/if}
