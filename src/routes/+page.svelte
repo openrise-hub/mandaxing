@@ -5,6 +5,7 @@
 	import HanziStudioView from "#lib/components/HanziStudioView.svelte";
 	import HomeDashboard from "#lib/components/HomeDashboard.svelte";
 	import PitchCanvas from "#lib/components/PitchCanvas.svelte";
+	import SentenceBuilder from "#lib/components/SentenceBuilder.svelte";
 	import SettingsView from "#lib/components/SettingsView.svelte";
 	import StimulusCard from "#lib/components/StimulusCard.svelte";
 	import VocabularyBrowser from "#lib/components/VocabularyBrowser.svelte";
@@ -229,6 +230,8 @@
 	</div>
 {:else if appView.current === "matrix"}
 	<VocabularyBrowser />
+{:else if appView.current === "sentences"}
+	<SentenceBuilder />
 {:else}
 	<HomeDashboard />
 {/if}
