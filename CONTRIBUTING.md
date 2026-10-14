@@ -16,7 +16,7 @@ pnpm install
 pnpm exec simple-git-hooks
 ```
 
-Dependency lifecycle scripts are disabled (`ignore-scripts=true` in `.npmrc`) to reduce supply-chain risk, so hooks are not installed automatically — run `pnpm exec simple-git-hooks` once after cloning. If `pnpm` is not on your PATH, run any of the commands through Corepack instead (for example `corepack pnpm install`); the Git hooks already do this.
+Dependency lifecycle scripts are disabled (`ignore-scripts=true` in `.npmrc`) to reduce supply-chain risk, so hooks are not installed automatically. Run `pnpm exec simple-git-hooks` once after cloning. If `pnpm` is not on your PATH, run any of the commands through Corepack instead (for example `corepack pnpm install`); the Git hooks already do this.
 
 ## Scripts
 

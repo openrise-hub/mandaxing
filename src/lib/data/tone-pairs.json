@@ -1,0 +1,182 @@
+[
+	{
+		"pair": "1+1",
+		"pinyin": "jīntiān",
+		"hanzi": "今天",
+		"en": "Today",
+		"es": "Hoy",
+		"syllables": ["jin", "tian"],
+		"tones": [1, 1]
+	},
+	{
+		"pair": "1+2",
+		"pinyin": "xīnnián",
+		"hanzi": "新年",
+		"en": "New Year",
+		"es": "Año Nuevo",
+		"syllables": ["xin", "nian"],
+		"tones": [1, 2]
+	},
+	{
+		"pair": "1+3",
+		"pinyin": "fēijī",
+		"hanzi": "飞机",
+		"en": "Airplane",
+		"es": "Avión",
+		"syllables": ["fei", "ji"],
+		"tones": [1, 3]
+	},
+	{
+		"pair": "1+4",
+		"pinyin": "gōngzuò",
+		"hanzi": "工作",
+		"en": "Work",
+		"es": "Trabajo",
+		"syllables": ["gong", "zuo"],
+		"tones": [1, 4]
+	},
+	{
+		"pair": "1+0",
+		"pinyin": "māma",
+		"hanzi": "妈妈",
+		"en": "Mom",
+		"es": "Mamá",
+		"syllables": ["ma", "ma"],
+		"tones": [1, 0]
+	},
+	{
+		"pair": "2+1",
+		"pinyin": "shíjiān",
+		"hanzi": "时间",
+		"en": "Time",
+		"es": "Tiempo",
+		"syllables": ["shi", "jian"],
+		"tones": [2, 1]
+	},
+	{
+		"pair": "2+2",
+		"pinyin": "yínháng",
+		"hanzi": "银行",
+		"en": "Bank",
+		"es": "Banco",
+		"syllables": ["yin", "hang"],
+		"tones": [2, 2]
+	},
+	{
+		"pair": "2+3",
+		"pinyin": "píngguǒ",
+		"hanzi": "苹果",
+		"en": "Apple",
+		"es": "Manzana",
+		"syllables": ["ping", "guo"],
+		"tones": [2, 3]
+	},
+	{
+		"pair": "2+4",
+		"pinyin": "xuéxiào",
+		"hanzi": "学校",
+		"en": "School",
+		"es": "Escuela",
+		"syllables": ["xue", "xiao"],
+		"tones": [2, 4]
+	},
+	{
+		"pair": "2+0",
+		"pinyin": "yéye",
+		"hanzi": "爷爷",
+		"en": "Grandpa",
+		"es": "Abuelo",
+		"syllables": ["ye", "ye"],
+		"tones": [2, 0]
+	},
+	{
+		"pair": "3+1",
+		"pinyin": "běifāng",
+		"hanzi": "北方",
+		"en": "North",
+		"es": "El norte",
+		"syllables": ["bei", "fang"],
+		"tones": [3, 1]
+	},
+	{
+		"pair": "3+2",
+		"pinyin": "lǚxíng",
+		"hanzi": "旅行",
+		"en": "Travel",
+		"es": "Viajar",
+		"syllables": ["lv", "xing"],
+		"tones": [3, 2]
+	},
+	{
+		"pair": "3+3",
+		"pinyin": "nǐhǎo",
+		"hanzi": "你好",
+		"en": "Hello",
+		"es": "Hola",
+		"syllables": ["ni", "hao"],
+		"tones": [2, 3]
+	},
+	{
+		"pair": "3+4",
+		"pinyin": "kǎoshì",
+		"hanzi": "考试",
+		"en": "Exam",
+		"es": "Examen",
+		"syllables": ["kao", "shi"],
+		"tones": [3, 4]
+	},
+	{
+		"pair": "3+0",
+		"pinyin": "nǎinai",
+		"hanzi": "奶奶",
+		"en": "Grandma",
+		"es": "Abuela",
+		"syllables": ["nai", "nai"],
+		"tones": [3, 0]
+	},
+	{
+		"pair": "4+1",
+		"pinyin": "miànbāo",
+		"hanzi": "面包",
+		"en": "Bread",
+		"es": "Pan",
+		"syllables": ["mian", "bao"],
+		"tones": [4, 1]
+	},
+	{
+		"pair": "4+2",
+		"pinyin": "dàxué",
+		"hanzi": "大学",
+		"en": "University",
+		"es": "Universidad",
+		"syllables": ["da", "xue"],
+		"tones": [4, 2]
+	},
+	{
+		"pair": "4+3",
+		"pinyin": "hànyǔ",
+		"hanzi": "汉语",
+		"en": "Chinese",
+		"es": "Chino",
+		"syllables": ["han", "yu"],
+		"tones": [4, 3]
+	},
+	{
+		"pair": "4+4",
+		"pinyin": "zàijiàn",
+		"hanzi": "再见",
+		"en": "Goodbye",
+		"es": "Adiós",
+		"syllables": ["zai", "jian"],
+		"tones": [4, 4]
+	},
+	{
+		"pair": "4+0",
+		"pinyin": "bàba",
+		"hanzi": "爸爸",
+		"en": "Dad",
+		"es": "Papá",
+		"syllables": ["ba", "ba"],
+		"tones": [4, 0]
+	}
+]

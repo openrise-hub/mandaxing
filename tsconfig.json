@@ -5,7 +5,14 @@
 		"noUncheckedIndexedAccess": true,
 		"exactOptionalPropertyTypes": true,
 		"noImplicitOverride": true,
-		"skipLibCheck": true
+		"skipLibCheck": true,
+		"checkJs": false,
+		"maxNodeModuleJsDepth": 2,
+		"paths": {
+			"#lib": ["./src/lib/index.ts"],
+			"#lib/*": ["./src/lib/*"],
+			"$app/*": ["./node_modules/@sveltejs/kit/src/runtime/app/*"]
+		}
 	},
 	"include": ["src", "vite.config.ts"]
 }

@@ -1,0 +1,93 @@
+[
+	{
+		"id": "vowel_a",
+		"syllable": "a",
+		"tones": [
+			{ "tone": 1, "pinyin": "ā" },
+			{ "tone": 2, "pinyin": "á" },
+			{ "tone": 3, "pinyin": "ǎ" },
+			{ "tone": 4, "pinyin": "à" }
+		]
+	},
+	{
+		"id": "vowel_o",
+		"syllable": "o",
+		"tones": [
+			{ "tone": 1, "pinyin": "ō" },
+			{ "tone": 2, "pinyin": "ó" },
+			{ "tone": 3, "pinyin": "ǒ" },
+			{ "tone": 4, "pinyin": "ò" }
+		]
+	},
+	{
+		"id": "vowel_e",
+		"syllable": "e",
+		"tones": [
+			{ "tone": 1, "pinyin": "ē" },
+			{ "tone": 2, "pinyin": "é" },
+			{ "tone": 3, "pinyin": "ě" },
+			{ "tone": 4, "pinyin": "è" }
+		]
+	},
+	{
+		"id": "vowel_i",
+		"syllable": "yi",
+		"tones": [
+			{ "tone": 1, "pinyin": "yī" },
+			{ "tone": 2, "pinyin": "yí" },
+			{ "tone": 3, "pinyin": "yǐ" },
+			{ "tone": 4, "pinyin": "yì" }
+		]
+	},
+	{
+		"id": "vowel_u",
+		"syllable": "wu",
+		"tones": [
+			{ "tone": 1, "pinyin": "wū" },
+			{ "tone": 2, "pinyin": "wú" },
+			{ "tone": 3, "pinyin": "wǔ" },
+			{ "tone": 4, "pinyin": "wù" }
+		]
+	},
+	{
+		"id": "vowel_v",
+		"syllable": "yu",
+		"tones": [
+			{ "tone": 1, "pinyin": "yū" },
+			{ "tone": 2, "pinyin": "yú" },
+			{ "tone": 3, "pinyin": "yǔ" },
+			{ "tone": 4, "pinyin": "yù" }
+		]
+	},
+	{
+		"id": "syl_ma",
+		"syllable": "ma",
+		"tones": [
+			{ "tone": 1, "pinyin": "mā" },
+			{ "tone": 2, "pinyin": "má" },
+			{ "tone": 3, "pinyin": "mǎ" },
+			{ "tone": 4, "pinyin": "mà" },
+			{ "tone": 0, "pinyin": "ma" }
+		]
+	},
+	{
+		"id": "syl_ba",
+		"syllable": "ba",
+		"tones": [
+			{ "tone": 1, "pinyin": "bā" },
+			{ "tone": 2, "pinyin": "bá" },
+			{ "tone": 3, "pinyin": "bǎ" },
+			{ "tone": 4, "pinyin": "bà" }
+		]
+	},
+	{
+		"id": "syl_ta",
+		"syllable": "ta",
+		"tones": [
+			{ "tone": 1, "pinyin": "tā" },
+			{ "tone": 2, "pinyin": "tá" },
+			{ "tone": 3, "pinyin": "tǎ" },
+			{ "tone": 4, "pinyin": "tà" }
+		]
+	}
+]
