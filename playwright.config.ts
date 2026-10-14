@@ -27,7 +27,9 @@ export default defineConfig({
 	},
 	projects: [{ name: "chromium", use: { ...devices["Desktop Chrome"] } }],
 	webServer: {
-		command: "corepack pnpm build && corepack pnpm preview",
+		command: process.env.CI
+			? "pnpm build && pnpm preview"
+			: "corepack pnpm build && corepack pnpm preview",
 		url: "http://localhost:4173",
 		reuseExistingServer: !process.env.CI,
 		timeout: 180_000,
