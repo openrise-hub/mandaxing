@@ -1,0 +1,55 @@
+# Dependencies
+node_modules/
+
+# Build output
+.svelte-kit/
+/build/
+.vercel/
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Tests and coverage
+coverage/
+test-results/
+playwright-report/
+playwright/.cache/
+
+# Logs
+*.log
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# AI agents and assistant tooling
+.agents/
+skills-lock.json
+AGENTS.md
+.commandcode/
+.claude/
+CLAUDE.md
+.cursor/
+.cursorrules
+.windsurf/
+.windsurfrules
+.aider*
+.codex/
+
+# Markdown
+*.md
+!README.md
+!LICENSE.md
+!CONTRIBUTING.md
+!CODE_OF_CONDUCT.md
+!SECURITY.md
+!SUPPORT.md
+!GOVERNANCE.md
+!CHANGELOG.md
+!PULL_REQUEST_TEMPLATE.md
+!.github/ISSUE_TEMPLATE/*.md
