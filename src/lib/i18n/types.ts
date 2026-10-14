@@ -86,4 +86,62 @@ export interface TranslationSchema {
 		importError: string;
 		exportError: string;
 	};
+	dashboard: {
+		tonesTitle: string;
+		tonesSubtitle: string;
+		hanziTitle: string;
+		hanziSubtitle: string;
+		sentencesTitle: string;
+		sentencesSubtitle: string;
+		vocabularyTitle: string;
+		vocabularySubtitle: string;
+		reviewTitle: string;
+		reviewSubtitle: string;
+		dueBadge: string;
+		currentBadge: string;
+		readerTitle: string;
+		readerSubtitle: string;
+		storiesBadge: string;
+	};
+	matrix: {
+		title: string;
+		subtitle: string;
+		searchPlaceholder: string;
+		practiceCategory: string;
+		wordsCount: string;
+		stability: string;
+		character: string;
+		pinyin: string;
+		meaning: string;
+	};
+	sentenceBuilder: {
+		title: string;
+		subtitle: string;
+		formula: string;
+		target: string;
+		trackTitle: string;
+		clear: string;
+		checkOrder: string;
+		availableTitle: string;
+		allPlaced: string;
+	};
+	reader: {
+		title: string;
+		subtitle: string;
+		speed: string;
+		showPinyin: string;
+		hidePinyin: string;
+		previousPassage: string;
+		nextPassage: string;
+		traceInStudio: string;
+	};
+	settings: {
+		title: string;
+		subtitle: string;
+		languageTitle: string;
+		languageSubtitle: string;
+		architectureTitle: string;
+		architectureDesc: string;
+		back: string;
+	};
 }
