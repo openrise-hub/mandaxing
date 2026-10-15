@@ -42,12 +42,6 @@
 }
 
 @layer base {
-	*,
-	*::before,
-	*::after {
-		border-radius: 0;
-	}
-
 	html {
 		background-color: var(--color-paper);
 		color: var(--color-ink);
@@ -113,7 +107,6 @@
 	.retro-badge-card {
 		background-color: var(--color-paper);
 		border: 1.5px solid var(--color-ink);
-		border-radius: 0;
 		box-shadow: var(--shadow-mechanical);
 		transition:
 			box-shadow 80ms ease,
