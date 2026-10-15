@@ -32,7 +32,7 @@
 
 	--shadow-mechanical: 3px 3px 0 0 var(--color-ink);
 	--shadow-linear-70s: 4px 4px 0 0 var(--color-ink);
-	--radius-mechanical: 3px;
+	--radius-mechanical: 0px;
 }
 
 @utility border-mech {
@@ -42,6 +42,12 @@
 }
 
 @layer base {
+	*,
+	*::before,
+	*::after {
+		border-radius: 0;
+	}
+
 	html {
 		background-color: var(--color-paper);
 		color: var(--color-ink);
@@ -66,14 +72,14 @@
 	.mech-card {
 		background-color: var(--color-card);
 		border: 1.5px solid var(--color-ink);
-		border-radius: var(--radius-mechanical);
+		border-radius: 0;
 		box-shadow: var(--shadow-mechanical);
 	}
 
 	.mech-btn {
 		background-color: var(--color-card);
 		border: 1.5px solid var(--color-ink);
-		border-radius: var(--radius-mechanical);
+		border-radius: 0;
 		box-shadow: var(--shadow-mechanical);
 		transition:
 			box-shadow 80ms ease,
@@ -99,6 +105,7 @@
 	.data-pill {
 		background-color: var(--color-panel);
 		border: 1px solid var(--color-ink);
+		border-radius: 0;
 		font-family: var(--font-mono);
 		letter-spacing: 0.03em;
 	}
@@ -106,7 +113,7 @@
 	.retro-badge-card {
 		background-color: var(--color-paper);
 		border: 1.5px solid var(--color-ink);
-		border-radius: 8px;
+		border-radius: 0;
 		box-shadow: var(--shadow-mechanical);
 		transition:
 			box-shadow 80ms ease,

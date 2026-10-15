@@ -10,7 +10,6 @@
 
 	let {
 		title = "Tones",
-		badgeNumber = "1/4",
 		onclick,
 		class: className = ""
 	}: Props = $props();
@@ -30,17 +29,12 @@
 	class="retro-badge-card flex flex-col justify-between p-2.5 cursor-pointer text-left focus-visible:ring-2 focus-visible:ring-offset-2 transition-transform w-full max-w-[190px] mx-auto {className}"
 	aria-label={title}
 >
-	<!-- Dark graphic container matching reference image -->
-	<div class="w-full aspect-square bg-[var(--color-ink)] rounded-md flex items-center justify-center p-3 overflow-hidden">
+	<div class="w-full aspect-square bg-[var(--color-ink)] flex items-center justify-center p-3 overflow-hidden">
 		<TonesVisual class="w-full h-full" />
 	</div>
 
-	<!-- Bottom Card Strip: Fraction on Left, Title on Right -->
-	<div class="w-full flex items-baseline justify-between pt-2 pb-0.5 px-1">
-		<span class="font-mono text-xs font-bold text-[var(--color-ink-muted)]">
-			{badgeNumber}
-		</span>
-		<span class="font-display text-sm md:text-base font-extrabold text-[var(--color-ink)] tracking-tight">
+	<div class="w-full pt-2 pb-0.5 text-center">
+		<span class="font-display text-sm md:text-base font-black text-[var(--color-ink)] tracking-tight block text-center">
 			{title}
 		</span>
 	</div>
