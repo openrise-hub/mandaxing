@@ -17,7 +17,7 @@ test.beforeEach(async ({ page }) => {
 			}),
 	);
 	await page.goto("/");
-	await page.getByRole("button", { name: "Hanzi Studio" }).click();
+	await page.getByRole("button", { name: "Hanzi", exact: true }).click();
 });
 
 test("accepts a trace along the guide and marks the character mastered", async ({

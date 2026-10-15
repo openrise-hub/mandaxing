@@ -52,14 +52,11 @@
 	];
 </script>
 
-<div class="relative flex items-center justify-center w-full aspect-square max-w-[140px] mx-auto {className}">
+<div class="relative flex items-center justify-center w-full h-full {className}">
 	<svg viewBox="0 0 160 160" class="w-full h-full" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-		<!-- Background Chamber -->
-		<rect x="6" y="6" width="148" height="148" rx="3" fill="#FFFFFF" stroke="#1E1B18" stroke-width="2" />
-
 		<!-- Dot Matrix (Badge 18 style) -->
 		{#each dots as dot}
-			<circle cx={dot.cx} cy={dot.cy} r={dot.r} fill={dot.color} stroke="#1E1B18" stroke-width="1.2" />
+			<circle cx={dot.cx} cy={dot.cy} r={dot.r} fill={dot.color} />
 		{/each}
 	</svg>
 </div>

@@ -13,12 +13,6 @@
 	onMount(() => {
 		void i18n.init();
 	});
-
-	const views = [
-		{ key: "lab", label: "toneLab" },
-		{ key: "studio", label: "hanziStudio" },
-		{ key: "review", label: "dailyReview" },
-	] as const;
 </script>
 
 <svelte:head>
@@ -29,31 +23,16 @@
 	<header class="border-ink border-b-[1.5px] bg-card">
 		<ToneStripeBanner />
 		<div
-			class="mx-auto grid w-full max-w-[1280px] grid-cols-4 items-center gap-x-3 gap-y-2 px-4 py-3 md:grid-cols-8 md:gap-x-4 md:px-6 lg:grid-cols-12 lg:gap-x-6 lg:px-8"
+			class="mx-auto flex w-full max-w-[1280px] items-center justify-between px-4 py-3 md:px-6 lg:px-8"
 		>
-			<div class="col-span-4 flex items-center gap-3 md:col-span-5 lg:col-span-8">
-				<button
-					type="button"
-					onclick={() => appView.set("dashboard")}
-					class="font-display text-lg font-bold tracking-tight hover:opacity-75 cursor-pointer text-left transition-opacity"
-				>
-					{t().common.appName}
-				</button>
-				<nav class="flex items-center gap-2">
-					{#each views as view (view.key)}
-						<button
-							type="button"
-							class="data-pill px-2 py-1 text-xs"
-							class:bg-card={appView.current === view.key}
-							aria-pressed={appView.current === view.key}
-							onclick={() => appView.set(view.key)}
-						>
-							{t().navigation[view.label]}
-						</button>
-					{/each}
-				</nav>
-			</div>
-			<div class="col-span-4 flex items-center justify-end gap-2 md:col-span-3 lg:col-span-4">
+			<button
+				type="button"
+				onclick={() => appView.set("dashboard")}
+				class="font-display text-xl font-black tracking-tight hover:opacity-75 cursor-pointer text-left transition-opacity"
+			>
+				{t().common.appName}
+			</button>
+			<div class="flex items-center gap-2">
 				<LanguageSwitcher />
 				<button
 					type="button"
@@ -73,8 +52,4 @@
 	<main class="mx-auto w-full max-w-[1280px] flex-1 px-4 py-6 md:px-6 lg:px-8">
 		{@render children()}
 	</main>
-
-	<footer class="border-ink border-t-[1.5px] bg-panel">
-		<div class="mx-auto w-full max-w-[1280px] px-4 py-3 md:px-6 lg:px-8"></div>
-	</footer>
 </div>

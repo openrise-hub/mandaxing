@@ -6,28 +6,69 @@
 	let { class: className = "" }: Props = $props();
 </script>
 
-<div class="relative flex items-center justify-center w-full aspect-square max-w-[140px] mx-auto {className}">
+<div class="relative flex items-center justify-center w-full h-full {className}">
 	<svg viewBox="0 0 160 160" class="w-full h-full" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-		<!-- Background Chamber -->
-		<rect x="6" y="6" width="148" height="148" rx="3" fill="#FFFFFF" stroke="#1E1B18" stroke-width="2" />
+		<defs>
+			<clipPath id="hanzi-stripe-1">
+				<rect x="0" y="0" width="160" height="44" />
+			</clipPath>
+			<clipPath id="hanzi-stripe-2">
+				<rect x="0" y="44" width="160" height="34" />
+			</clipPath>
+			<clipPath id="hanzi-stripe-3">
+				<rect x="0" y="78" width="160" height="36" />
+			</clipPath>
+			<clipPath id="hanzi-stripe-4">
+				<rect x="0" y="114" width="160" height="46" />
+			</clipPath>
+		</defs>
 
-		<!-- Outer Circle Ring (Tone 4 Mahogany) -->
-		<circle cx="80" cy="80" r="54" stroke="var(--color-tone-4, #7F1D1D)" stroke-width="8" />
+		<g clip-path="url(#hanzi-stripe-1)">
+			<text
+				x="80"
+				y="126"
+				text-anchor="middle"
+				font-family="'Noto Sans SC', sans-serif"
+				font-weight="900"
+				font-size="118"
+				fill="var(--color-tone-1, #F59E0B)"
+			>声</text>
+		</g>
 
-		<!-- Middle Outer Ring (Tone 3 Vermilion) -->
-		<circle cx="80" cy="80" r="44" stroke="var(--color-tone-3, #DC2626)" stroke-width="8" />
+		<g clip-path="url(#hanzi-stripe-2)">
+			<text
+				x="80"
+				y="126"
+				text-anchor="middle"
+				font-family="'Noto Sans SC', sans-serif"
+				font-weight="900"
+				font-size="118"
+				fill="var(--color-tone-2, #EA580C)"
+			>声</text>
+		</g>
 
-		<!-- Middle Inner Ring (Tone 2 Orange) -->
-		<circle cx="80" cy="80" r="34" stroke="var(--color-tone-2, #EA580C)" stroke-width="8" />
+		<g clip-path="url(#hanzi-stripe-3)">
+			<text
+				x="80"
+				y="126"
+				text-anchor="middle"
+				font-family="'Noto Sans SC', sans-serif"
+				font-weight="900"
+				font-size="118"
+				fill="var(--color-tone-3, #DC2626)"
+			>声</text>
+		</g>
 
-		<!-- Inner Ring (Tone 1 Yellow) -->
-		<circle cx="80" cy="80" r="24" stroke="var(--color-tone-1, #F59E0B)" stroke-width="8" />
-
-		<!-- Central Core -->
-		<circle cx="80" cy="80" r="14" fill="#1E1B18" />
-
-		<!-- Mechanical vertical slot cutout at bottom like Badge 32 -->
-		<rect x="74" y="80" width="12" height="58" fill="#FFFFFF" stroke="#1E1B18" stroke-width="1.5" />
-		<line x1="80" y1="94" x2="80" y2="136" stroke="#1E1B18" stroke-width="1.5" stroke-dasharray="3 3" />
+		<g clip-path="url(#hanzi-stripe-4)">
+			<text
+				x="80"
+				y="126"
+				text-anchor="middle"
+				font-family="'Noto Sans SC', sans-serif"
+				font-weight="900"
+				font-size="118"
+				fill="var(--color-tone-4, #7F1D1D)"
+			>声</text>
+		</g>
 	</svg>
 </div>

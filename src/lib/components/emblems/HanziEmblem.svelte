@@ -3,7 +3,6 @@
 
 	interface Props {
 		title?: string;
-		subtitle?: string;
 		onclick?: () => void;
 		class?: string;
 	}
@@ -22,28 +21,20 @@
 	}
 </script>
 
-<div
-	role="button"
-	tabindex="0"
+<button
+	type="button"
 	{onclick}
 	onkeydown={handleKeydown}
-	class="retro-badge-card flex flex-col justify-between p-5 cursor-pointer text-left focus-visible:ring-2 focus-visible:ring-offset-2 {className}"
+	class="retro-badge-card flex flex-col justify-between p-0 cursor-pointer text-left focus-visible:ring-2 focus-visible:ring-offset-2 transition-transform w-full max-w-[170px] mx-auto rounded-none overflow-hidden {className}"
 	aria-label={title}
 >
-	<div class="flex h-1.5 w-full mb-3 rounded-xs overflow-hidden">
-		<div class="flex-1 bg-[var(--color-tone-1)]"></div>
-		<div class="flex-1 bg-[var(--color-tone-2)]"></div>
-		<div class="flex-1 bg-[var(--color-tone-3)]"></div>
-		<div class="flex-1 bg-[var(--color-tone-4)]"></div>
+	<div class="w-full aspect-square bg-[var(--color-ink)] border-b-[1.5px] border-ink flex items-center justify-center p-3 sm:p-4 overflow-hidden">
+		<MizigeVisual class="w-full h-full" />
 	</div>
 
-	<div class="w-full my-auto flex justify-center py-3">
-		<MizigeVisual class="w-full max-w-[280px]" />
-	</div>
-
-	<div class="mt-3 pt-3 border-t border-[var(--color-ink)]/15">
-		<h2 class="font-display text-xl font-extrabold tracking-tight text-[var(--color-ink)]">
+	<div class="w-full bg-card py-2 text-center">
+		<span class="font-display text-sm md:text-base font-black text-ink tracking-tight block text-center uppercase">
 			{title}
-		</h2>
+		</span>
 	</div>
-</div>
+</button>

@@ -6,7 +6,7 @@ test("runs a blind ear-training round and records the response", async ({
 }) => {
 	await interceptAudioCdn(page);
 	await page.goto("/");
-	await page.getByRole("button", { name: "Tone Lab", exact: true }).click();
+	await page.getByRole("button", { name: "Tones", exact: true }).click();
 
 	await blindSection(page)
 		.getByRole("button", { name: "Listen", exact: true })

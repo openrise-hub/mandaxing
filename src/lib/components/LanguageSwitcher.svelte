@@ -9,12 +9,17 @@
 	}
 </script>
 
-<div class="flex items-center gap-1" role="group" aria-label={t().common.language}>
+<div
+	class="border-[1.5px] border-ink bg-panel p-[2px] inline-flex items-center select-none shadow-[2px_2px_0_0_var(--color-ink)]"
+	role="group"
+	aria-label={t().common.language}
+>
 	{#each options as option (option)}
 		<button
 			type="button"
-			class="mech-btn px-2 py-1 font-mono text-xs uppercase"
-			class:bg-panel={i18n.locale === option}
+			class="px-2.5 py-1 font-mono text-xs uppercase cursor-pointer transition-all border {i18n.locale === option
+				? 'bg-card font-black text-ink shadow-[1px_1px_0_0_var(--color-ink)] border-ink'
+				: 'bg-transparent font-medium text-ink-muted border-transparent hover:text-ink'}"
 			aria-pressed={i18n.locale === option}
 			onclick={() => select(option)}
 		>
