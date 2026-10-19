@@ -2,6 +2,7 @@
 	import './layout.css';
 	import ToneStripeBanner from "#lib/components/ToneStripeBanner.svelte";
 	import LanguageSwitcher from "#lib/components/LanguageSwitcher.svelte";
+	import SerpentineRibbon from "#lib/components/shapes/SerpentineRibbon.svelte";
 	import { i18n, t } from "#lib/i18n/index.svelte";
 	import { appView } from "#lib/state/app-view.svelte";
 	import favicon from "#lib/assets/favicon.svg";
@@ -19,7 +20,12 @@
 	<link rel="icon" href={favicon} />
 </svelte:head>
 
-<div class="flex min-h-dvh flex-col">
+<div class="relative flex min-h-dvh flex-col">
+	{#if appView.current !== "dashboard" && appView.current !== "settings"}
+		<div class="fixed top-[65px] inset-x-0 bottom-0 pointer-events-none -z-10 overflow-hidden select-none opacity-22" aria-hidden="true">
+			<SerpentineRibbon class="w-full h-full min-w-full min-h-full" />
+		</div>
+	{/if}
 	<header class="border-ink border-b-[1.5px] bg-card">
 		<ToneStripeBanner />
 		<div
