@@ -143,6 +143,7 @@ export const en: TranslationSchema = {
 		incorrect: "Incorrect",
 		finishTest: "Finish Test",
 		testResult: "Test Results",
+		flip: "Flip",
 	},
 	sentenceBuilder: {
 		title: "Sentence Builder",
@@ -154,7 +155,10 @@ export const en: TranslationSchema = {
 		checkOrder: "Check Order",
 		availableTitle: "Available Word Pool",
 		allPlaced: "All available words placed",
-		instruction: "Tap words below to place them in sequence…",
+		instruction: "Tap words below to place them in sequence",
+		slotNext: "Next",
+		wordsPlaced: "words placed",
+		tapToPlace: "Tap a word below to snap into slot",
 	},
 	reader: {
 		title: "Graded Reader",

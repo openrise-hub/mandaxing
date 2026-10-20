@@ -145,6 +145,7 @@ export const es: TranslationSchema = {
 		incorrect: "Incorrecto",
 		finishTest: "Finalizar Evaluación",
 		testResult: "Resultados de la Evaluación",
+		flip: "Voltear",
 	},
 	sentenceBuilder: {
 		title: "Constructor de Oraciones",
@@ -156,7 +157,10 @@ export const es: TranslationSchema = {
 		checkOrder: "Verificar Orden",
 		availableTitle: "Palabras Disponibles",
 		allPlaced: "Todas las palabras colocadas",
-		instruction: "Toque palabras abajo para colocarlas en orden…",
+		instruction: "Toque palabras abajo para colocarlas en orden",
+		slotNext: "Siguiente",
+		wordsPlaced: "palabras colocadas",
+		tapToPlace: "Toque una palabra abajo para colocarla en la ranura",
 	},
 	reader: {
 		title: "Lecturas Graduadas",

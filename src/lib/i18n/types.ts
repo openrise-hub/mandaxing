@@ -141,6 +141,7 @@ export interface TranslationSchema {
 		incorrect: string;
 		finishTest: string;
 		testResult: string;
+		flip: string;
 	};
 	sentenceBuilder: {
 		title: string;
@@ -153,6 +154,9 @@ export interface TranslationSchema {
 		availableTitle: string;
 		allPlaced: string;
 		instruction: string;
+		slotNext: string;
+		wordsPlaced: string;
+		tapToPlace: string;
 	};
 	reader: {
 		title: string;

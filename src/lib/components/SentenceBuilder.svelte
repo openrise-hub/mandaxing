@@ -8,6 +8,11 @@
 	let placed = $derived(syntaxAssembly.placedWords);
 	let available = $derived(syntaxAssembly.availablePool);
 	let validation = $derived(syntaxAssembly.validation);
+
+	let totalSlots = $derived(
+		Math.max(current.targetOrder.length, placed.length),
+	);
+	let slots = $derived(Array.from({ length: totalSlots }, (_, i) => i));
 </script>
 
 <div class="w-full max-w-5xl mx-auto px-4 py-6 md:py-8 flex flex-col gap-6">
@@ -39,11 +44,16 @@
 	</section>
 
 	<!-- Slot Assembly Track -->
-	<section class="mech-card p-6 flex flex-col gap-4 bg-paper/50 min-h-[140px]">
+	<section class="mech-card p-6 flex flex-col gap-4 bg-paper/50 min-h-[160px]">
 		<div class="flex items-center justify-between border-b border-ink/15 pb-2">
-			<span class="font-display text-xs font-bold uppercase tracking-wide text-ink-muted">
-				{t().sentenceBuilder.trackTitle}
-			</span>
+			<div class="flex items-center gap-2">
+				<span class="font-display text-xs font-bold uppercase tracking-wide text-ink-muted">
+					{t().sentenceBuilder.trackTitle}
+				</span>
+				<span class="data-pill px-2 py-0.5 text-[11px] font-mono tabular-nums text-ink-muted">
+					{placed.length} / {current.targetOrder.length} {t().sentenceBuilder.wordsPlaced}
+				</span>
+			</div>
 			{#if placed.length > 0}
 				<button
 					type="button"
@@ -56,26 +66,41 @@
 			{/if}
 		</div>
 
-		<!-- Placed Chips -->
-		<div class="flex flex-wrap items-center gap-3 min-h-[50px]">
-			{#if placed.length === 0}
-				<span class="font-mono text-sm text-ink-muted/60 italic">
-					{t().sentenceBuilder.instruction}
-				</span>
-			{:else}
-				{#each placed as word (word.id)}
-					<WordChip
-						{word}
-						inSlot={true}
-						onRemove={() => syntaxAssembly.removeWord(word.id)}
-					/>
-				{/each}
-			{/if}
+		<!-- Discrete Dashed Slot Grid -->
+		<div class="flex flex-wrap items-center gap-3 py-2 min-h-[70px]">
+			{#each slots as index (index)}
+				{#if index < placed.length && placed[index]}
+					{@const word = placed[index]}
+					<div class="relative group">
+						<WordChip
+							{word}
+							inSlot={true}
+							onRemove={() => syntaxAssembly.removeWord(word.id)}
+						/>
+					</div>
+				{:else if index === placed.length}
+					<!-- Active Target Slot -->
+					<div
+						class="min-h-[52px] min-w-[96px] px-3 py-2 border-2 border-dashed border-action bg-action/5 rounded-[2px] flex items-center justify-center gap-1.5 transition-all text-action"
+						title={t().sentenceBuilder.tapToPlace}
+					>
+						<span class="font-mono text-xs font-bold tabular-nums">#{index + 1}</span>
+						<span class="font-display text-xs font-bold uppercase tracking-wide">{t().sentenceBuilder.slotNext}</span>
+					</div>
+				{:else}
+					<!-- Pending Slot -->
+					<div
+						class="min-h-[52px] min-w-[80px] px-3 py-2 border-2 border-dashed border-ink/20 bg-paper/30 rounded-[2px] flex items-center justify-center text-ink-muted/50"
+					>
+						<span class="font-mono text-xs tabular-nums font-bold">#{index + 1}</span>
+					</div>
+				{/if}
+			{/each}
 		</div>
 
-		<!-- Validation Controls & Feedback -->
+		<!-- Validation Controls and Feedback -->
 		<div class="flex flex-wrap items-center justify-between gap-3 pt-3 border-t border-ink/15">
-			<div class="flex items-center gap-2">
+			<div class="flex items-center gap-3">
 				<button
 					type="button"
 					disabled={placed.length === 0}
@@ -84,6 +109,17 @@
 				>
 					{t().sentenceBuilder.checkOrder}
 				</button>
+
+				{#if validation?.valid && syntaxAssembly.currentIndex < syntaxAssembly.sentences.length - 1}
+					<button
+						type="button"
+						onclick={() => syntaxAssembly.next()}
+						class="mech-btn px-4 py-2 font-display text-sm font-bold bg-success text-white hover:bg-green-700 cursor-pointer transition-colors inline-flex items-center gap-1.5"
+					>
+						<span>{t().common.next}</span>
+						<span aria-hidden="true">→</span>
+					</button>
+				{/if}
 			</div>
 
 			<div role="status" aria-live="polite">
@@ -106,9 +142,14 @@
 
 	<!-- Available Word Tray -->
 	<section class="mech-card p-6 flex flex-col gap-3">
-		<span class="font-display text-xs font-bold uppercase tracking-wide text-ink-muted">
-			{t().sentenceBuilder.availableTitle}
-		</span>
+		<div class="flex items-center justify-between">
+			<span class="font-display text-xs font-bold uppercase tracking-wide text-ink-muted">
+				{t().sentenceBuilder.availableTitle}
+			</span>
+			<span class="font-mono text-xs text-ink-muted">
+				{t().sentenceBuilder.instruction}
+			</span>
+		</div>
 
 		<div class="flex flex-wrap gap-3 pt-1">
 			{#each available as word (word.id)}
@@ -133,7 +174,7 @@
 			onclick={() => syntaxAssembly.previous()}
 			class="mech-btn px-4 py-2 font-display text-sm font-bold disabled:opacity-30 cursor-pointer inline-flex items-center gap-1.5"
 		>
-			<span aria-hidden="true">&larr;</span>
+			<span aria-hidden="true">←</span>
 			<span>{t().common.previous}</span>
 		</button>
 		<button
@@ -143,7 +184,7 @@
 			class="mech-btn px-4 py-2 font-display text-sm font-bold disabled:opacity-30 cursor-pointer inline-flex items-center gap-1.5"
 		>
 			<span>{t().common.next}</span>
-			<span aria-hidden="true">&rarr;</span>
+			<span aria-hidden="true">→</span>
 		</button>
 	</div>
 </div>
