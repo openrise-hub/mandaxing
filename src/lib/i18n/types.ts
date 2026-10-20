@@ -13,6 +13,10 @@ export interface TranslationSchema {
 		playAudio: string;
 		previous: string;
 		next: string;
+		skipToContent: string;
+		backToDashboard: string;
+		clear: string;
+		search: string;
 	};
 	navigation: {
 		toneLab: string;
@@ -113,6 +117,8 @@ export interface TranslationSchema {
 		character: string;
 		pinyin: string;
 		meaning: string;
+		audio: string;
+		noResults: string;
 	};
 	sentenceBuilder: {
 		title: string;
@@ -124,6 +130,7 @@ export interface TranslationSchema {
 		checkOrder: string;
 		availableTitle: string;
 		allPlaced: string;
+		instruction: string;
 	};
 	reader: {
 		title: string;
@@ -134,6 +141,8 @@ export interface TranslationSchema {
 		previousPassage: string;
 		nextPassage: string;
 		traceInStudio: string;
+		playSentence: string;
+		characterLookup: string;
 	};
 	settings: {
 		title: string;

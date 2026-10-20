@@ -3,7 +3,7 @@ import type { TranslationSchema } from "#lib/i18n/types";
 export const en: TranslationSchema = {
 	common: {
 		appName: "Mandaxing",
-		loading: "Loading...",
+		loading: "Loading…",
 		valid: "Correct",
 		retry: "Try again",
 		accuracy: "Accuracy",
@@ -13,6 +13,10 @@ export const en: TranslationSchema = {
 		playAudio: "Play pronunciation",
 		previous: "Previous",
 		next: "Next",
+		skipToContent: "Skip to main content",
+		backToDashboard: "Home",
+		clear: "Clear",
+		search: "Search",
 	},
 	navigation: {
 		toneLab: "Tone Lab",
@@ -108,13 +112,15 @@ export const en: TranslationSchema = {
 	matrix: {
 		title: "Vocabulary Matrix",
 		subtitle: "Core high-yield vocabulary across 8 grammatical categories",
-		searchPlaceholder: "Search by character, pinyin, or meaning...",
+		searchPlaceholder: "Search by character, pinyin, or meaning…",
 		practiceCategory: "Practice Category",
 		wordsCount: "words in category",
 		stability: "Stability",
 		character: "Character",
 		pinyin: "Pinyin",
 		meaning: "Meaning",
+		audio: "Audio",
+		noResults: "No matching vocabulary found",
 	},
 	sentenceBuilder: {
 		title: "Sentence Builder",
@@ -126,6 +132,7 @@ export const en: TranslationSchema = {
 		checkOrder: "Check Order",
 		availableTitle: "Available Word Pool",
 		allPlaced: "All available words placed",
+		instruction: "Tap words below to place them in sequence…",
 	},
 	reader: {
 		title: "Graded Reader",
@@ -136,6 +143,8 @@ export const en: TranslationSchema = {
 		previousPassage: "Previous Passage",
 		nextPassage: "Next Passage",
 		traceInStudio: "Trace in Hanzi Studio",
+		playSentence: "Play sentence audio",
+		characterLookup: "Click to view character details",
 	},
 	settings: {
 		title: "Settings & Data",

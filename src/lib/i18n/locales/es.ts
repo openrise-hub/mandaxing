@@ -3,7 +3,7 @@ import type { TranslationSchema } from "#lib/i18n/types";
 export const es: TranslationSchema = {
 	common: {
 		appName: "Mandaxing",
-		loading: "Cargando...",
+		loading: "Cargando…",
 		valid: "Correcto",
 		retry: "Intenta de nuevo",
 		accuracy: "Precisión",
@@ -13,6 +13,10 @@ export const es: TranslationSchema = {
 		playAudio: "Reproducir pronunciación",
 		previous: "Anterior",
 		next: "Siguiente",
+		skipToContent: "Saltar al contenido principal",
+		backToDashboard: "Inicio",
+		clear: "Limpiar",
+		search: "Buscar",
 	},
 	navigation: {
 		toneLab: "Laboratorio de tonos",
@@ -110,13 +114,15 @@ export const es: TranslationSchema = {
 	matrix: {
 		title: "Matriz de Vocabulario",
 		subtitle: "Vocabulario esencial en 8 categorías gramaticales",
-		searchPlaceholder: "Buscar por caracter, pinyin o significado...",
+		searchPlaceholder: "Buscar por carácter, pinyin o significado…",
 		practiceCategory: "Practicar Categoría",
 		wordsCount: "palabras en categoría",
 		stability: "Estabilidad",
-		character: "Caracter",
+		character: "Carácter",
 		pinyin: "Pinyin",
 		meaning: "Significado",
+		audio: "Audio",
+		noResults: "No se encontraron palabras coincidentes",
 	},
 	sentenceBuilder: {
 		title: "Constructor de Oraciones",
@@ -128,6 +134,7 @@ export const es: TranslationSchema = {
 		checkOrder: "Verificar Orden",
 		availableTitle: "Palabras Disponibles",
 		allPlaced: "Todas las palabras colocadas",
+		instruction: "Toque palabras abajo para colocarlas en orden…",
 	},
 	reader: {
 		title: "Lecturas Graduadas",
@@ -138,6 +145,8 @@ export const es: TranslationSchema = {
 		previousPassage: "Texto Anterior",
 		nextPassage: "Siguiente Texto",
 		traceInStudio: "Practicar Trazo en Hanzi Studio",
+		playSentence: "Reproducir audio de la oración",
+		characterLookup: "Clic para ver detalles del carácter",
 	},
 	settings: {
 		title: "Ajustes y Datos",
