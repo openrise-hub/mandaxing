@@ -126,7 +126,7 @@
 						{#if gradedReader.activeSentenceId === sentence.id}
 							<span>…</span>
 						{:else}
-							<span aria-hidden="true">&#9658;</span>
+							<span aria-hidden="true">▶</span>
 						{/if}
 					</button>
 				</div>
@@ -152,7 +152,7 @@
 			onclick={() => gradedReader.previousPassage()}
 			class="mech-btn px-4 py-2 font-display text-sm font-bold disabled:opacity-30 cursor-pointer inline-flex items-center gap-1.5"
 		>
-			<span aria-hidden="true">&larr;</span>
+			<span aria-hidden="true">←</span>
 			<span>{t().reader.previousPassage}</span>
 		</button>
 		<button
@@ -162,7 +162,7 @@
 			class="mech-btn px-4 py-2 font-display text-sm font-bold disabled:opacity-30 cursor-pointer inline-flex items-center gap-1.5"
 		>
 			<span>{t().reader.nextPassage}</span>
-			<span aria-hidden="true">&rarr;</span>
+			<span aria-hidden="true">→</span>
 		</button>
 	</div>
 </div>

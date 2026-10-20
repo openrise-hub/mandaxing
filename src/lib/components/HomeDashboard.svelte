@@ -100,7 +100,7 @@
 					</span>
 				{/if}
 				<span class="text-ink font-bold text-sm opacity-60 group-hover:opacity-100 group-hover:translate-x-0.5 transition-all" aria-hidden="true">
-					&rarr;
+					→
 				</span>
 			</div>
 		</button>

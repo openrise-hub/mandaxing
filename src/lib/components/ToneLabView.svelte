@@ -28,7 +28,7 @@
 	let current = $derived(lab.currentStimulus);
 	let busy = $derived(lab.status === "loading" || lab.status === "evaluating");
 	let canUse = $derived(
-		!!current && !lab.currentUnavailable && lab.status !== "offline",
+		Boolean(current) && !lab.currentUnavailable && lab.status !== "offline",
 	);
 	let blindBusy = $derived(
 		lab.status === "loading" || lab.status === "playing",
@@ -36,7 +36,7 @@
 
 	function translationFor(stimulus = current): string {
 		if (!stimulus) return "";
-		if (stimulus.en === "" && stimulus.tones.length === 1) {
+		if (stimulus.en === "" && stimulus.tones?.length === 1) {
 			const key = toneKeys[(stimulus.tones[0] ?? 0) as keyof typeof toneKeys];
 			const tone = t().toneLab.tones[key];
 			return `${tone.name}: ${tone.description}`;
@@ -83,7 +83,7 @@
 						{t().toneLab.listeningPadTitle}
 					</span>
 					<span class="font-display text-sm font-bold opacity-70 group-hover:opacity-100 group-hover:translate-x-1 transition-all" aria-hidden="true">
-						&rarr;
+						→
 					</span>
 				</div>
 				<h2 class="font-display text-xl font-bold text-ink">
@@ -104,7 +104,7 @@
 						{t().common.appName}
 					</span>
 					<span class="font-display text-sm font-bold opacity-70 group-hover:opacity-100 group-hover:translate-x-1 transition-all" aria-hidden="true">
-						&rarr;
+						→
 					</span>
 				</div>
 				<h2 class="font-display text-xl font-bold text-ink">
@@ -122,7 +122,7 @@
 					{t().toneLab.dictionaryTab}
 				</h2>
 				<span class="font-mono text-xs text-ink-muted tabular-nums">
-					{lab.stimuli.length} {t().matrix.wordsCount}
+					{lab.list.length} {t().matrix.wordsCount}
 				</span>
 			</div>
 			<div class="overflow-x-auto">
@@ -137,7 +137,7 @@
 						</tr>
 					</thead>
 					<tbody class="divide-y divide-ink/15">
-						{#each lab.stimuli as item, idx (item.id)}
+						{#each lab.list as item, idx (item.id)}
 							<tr class="hover:bg-panel/40 transition-colors">
 								<td class="py-3 px-4 font-mono text-base font-bold text-ink">
 									{item.pinyin}
@@ -162,13 +162,13 @@
 									<button
 										type="button"
 										onclick={() => {
-											lab.setIndex(idx - lab.currentIndex);
+											lab.setIndex(idx - lab.index);
 											void lab.play();
 										}}
 										class="mech-btn px-2.5 py-1 text-xs font-mono inline-flex items-center gap-1 cursor-pointer"
 										aria-label="{t().common.playAudio}: {item.pinyin}"
 									>
-										<span aria-hidden="true">&#9658;</span>
+										<span aria-hidden="true">▶</span>
 									</button>
 								</td>
 							</tr>
@@ -194,7 +194,7 @@
 					disabled={blindBusy}
 					onclick={() => void lab.playBlindPrompt()}
 				>
-					<span aria-hidden="true">&#9658;</span>
+					<span aria-hidden="true">▶</span>
 					<span>{t().toneLab.playReference}</span>
 				</button>
 
@@ -226,14 +226,14 @@
 					class="mech-btn px-4 py-2 font-display text-sm font-bold cursor-pointer"
 					onclick={() => { viewMode = "dictionary"; }}
 				>
-					&larr; {t().toneLab.backToDictionary}
+					← {t().toneLab.backToDictionary}
 				</button>
 				<button
 					type="button"
 					class="mech-btn px-4 py-2 font-display text-sm font-bold cursor-pointer"
 					onclick={() => void lab.playBlindPrompt()}
 				>
-					{t().common.next} &rarr;
+					{t().common.next} →
 				</button>
 			</div>
 		</div>

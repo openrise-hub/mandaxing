@@ -52,7 +52,7 @@
 
 	{#if inSlot}
 		<span class="text-xs text-[var(--color-ink-muted)] group-hover:text-[var(--color-alert)] ml-1 font-bold">
-			&times;
+			×
 		</span>
 	{/if}
 </button>
