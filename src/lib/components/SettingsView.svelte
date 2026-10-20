@@ -9,6 +9,7 @@
 	<SectionHeader
 		title={t().settings.title}
 		subtitle={t().settings.subtitle}
+		backLabel={t().settings.back}
 	/>
 
 	<section class="mech-card p-6 flex flex-col gap-3">
