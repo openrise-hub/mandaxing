@@ -44,6 +44,12 @@ export interface TranslationSchema {
 			tone4: { name: string; description: string };
 			neutral: { name: string; description: string };
 		};
+		listenAndPick: string;
+		listenAndPickDesc: string;
+		speakAndMatch: string;
+		speakAndMatchDesc: string;
+		dictionaryTab: string;
+		backToDictionary: string;
 	};
 	wordBank: {
 		title: string;
@@ -119,6 +125,22 @@ export interface TranslationSchema {
 		meaning: string;
 		audio: string;
 		noResults: string;
+		flashcards: string;
+		learn: string;
+		match: string;
+		test: string;
+		wordList: string;
+		flipHint: string;
+		score: string;
+		matchPrompt: string;
+		matchComplete: string;
+		seconds: string;
+		playAgain: string;
+		question: string;
+		correct: string;
+		incorrect: string;
+		finishTest: string;
+		testResult: string;
 	};
 	sentenceBuilder: {
 		title: string;
