@@ -333,16 +333,15 @@
 	</div>
 
 	<!-- 8 Category Tabs -->
-	<div class="flex flex-wrap items-center gap-2" role="tablist" aria-label={t().matrix.title}>
+	<div class="flex flex-wrap items-center gap-2" aria-label={t().matrix.title}>
 		{#each CATEGORIES as cat (cat.key)}
 			<button
 				type="button"
-				role="tab"
 				class="data-pill px-3 py-1.5 text-xs font-bold transition-all cursor-pointer"
 				class:bg-card={wordMatrix.selectedCategory === cat.key}
 				class:text-ink={wordMatrix.selectedCategory === cat.key}
 				class:shadow-[2px_2px_0px_#1E1B18]={wordMatrix.selectedCategory === cat.key}
-				aria-selected={wordMatrix.selectedCategory === cat.key}
+				aria-pressed={wordMatrix.selectedCategory === cat.key}
 				onclick={() => handleCategoryChange(cat.key)}
 			>
 				{i18n.current === "es" ? cat.labelEs : cat.labelEn}

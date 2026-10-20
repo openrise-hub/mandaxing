@@ -7,6 +7,7 @@ test("records the microphone input and shows an accuracy score", async ({
 	await interceptAudioCdn(page);
 	await page.goto("/");
 	await page.getByRole("button", { name: "Tones", exact: true }).click();
+	await page.getByRole("button", { name: /Speak and Match/i }).click();
 
 	await page.getByRole("button", { name: "Record", exact: true }).click();
 	await expect(page.getByRole("button", { name: "Stop" })).toBeVisible();

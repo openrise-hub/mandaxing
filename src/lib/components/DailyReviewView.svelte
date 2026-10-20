@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { onMount } from "svelte";
 	import { Rating, type Grade } from "ts-fsrs";
+	import BackupControls from "#lib/components/BackupControls.svelte";
 	import RatingControlBar from "#lib/components/RatingControlBar.svelte";
 	import SectionHeader from "#lib/components/SectionHeader.svelte";
 	import SRSCard from "#lib/components/SRSCard.svelte";
@@ -72,4 +73,6 @@
 			<p class="text-sm text-ink-muted">{t().srs.emptyState}</p>
 		</div>
 	{/if}
+
+	<BackupControls />
 </div>

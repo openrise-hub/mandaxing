@@ -19,11 +19,7 @@
 	<SectionHeader
 		title={t().sentenceBuilder.title}
 		subtitle={t().sentenceBuilder.subtitle}
-	>
-		<span class="data-pill px-2.5 py-1 text-xs font-mono tabular-nums font-bold">
-			{t().sentenceBuilder.target} {syntaxAssembly.currentIndex + 1} / {syntaxAssembly.sentences.length}
-		</span>
-	</SectionHeader>
+	/>
 
 	<!-- Target Prompt Card -->
 	<section class="mech-card p-6 flex flex-col gap-3">

@@ -32,7 +32,7 @@
 		subtitle={t().hanziStudio.subtitle}
 	>
 		<span class="data-pill px-2.5 py-1 text-xs font-mono tabular-nums font-bold">
-			{t().hanziStudio.strokesLabel}: {studio.completedStrokes}/{studio.totalStrokes}
+			{t().hanziStudio.strokesLabel} {studio.completedStrokes}/{studio.totalStrokes}
 		</span>
 	</SectionHeader>
 

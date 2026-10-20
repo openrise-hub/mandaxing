@@ -188,6 +188,7 @@
 
 		<div class="mx-auto flex w-full max-w-xl flex-col gap-6">
 			<section class="mech-card p-6 flex flex-col items-center gap-5 text-center">
+				<h2 class="sr-only">Ear Training</h2>
 				<button
 					type="button"
 					class="mech-btn px-6 py-4 font-display text-lg font-bold disabled:opacity-40 cursor-pointer inline-flex items-center gap-2"

@@ -99,7 +99,7 @@ test.describe("Home dashboard navigation", () => {
 	}) => {
 		await page.getByRole("button", { name: /Settings/i }).click();
 		await expect(
-			page.getByRole("heading", { name: /Settings & Data/i }),
+			page.getByRole("heading", { name: /Settings (&|and) Data/i }),
 		).toBeVisible();
 
 		await page.getByRole("button", { name: "Back", exact: true }).click();
