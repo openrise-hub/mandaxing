@@ -1,8 +1,8 @@
 <script lang="ts">
 	import { onMount } from "svelte";
 	import { Rating, type Grade } from "ts-fsrs";
-	import BackupControls from "#lib/components/BackupControls.svelte";
 	import RatingControlBar from "#lib/components/RatingControlBar.svelte";
+	import SectionHeader from "#lib/components/SectionHeader.svelte";
 	import SRSCard from "#lib/components/SRSCard.svelte";
 	import { t } from "#lib/i18n/index.svelte";
 	import { review } from "#lib/state/daily-review.svelte";
@@ -37,29 +37,19 @@
 
 <svelte:window onkeydown={handleKeydown} />
 
-<section class="flex flex-col gap-4">
-	<div class="flex flex-wrap items-end justify-between gap-2">
-		<div class="flex flex-col gap-1">
-			<div class="flex h-1.5 w-24 mb-1 rounded-xs overflow-hidden">
-				<div class="flex-1 bg-[var(--color-tone-1)]"></div>
-				<div class="flex-1 bg-[var(--color-tone-2)]"></div>
-				<div class="flex-1 bg-[var(--color-tone-3)]"></div>
-				<div class="flex-1 bg-[var(--color-tone-4)]"></div>
-			</div>
-			<h1 class="font-display text-2xl font-bold">{t().srs.title}</h1>
-			<p class="text-sm text-ink-muted">{t().srs.subtitle}</p>
-		</div>
-		<span class="data-pill px-2 py-1 text-xs">
+<div class="w-full max-w-5xl mx-auto px-4 py-6 md:py-8 flex flex-col gap-6">
+	<SectionHeader title={t().srs.title} subtitle={t().srs.subtitle}>
+		<span class="data-pill px-2.5 py-1 text-xs font-mono tabular-nums font-bold">
 			{t().srs.dueCount}: {review.dueCount}
 		</span>
-	</div>
+	</SectionHeader>
 
 	{#if review.status === "loading"}
-		<p class="mech-card p-4 text-sm">{t().common.loading}</p>
+		<p class="mech-card p-4 text-sm font-sans">{t().common.loading}</p>
 	{:else if review.status === "offline"}
-		<p class="mech-card p-4 text-sm">{t().common.offline}</p>
+		<p class="mech-card p-4 text-sm font-sans">{t().common.offline}</p>
 	{:else if current}
-		<div class="mx-auto flex w-full max-w-xl flex-col gap-3">
+		<div class="mx-auto flex w-full max-w-xl flex-col gap-4">
 			<SRSCard
 				view={current}
 				revealed={review.revealed}
@@ -75,11 +65,11 @@
 					onGrade={(rating) => void review.grade(rating)}
 				/>
 			{/if}
-			<p class="text-center text-xs text-ink-muted">{t().srs.shortcutsHint}</p>
+			<p class="text-center text-xs text-ink-muted font-mono">{t().srs.shortcutsHint}</p>
 		</div>
 	{:else}
-		<p class="mech-card p-4 text-sm">{t().srs.emptyState}</p>
+		<div class="mech-card p-6 text-center flex flex-col items-center gap-3 max-w-md mx-auto">
+			<p class="text-sm text-ink-muted">{t().srs.emptyState}</p>
+		</div>
 	{/if}
-
-	<BackupControls />
-</section>
+</div>

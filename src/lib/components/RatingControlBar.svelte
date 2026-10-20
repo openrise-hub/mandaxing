@@ -34,19 +34,25 @@
 </script>
 
 <section class="grid grid-cols-2 gap-2 md:grid-cols-4">
-	{#each previews as preview (preview.rating)}
+	{#each previews as preview, i (preview.rating)}
 		<button
 			type="button"
-			class="mech-btn flex flex-col items-center gap-1 px-3 py-3 text-card disabled:opacity-40 {colors[
+			class="mech-btn flex flex-col items-center gap-1.5 px-3 py-3 text-card disabled:opacity-40 cursor-pointer {colors[
 				preview.rating
 			]}"
 			disabled={disabled}
 			onclick={() => onGrade(preview.rating)}
+			aria-label="{i + 1}: {t().srs.ratings[labels[preview.rating]]} ({formatInterval(preview.intervalMinutes)})"
 		>
-			<span class="font-display text-sm font-bold">
-				{t().srs.ratings[labels[preview.rating]]}
-			</span>
-			<span class="font-mono text-xs">{formatInterval(preview.intervalMinutes)}</span>
+			<div class="flex items-center gap-1.5">
+				<span class="inline-flex items-center justify-center w-4 h-4 bg-black/25 text-white font-mono text-[10px] font-bold rounded-xs">
+					{i + 1}
+				</span>
+				<span class="font-display text-sm font-bold">
+					{t().srs.ratings[labels[preview.rating]]}
+				</span>
+			</div>
+			<span class="font-mono text-xs tabular-nums opacity-90">{formatInterval(preview.intervalMinutes)}</span>
 		</button>
 	{/each}
 </section>
