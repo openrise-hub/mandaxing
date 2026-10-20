@@ -161,11 +161,13 @@
 						onclick={() => toggleToneFilter(1)}
 					>
 						<div class="flex items-center justify-between">
-							<span class="font-mono text-xs font-bold text-ink">T1 (55)</span>
-							<span class="font-mono text-sm font-bold text-tone-1">¯</span>
+							<span class="data-pill px-2 py-0.5 text-xs text-card font-bold" style="background-color: var(--color-tone-1);">
+								T1
+							</span>
+							<span class="font-mono text-base font-bold text-tone-1">¯</span>
 						</div>
 						<div class="font-display text-xs font-bold text-ink">
-							{t().toneLab.tones.tone1.name}
+							{t().toneLab.tones.tone1.name} · {t().toneLab.pitchShapes.tone1}
 						</div>
 						<div class="font-sans text-[11px] text-ink-muted leading-tight">
 							{t().toneLab.tone1Cue}
@@ -181,11 +183,13 @@
 						onclick={() => toggleToneFilter(2)}
 					>
 						<div class="flex items-center justify-between">
-							<span class="font-mono text-xs font-bold text-ink">T2 (35)</span>
-							<span class="font-mono text-sm font-bold text-tone-2">´</span>
+							<span class="data-pill px-2 py-0.5 text-xs text-card font-bold" style="background-color: var(--color-tone-2);">
+								T2
+							</span>
+							<span class="font-mono text-base font-bold text-tone-2">´</span>
 						</div>
 						<div class="font-display text-xs font-bold text-ink">
-							{t().toneLab.tones.tone2.name}
+							{t().toneLab.tones.tone2.name} · {t().toneLab.pitchShapes.tone2}
 						</div>
 						<div class="font-sans text-[11px] text-ink-muted leading-tight">
 							{t().toneLab.tone2Cue}
@@ -201,11 +205,13 @@
 						onclick={() => toggleToneFilter(3)}
 					>
 						<div class="flex items-center justify-between">
-							<span class="font-mono text-xs font-bold text-ink">T3 (214)</span>
-							<span class="font-mono text-sm font-bold text-tone-3">ˇ</span>
+							<span class="data-pill px-2 py-0.5 text-xs text-card font-bold" style="background-color: var(--color-tone-3);">
+								T3
+							</span>
+							<span class="font-mono text-base font-bold text-tone-3">ˇ</span>
 						</div>
 						<div class="font-display text-xs font-bold text-ink">
-							{t().toneLab.tones.tone3.name}
+							{t().toneLab.tones.tone3.name} · {t().toneLab.pitchShapes.tone3}
 						</div>
 						<div class="font-sans text-[11px] text-ink-muted leading-tight">
 							{t().toneLab.tone3Cue}
@@ -221,11 +227,13 @@
 						onclick={() => toggleToneFilter(4)}
 					>
 						<div class="flex items-center justify-between">
-							<span class="font-mono text-xs font-bold text-ink">T4 (51)</span>
-							<span class="font-mono text-sm font-bold text-tone-4">`</span>
+							<span class="data-pill px-2 py-0.5 text-xs text-card font-bold" style="background-color: var(--color-tone-4);">
+								T4
+							</span>
+							<span class="font-mono text-base font-bold text-tone-4">`</span>
 						</div>
 						<div class="font-display text-xs font-bold text-ink">
-							{t().toneLab.tones.tone4.name}
+							{t().toneLab.tones.tone4.name} · {t().toneLab.pitchShapes.tone4}
 						</div>
 						<div class="font-sans text-[11px] text-ink-muted leading-tight">
 							{t().toneLab.tone4Cue}
@@ -241,11 +249,13 @@
 						onclick={() => toggleToneFilter(0)}
 					>
 						<div class="flex items-center justify-between">
-							<span class="font-mono text-xs font-bold text-ink">T0 (0)</span>
-							<span class="font-mono text-sm font-bold text-ink-muted">·</span>
+							<span class="data-pill px-2 py-0.5 text-xs text-card font-bold" style="background-color: var(--color-tone-neutral);">
+								T0
+							</span>
+							<span class="font-mono text-base font-bold text-ink-muted">·</span>
 						</div>
 						<div class="font-display text-xs font-bold text-ink">
-							{t().toneLab.tones.neutral.name}
+							{t().toneLab.tones.neutral.name} · {t().toneLab.pitchShapes.neutral}
 						</div>
 						<div class="font-sans text-[11px] text-ink-muted leading-tight">
 							{t().toneLab.neutralCue}

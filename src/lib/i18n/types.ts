@@ -57,6 +57,13 @@ export interface TranslationSchema {
 		toneGuideTitle: string;
 		toneGuideSubtitle: string;
 		contrastColumn: string;
+		pitchShapes: {
+			tone1: string;
+			tone2: string;
+			tone3: string;
+			tone4: string;
+			neutral: string;
+		};
 		tone1Cue: string;
 		tone2Cue: string;
 		tone3Cue: string;
