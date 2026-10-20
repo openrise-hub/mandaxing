@@ -130,6 +130,10 @@ class ToneLab {
 		return this.minimalList;
 	}
 
+	get stimuli(): Stimulus[] {
+		return this.list;
+	}
+
 	get currentStimulus(): Stimulus | undefined {
 		return this.override ?? this.list[this.index];
 	}

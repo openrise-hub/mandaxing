@@ -54,7 +54,7 @@
 			{t().toneLab.recordVoice}
 		</button>
 	{/if}
-	<div class="ml-auto flex items-center gap-2">
+	<div class="ml-auto flex items-center gap-2" role="status" aria-live="polite">
 		{#if offline}
 			<span class="data-pill px-2 py-1 text-xs">{t().common.offline}</span>
 		{:else if unavailable}
@@ -62,11 +62,11 @@
 		{:else if busy}
 			<span class="data-pill px-2 py-1 text-xs">{t().common.loading}</span>
 		{:else if result}
-			<span class="data-pill px-2 py-1 text-xs">
+			<span class="data-pill px-2 py-1 text-xs font-mono tabular-nums">
 				{t().common.accuracy}: {result.score}%
 			</span>
 			<span
-				class="data-pill px-2 py-1 text-xs text-card"
+				class="data-pill px-2 py-1 text-xs text-card font-bold"
 				class:bg-success={result.passed}
 				class:bg-alert={!result.passed}
 			>

@@ -13,6 +13,10 @@ export interface TranslationSchema {
 		playAudio: string;
 		previous: string;
 		next: string;
+		skipToContent: string;
+		backToDashboard: string;
+		clear: string;
+		search: string;
 	};
 	navigation: {
 		toneLab: string;
@@ -40,6 +44,12 @@ export interface TranslationSchema {
 			tone4: { name: string; description: string };
 			neutral: { name: string; description: string };
 		};
+		listenAndPick: string;
+		listenAndPickDesc: string;
+		speakAndMatch: string;
+		speakAndMatchDesc: string;
+		dictionaryTab: string;
+		backToDictionary: string;
 	};
 	wordBank: {
 		title: string;
@@ -113,6 +123,25 @@ export interface TranslationSchema {
 		character: string;
 		pinyin: string;
 		meaning: string;
+		audio: string;
+		noResults: string;
+		flashcards: string;
+		learn: string;
+		match: string;
+		test: string;
+		wordList: string;
+		flipHint: string;
+		score: string;
+		matchPrompt: string;
+		matchComplete: string;
+		seconds: string;
+		playAgain: string;
+		question: string;
+		correct: string;
+		incorrect: string;
+		finishTest: string;
+		testResult: string;
+		flip: string;
 	};
 	sentenceBuilder: {
 		title: string;
@@ -124,6 +153,10 @@ export interface TranslationSchema {
 		checkOrder: string;
 		availableTitle: string;
 		allPlaced: string;
+		instruction: string;
+		slotNext: string;
+		wordsPlaced: string;
+		tapToPlace: string;
 	};
 	reader: {
 		title: string;
@@ -134,6 +167,8 @@ export interface TranslationSchema {
 		previousPassage: string;
 		nextPassage: string;
 		traceInStudio: string;
+		playSentence: string;
+		characterLookup: string;
 	};
 	settings: {
 		title: string;

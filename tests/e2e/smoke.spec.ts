@@ -40,6 +40,7 @@ test("disables playback honestly when the CDN has no audio", async ({
 	await blockAudioCdn(page);
 	await page.goto("/");
 	await page.getByRole("button", { name: "Tones", exact: true }).click();
+	await page.getByRole("button", { name: /Speak and Match/i }).click();
 
 	const controlListen = page
 		.getByRole("button", { name: "Listen", exact: true })

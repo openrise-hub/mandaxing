@@ -21,6 +21,12 @@
 </svelte:head>
 
 <div class="relative flex min-h-dvh flex-col">
+	<a
+		href="#main-content"
+		class="sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-50 focus:px-3 focus:py-1.5 focus:bg-card focus:text-ink focus:border-mech focus:font-display focus:text-xs focus:font-bold shadow-[2px_2px_0px_#1E1B18]"
+	>
+		{t().common.skipToContent}
+	</a>
 	{#if appView.current !== "dashboard" && appView.current !== "settings"}
 		<div class="fixed top-[65px] inset-x-0 bottom-0 pointer-events-none -z-10 overflow-hidden select-none opacity-22" aria-hidden="true">
 			<SerpentineRibbon class="w-full h-full min-w-full min-h-full" />
@@ -43,8 +49,8 @@
 				<button
 					type="button"
 					class="mech-btn p-1.5 text-xs flex items-center justify-center cursor-pointer"
-					title={i18n.current === "es" ? "Ajustes y Datos" : "Settings & Data"}
-					aria-label={i18n.current === "es" ? "Ajustes y Datos" : "Settings & Data"}
+					title={t().settings.title}
+					aria-label={t().settings.title}
 					onclick={() => appView.set("settings")}
 				>
 					<svg class="w-4 h-4" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
@@ -55,7 +61,7 @@
 		</div>
 	</header>
 
-	<main class="mx-auto w-full max-w-[1280px] flex-1 px-4 py-6 md:px-6 lg:px-8">
+	<main id="main-content" class="mx-auto w-full max-w-[1280px] flex-1 px-4 py-6 md:px-6 lg:px-8">
 		{@render children()}
 	</main>
 </div>

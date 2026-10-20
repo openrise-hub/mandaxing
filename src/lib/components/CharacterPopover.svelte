@@ -41,7 +41,7 @@
 			class="text-sm font-mono text-[var(--color-ink-muted)] hover:text-[var(--color-ink)] cursor-pointer px-1"
 			aria-label="Close"
 		>
-			&times;
+			×
 		</button>
 	</div>
 
@@ -55,7 +55,7 @@
 			onclick={practiceCharacter}
 			class="mech-btn w-full py-1.5 font-display text-xs font-bold text-center bg-[var(--color-panel)] hover:bg-white cursor-pointer transition-colors"
 		>
-			{i18n.current === "es" ? "Practicar Trazo en Hanzi Studio" : "Trace in Hanzi Studio"} &rarr;
+			{i18n.current === "es" ? "Practicar Trazo en Hanzi Studio" : "Trace in Hanzi Studio"} →
 		</button>
 	</div>
 </div>

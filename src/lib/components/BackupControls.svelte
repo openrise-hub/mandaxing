@@ -61,18 +61,20 @@
 				onchange={(event) => void importBackup(event)}
 			/>
 		</label>
-		{#if status === "success"}
-			<span class="data-pill bg-success px-2 py-1 text-xs text-card">
-				{t().backup.importSuccess}
-			</span>
-		{:else if status === "error"}
-			<span class="data-pill bg-alert px-2 py-1 text-xs text-card">
-				{t().backup.importError}
-			</span>
-		{:else if status === "exportError"}
-			<span class="data-pill bg-alert px-2 py-1 text-xs text-card">
-				{t().backup.exportError}
-			</span>
-		{/if}
+		<div role="status" aria-live="polite">
+			{#if status === "success"}
+				<span class="data-pill bg-success px-2 py-1 text-xs text-card font-bold">
+					{t().backup.importSuccess}
+				</span>
+			{:else if status === "error"}
+				<span class="data-pill bg-alert px-2 py-1 text-xs text-card font-bold">
+					{t().backup.importError}
+				</span>
+			{:else if status === "exportError"}
+				<span class="data-pill bg-alert px-2 py-1 text-xs text-card font-bold">
+					{t().backup.exportError}
+				</span>
+			{/if}
+		</div>
 	</div>
 </section>

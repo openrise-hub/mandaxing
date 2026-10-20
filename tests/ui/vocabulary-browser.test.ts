@@ -37,4 +37,17 @@ describe("Vocabulary Browser and Word Matrix", () => {
 		expect(wordMatrix.activeCategory.key).toBe("numbers");
 		expect(wordMatrix.filteredWords.length).toBeGreaterThanOrEqual(10);
 	});
+
+	it("provides complete properties for study modes across all categories", () => {
+		for (const cat of CATEGORIES) {
+			for (const item of cat.items) {
+				expect(item.id).toBeTruthy();
+				expect(item.characters).toBeTruthy();
+				expect(item.pinyin).toBeTruthy();
+				expect(item.en).toBeTruthy();
+				expect(item.es).toBeTruthy();
+				expect(Array.isArray(item.tones)).toBe(true);
+			}
+		}
+	});
 });
