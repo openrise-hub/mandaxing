@@ -50,6 +50,18 @@ export interface TranslationSchema {
 		speakAndMatchDesc: string;
 		dictionaryTab: string;
 		backToDictionary: string;
+		toneColumn: string;
+		syllableColumn: string;
+		syllablesCount: string;
+		allTones: string;
+		toneGuideTitle: string;
+		toneGuideSubtitle: string;
+		contrastColumn: string;
+		tone1Cue: string;
+		tone2Cue: string;
+		tone3Cue: string;
+		tone4Cue: string;
+		neutralCue: string;
 	};
 	wordBank: {
 		title: string;

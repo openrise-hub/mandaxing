@@ -10,6 +10,7 @@
 	type ViewMode = "dictionary" | "listen-pick" | "speak-match";
 
 	let viewMode = $state<ViewMode>("dictionary");
+	let selectedToneFilter = $state<number | null>(null);
 
 	const toneKeys = {
 		0: "neutral",
@@ -33,6 +34,21 @@
 	let blindBusy = $derived(
 		lab.status === "loading" || lab.status === "playing",
 	);
+
+	let filteredList = $derived.by(() => {
+		const filter = selectedToneFilter;
+		if (filter === null) return lab.list;
+		return lab.list.filter((item) => item.tones.includes(filter));
+	});
+
+	$effect(() => {
+		void lab.mode;
+		selectedToneFilter = null;
+	});
+
+	function toggleToneFilter(tone: number): void {
+		selectedToneFilter = selectedToneFilter === tone ? null : tone;
+	}
 
 	function translationFor(stimulus = current): string {
 		if (!stimulus) return "";
@@ -116,61 +132,269 @@
 			</button>
 		</div>
 
+		{#if lab.mode === "single"}
+			<div class="mech-card p-5 flex flex-col gap-4 bg-card">
+				<div class="flex flex-col gap-1">
+					<div class="flex items-center gap-2">
+						<div class="flex h-3 w-8 overflow-hidden rounded-xs border border-ink/40">
+							<span class="w-1/4 bg-tone-1"></span>
+							<span class="w-1/4 bg-tone-2"></span>
+							<span class="w-1/4 bg-tone-3"></span>
+							<span class="w-1/4 bg-tone-4"></span>
+						</div>
+						<h3 class="font-display text-base font-bold text-ink">
+							{t().toneLab.toneGuideTitle}
+						</h3>
+					</div>
+					<p class="font-sans text-xs text-ink-muted">
+						{t().toneLab.toneGuideSubtitle}
+					</p>
+				</div>
+
+				<div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3">
+					<button
+						type="button"
+						class="mech-btn p-3 flex flex-col gap-1.5 text-left cursor-pointer transition-all border-l-4"
+						style="border-left-color: var(--color-tone-1);"
+						class:ring-2={selectedToneFilter === 1}
+						class:ring-action={selectedToneFilter === 1}
+						onclick={() => toggleToneFilter(1)}
+					>
+						<div class="flex items-center justify-between">
+							<span class="font-mono text-xs font-bold text-ink">T1 (55)</span>
+							<span class="font-mono text-sm font-bold text-tone-1">¯</span>
+						</div>
+						<div class="font-display text-xs font-bold text-ink">
+							{t().toneLab.tones.tone1.name}
+						</div>
+						<div class="font-sans text-[11px] text-ink-muted leading-tight">
+							{t().toneLab.tone1Cue}
+						</div>
+					</button>
+
+					<button
+						type="button"
+						class="mech-btn p-3 flex flex-col gap-1.5 text-left cursor-pointer transition-all border-l-4"
+						style="border-left-color: var(--color-tone-2);"
+						class:ring-2={selectedToneFilter === 2}
+						class:ring-action={selectedToneFilter === 2}
+						onclick={() => toggleToneFilter(2)}
+					>
+						<div class="flex items-center justify-between">
+							<span class="font-mono text-xs font-bold text-ink">T2 (35)</span>
+							<span class="font-mono text-sm font-bold text-tone-2">´</span>
+						</div>
+						<div class="font-display text-xs font-bold text-ink">
+							{t().toneLab.tones.tone2.name}
+						</div>
+						<div class="font-sans text-[11px] text-ink-muted leading-tight">
+							{t().toneLab.tone2Cue}
+						</div>
+					</button>
+
+					<button
+						type="button"
+						class="mech-btn p-3 flex flex-col gap-1.5 text-left cursor-pointer transition-all border-l-4"
+						style="border-left-color: var(--color-tone-3);"
+						class:ring-2={selectedToneFilter === 3}
+						class:ring-action={selectedToneFilter === 3}
+						onclick={() => toggleToneFilter(3)}
+					>
+						<div class="flex items-center justify-between">
+							<span class="font-mono text-xs font-bold text-ink">T3 (214)</span>
+							<span class="font-mono text-sm font-bold text-tone-3">ˇ</span>
+						</div>
+						<div class="font-display text-xs font-bold text-ink">
+							{t().toneLab.tones.tone3.name}
+						</div>
+						<div class="font-sans text-[11px] text-ink-muted leading-tight">
+							{t().toneLab.tone3Cue}
+						</div>
+					</button>
+
+					<button
+						type="button"
+						class="mech-btn p-3 flex flex-col gap-1.5 text-left cursor-pointer transition-all border-l-4"
+						style="border-left-color: var(--color-tone-4);"
+						class:ring-2={selectedToneFilter === 4}
+						class:ring-action={selectedToneFilter === 4}
+						onclick={() => toggleToneFilter(4)}
+					>
+						<div class="flex items-center justify-between">
+							<span class="font-mono text-xs font-bold text-ink">T4 (51)</span>
+							<span class="font-mono text-sm font-bold text-tone-4">`</span>
+						</div>
+						<div class="font-display text-xs font-bold text-ink">
+							{t().toneLab.tones.tone4.name}
+						</div>
+						<div class="font-sans text-[11px] text-ink-muted leading-tight">
+							{t().toneLab.tone4Cue}
+						</div>
+					</button>
+
+					<button
+						type="button"
+						class="mech-btn p-3 flex flex-col gap-1.5 text-left cursor-pointer transition-all border-l-4"
+						style="border-left-color: var(--color-tone-neutral);"
+						class:ring-2={selectedToneFilter === 0}
+						class:ring-action={selectedToneFilter === 0}
+						onclick={() => toggleToneFilter(0)}
+					>
+						<div class="flex items-center justify-between">
+							<span class="font-mono text-xs font-bold text-ink">T0 (0)</span>
+							<span class="font-mono text-sm font-bold text-ink-muted">·</span>
+						</div>
+						<div class="font-display text-xs font-bold text-ink">
+							{t().toneLab.tones.neutral.name}
+						</div>
+						<div class="font-sans text-[11px] text-ink-muted leading-tight">
+							{t().toneLab.neutralCue}
+						</div>
+					</button>
+				</div>
+			</div>
+		{/if}
+
 		<div class="mech-card overflow-hidden">
-			<div class="p-4 border-b border-ink/15 bg-panel flex items-center justify-between">
-				<h2 class="font-display text-sm font-bold uppercase tracking-wider text-ink">
-					{t().toneLab.dictionaryTab}
-				</h2>
+			<div class="p-4 border-b border-ink/15 bg-panel flex flex-wrap items-center justify-between gap-3">
+				<div class="flex items-center gap-3">
+					<h2 class="font-display text-sm font-bold tracking-wider text-ink">
+						{t().toneLab.dictionaryTab}
+					</h2>
+					{#if lab.mode === "single"}
+						<button
+							type="button"
+							class="data-pill px-2.5 py-0.5 text-xs font-bold cursor-pointer transition-all"
+							class:bg-card={selectedToneFilter === null}
+							class:text-ink={selectedToneFilter === null}
+							class:shadow-[1px_1px_0px_#1E1B18]={selectedToneFilter === null}
+							onclick={() => { selectedToneFilter = null; }}
+						>
+							{t().toneLab.allTones}
+						</button>
+					{/if}
+				</div>
 				<span class="font-mono text-xs text-ink-muted tabular-nums">
-					{lab.list.length} {t().matrix.wordsCount}
+					{filteredList.length} {t().toneLab.syllablesCount}
 				</span>
 			</div>
 			<div class="overflow-x-auto">
 				<table class="w-full text-left border-collapse" aria-label={t().toneLab.dictionaryTab}>
 					<thead>
-						<tr class="border-b border-ink bg-panel/60 font-display text-xs uppercase tracking-wider text-ink">
-							<th scope="col" class="py-3 px-4">{t().matrix.pinyin}</th>
-							<th scope="col" class="py-3 px-4">{t().matrix.character}</th>
-							<th scope="col" class="py-3 px-4">{t().matrix.meaning}</th>
-							<th scope="col" class="py-3 px-4 text-center">{t().matrix.stability}</th>
-							<th scope="col" class="py-3 px-4 text-right">{t().matrix.audio}</th>
+						<tr class="border-b border-ink bg-panel/60 font-display text-xs tracking-wider text-ink">
+							{#if lab.mode === "minimal"}
+								<th scope="col" class="py-3 px-4">{t().toneLab.contrastColumn}</th>
+								<th scope="col" class="py-3 px-4">{t().matrix.pinyin}</th>
+								<th scope="col" class="py-3 px-4">{t().matrix.character}</th>
+								<th scope="col" class="py-3 px-4">{t().matrix.meaning}</th>
+								<th scope="col" class="py-3 px-4 text-right">{t().matrix.audio}</th>
+							{:else if lab.mode === "pairs"}
+								<th scope="col" class="py-3 px-4">{t().matrix.pinyin}</th>
+								<th scope="col" class="py-3 px-4">{t().matrix.character}</th>
+								<th scope="col" class="py-3 px-4">{t().matrix.meaning}</th>
+								<th scope="col" class="py-3 px-4 text-center">{t().toneLab.toneColumn}</th>
+								<th scope="col" class="py-3 px-4 text-right">{t().matrix.audio}</th>
+							{:else}
+								<th scope="col" class="py-3 px-4">{t().toneLab.syllableColumn}</th>
+								<th scope="col" class="py-3 px-4 text-center">{t().toneLab.toneColumn}</th>
+								<th scope="col" class="py-3 px-4">{t().matrix.meaning}</th>
+								<th scope="col" class="py-3 px-4 text-right">{t().matrix.audio}</th>
+							{/if}
 						</tr>
 					</thead>
 					<tbody class="divide-y divide-ink/15">
-						{#each lab.list as item, idx (item.id)}
+						{#each filteredList as item (item.id)}
 							<tr class="hover:bg-panel/40 transition-colors">
-								<td class="py-3 px-4 font-mono text-base font-bold text-ink">
-									{item.pinyin}
-								</td>
-								<td class="py-3 px-4 font-hanzi text-xl font-bold text-ink">
-									{item.hanzi || "-"}
-								</td>
-								<td class="py-3 px-4 font-sans text-xs text-ink-muted">
-									{translationFor(item)}
-								</td>
-								<td class="py-3 px-4 text-center">
-									{#each item.tones as tone}
-										<span
-											class="data-pill px-2 py-0.5 text-xs text-card font-bold mr-1"
-											style="background-color: var(--color-tone-{tone});"
+								{#if lab.mode === "minimal"}
+									<td class="py-3 px-4 font-mono text-sm font-bold text-ink">
+										{item.label}
+									</td>
+									<td class="py-3 px-4 font-mono text-base font-bold text-ink">
+										{item.pinyin}
+									</td>
+									<td class="py-3 px-4 font-hanzi text-xl font-bold text-ink">
+										{item.hanzi}
+									</td>
+									<td class="py-3 px-4 font-sans text-xs text-ink-muted">
+										{translationFor(item)}
+									</td>
+									<td class="py-3 px-4 text-right">
+										<button
+											type="button"
+											onclick={() => {
+												lab.selectStimulusById(item.id);
+												void lab.play();
+											}}
+											class="mech-btn px-2.5 py-1 text-xs font-mono inline-flex items-center gap-1 cursor-pointer"
+											aria-label="{t().common.playAudio}: {item.pinyin}"
 										>
-											T{tone}
-										</span>
-									{/each}
-								</td>
-								<td class="py-3 px-4 text-right">
-									<button
-										type="button"
-										onclick={() => {
-											lab.setIndex(idx - lab.index);
-											void lab.play();
-										}}
-										class="mech-btn px-2.5 py-1 text-xs font-mono inline-flex items-center gap-1 cursor-pointer"
-										aria-label="{t().common.playAudio}: {item.pinyin}"
-									>
-										<span aria-hidden="true">▶</span>
-									</button>
-								</td>
+											<span aria-hidden="true">▶</span>
+										</button>
+									</td>
+								{:else if lab.mode === "pairs"}
+									<td class="py-3 px-4 font-mono text-base font-bold text-ink">
+										{item.pinyin}
+									</td>
+									<td class="py-3 px-4 font-hanzi text-xl font-bold text-ink">
+										{item.hanzi}
+									</td>
+									<td class="py-3 px-4 font-sans text-xs text-ink-muted">
+										{translationFor(item)}
+									</td>
+									<td class="py-3 px-4 text-center">
+										{#each item.tones as tone}
+											<span
+												class="data-pill px-2 py-0.5 text-xs text-card font-bold mr-1"
+												style="background-color: var(--color-tone-{tone});"
+											>
+												T{tone}
+											</span>
+										{/each}
+									</td>
+									<td class="py-3 px-4 text-right">
+										<button
+											type="button"
+											onclick={() => {
+												lab.selectStimulusById(item.id);
+												void lab.play();
+											}}
+											class="mech-btn px-2.5 py-1 text-xs font-mono inline-flex items-center gap-1 cursor-pointer"
+											aria-label="{t().common.playAudio}: {item.pinyin}"
+										>
+											<span aria-hidden="true">▶</span>
+										</button>
+									</td>
+								{:else}
+									<td class="py-3 px-4 font-mono text-lg font-bold text-ink">
+										{item.pinyin}
+									</td>
+									<td class="py-3 px-4 text-center">
+										{#each item.tones as tone}
+											<span
+												class="data-pill px-2.5 py-0.5 text-xs text-card font-bold"
+												style="background-color: var(--color-tone-{tone});"
+											>
+												T{tone}
+											</span>
+										{/each}
+									</td>
+									<td class="py-3 px-4 font-sans text-xs text-ink-muted">
+										{translationFor(item)}
+									</td>
+									<td class="py-3 px-4 text-right">
+										<button
+											type="button"
+											onclick={() => {
+												lab.selectStimulusById(item.id);
+												void lab.play();
+											}}
+											class="mech-btn px-2.5 py-1 text-xs font-mono inline-flex items-center gap-1 cursor-pointer"
+											aria-label="{t().common.playAudio}: {item.pinyin}"
+										>
+											<span aria-hidden="true">▶</span>
+										</button>
+									</td>
+								{/if}
 							</tr>
 						{/each}
 					</tbody>

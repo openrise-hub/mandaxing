@@ -78,7 +78,7 @@ function buildMinimalStimuli(): Stimulus[] {
 	return (minimalPairs as MinimalPairItem[]).map((item) => ({
 		id: item.id,
 		pinyin: `${item.itemA.pinyin} / ${item.itemB.pinyin}`,
-		hanzi: "",
+		hanzi: `${item.itemA.hanzi} / ${item.itemB.hanzi}`,
 		en: `${item.itemA.en} / ${item.itemB.en}`,
 		es: `${item.itemA.es} / ${item.itemB.es}`,
 		tones: [item.itemA.tone],
@@ -165,6 +165,15 @@ class ToneLab {
 	selectWord(item: WordBankItem): void {
 		this.override = buildWordStimulus(item);
 		this.resetAttempt();
+	}
+
+	selectStimulusById(id: string): void {
+		const targetIndex = this.list.findIndex((s) => s.id === id);
+		if (targetIndex >= 0) {
+			this.index = targetIndex;
+			this.override = null;
+			this.resetAttempt();
+		}
 	}
 
 	private resetAttempt(): void {
