@@ -56,7 +56,7 @@ export const CATEGORIES: CategoryMeta[] = [
 	},
 	{
 		key: "spacetime",
-		labelEn: "Space & Time",
+		labelEn: "Space and Time",
 		labelEs: "Espacio y Tiempo",
 		items: bank05 as WordBankEntry[],
 	},
