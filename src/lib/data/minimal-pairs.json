@@ -158,5 +158,445 @@
 			"en": "West",
 			"es": "Oeste"
 		}
+	},
+	{
+		"id": "mp_zh_ch",
+		"contrast": "zh vs ch",
+		"itemA": {
+			"syllable": "zhi",
+			"tone": 1,
+			"pinyin": "zhī",
+			"hanzi": "知",
+			"en": "Know",
+			"es": "Saber"
+		},
+		"itemB": {
+			"syllable": "chi",
+			"tone": 1,
+			"pinyin": "chī",
+			"hanzi": "吃",
+			"en": "Eat",
+			"es": "Comer"
+		}
+	},
+	{
+		"id": "mp_z_c",
+		"contrast": "z vs c",
+		"itemA": {
+			"syllable": "zao",
+			"tone": 3,
+			"pinyin": "zǎo",
+			"hanzi": "早",
+			"en": "Early",
+			"es": "Temprano"
+		},
+		"itemB": {
+			"syllable": "cao",
+			"tone": 3,
+			"pinyin": "cǎo",
+			"hanzi": "草",
+			"en": "Grass",
+			"es": "Hierba"
+		}
+	},
+	{
+		"id": "mp_n_l",
+		"contrast": "n vs l",
+		"itemA": {
+			"syllable": "nan",
+			"tone": 2,
+			"pinyin": "nán",
+			"hanzi": "男",
+			"en": "Male",
+			"es": "Hombre"
+		},
+		"itemB": {
+			"syllable": "lan",
+			"tone": 2,
+			"pinyin": "lán",
+			"hanzi": "蓝",
+			"en": "Blue",
+			"es": "Azul"
+		}
+	},
+	{
+		"id": "mp_l_r",
+		"contrast": "l vs r",
+		"itemA": {
+			"syllable": "le",
+			"tone": 4,
+			"pinyin": "lè",
+			"hanzi": "乐",
+			"en": "Joyful",
+			"es": "Alegre"
+		},
+		"itemB": {
+			"syllable": "re",
+			"tone": 4,
+			"pinyin": "rè",
+			"hanzi": "热",
+			"en": "Hot",
+			"es": "Caliente"
+		}
+	},
+	{
+		"id": "mp_f_h",
+		"contrast": "f vs h",
+		"itemA": {
+			"syllable": "fei",
+			"tone": 1,
+			"pinyin": "fēi",
+			"hanzi": "飞",
+			"en": "Fly",
+			"es": "Volar"
+		},
+		"itemB": {
+			"syllable": "hei",
+			"tone": 1,
+			"pinyin": "hēi",
+			"hanzi": "黑",
+			"en": "Black",
+			"es": "Negro"
+		}
+	},
+	{
+		"id": "mp_x_sh",
+		"contrast": "x vs sh",
+		"itemA": {
+			"syllable": "xi",
+			"tone": 1,
+			"pinyin": "xī",
+			"hanzi": "西",
+			"en": "West",
+			"es": "Oeste"
+		},
+		"itemB": {
+			"syllable": "shi",
+			"tone": 1,
+			"pinyin": "shī",
+			"hanzi": "师",
+			"en": "Teacher, master",
+			"es": "Maestro"
+		}
+	},
+	{
+		"id": "mp_an_ang",
+		"contrast": "an vs ang",
+		"itemA": {
+			"syllable": "ban",
+			"tone": 1,
+			"pinyin": "bān",
+			"hanzi": "班",
+			"en": "Class, shift",
+			"es": "Clase, turno"
+		},
+		"itemB": {
+			"syllable": "bang",
+			"tone": 1,
+			"pinyin": "bāng",
+			"hanzi": "帮",
+			"en": "Help",
+			"es": "Ayudar"
+		}
+	},
+	{
+		"id": "mp_en_eng",
+		"contrast": "en vs eng",
+		"itemA": {
+			"syllable": "fen",
+			"tone": 1,
+			"pinyin": "fēn",
+			"hanzi": "分",
+			"en": "Minute, part",
+			"es": "Minuto, parte"
+		},
+		"itemB": {
+			"syllable": "feng",
+			"tone": 1,
+			"pinyin": "fēng",
+			"hanzi": "风",
+			"en": "Wind",
+			"es": "Viento"
+		}
+	},
+	{
+		"id": "mp_in_ing",
+		"contrast": "in vs ing",
+		"itemA": {
+			"syllable": "jin",
+			"tone": 1,
+			"pinyin": "jīn",
+			"hanzi": "金",
+			"en": "Gold",
+			"es": "Oro"
+		},
+		"itemB": {
+			"syllable": "jing",
+			"tone": 1,
+			"pinyin": "jīng",
+			"hanzi": "经",
+			"en": "Classics, pass through",
+			"es": "Clásico, pasar"
+		}
+	},
+	{
+		"id": "mp_tang1_tang2",
+		"contrast": "T1 vs T2",
+		"itemA": {
+			"syllable": "tang",
+			"tone": 1,
+			"pinyin": "tāng",
+			"hanzi": "汤",
+			"en": "Soup",
+			"es": "Sopa"
+		},
+		"itemB": {
+			"syllable": "tang",
+			"tone": 2,
+			"pinyin": "táng",
+			"hanzi": "糖",
+			"en": "Sugar, candy",
+			"es": "Azúcar, caramelo"
+		}
+	},
+	{
+		"id": "mp_mai3_mai4",
+		"contrast": "T3 vs T4",
+		"itemA": {
+			"syllable": "mai",
+			"tone": 3,
+			"pinyin": "mǎi",
+			"hanzi": "买",
+			"en": "Buy",
+			"es": "Comprar"
+		},
+		"itemB": {
+			"syllable": "mai",
+			"tone": 4,
+			"pinyin": "mài",
+			"hanzi": "卖",
+			"en": "Sell",
+			"es": "Vender"
+		}
+	},
+	{
+		"id": "mp_wen2_wen4",
+		"contrast": "T2 vs T4",
+		"itemA": {
+			"syllable": "wen",
+			"tone": 2,
+			"pinyin": "wén",
+			"hanzi": "闻",
+			"en": "Smell, hear",
+			"es": "Oler, escuchar"
+		},
+		"itemB": {
+			"syllable": "wen",
+			"tone": 4,
+			"pinyin": "wèn",
+			"hanzi": "问",
+			"en": "Ask",
+			"es": "Preguntar"
+		}
+	},
+	{
+		"id": "mp_ma1_ma3",
+		"contrast": "T1 vs T3",
+		"itemA": {
+			"syllable": "ma",
+			"tone": 1,
+			"pinyin": "mā",
+			"hanzi": "妈",
+			"en": "Mother",
+			"es": "Madre"
+		},
+		"itemB": {
+			"syllable": "ma",
+			"tone": 3,
+			"pinyin": "mǎ",
+			"hanzi": "马",
+			"en": "Horse",
+			"es": "Caballo"
+		}
+	},
+	{
+		"id": "mp_shu1_shu4",
+		"contrast": "T1 vs T4",
+		"itemA": {
+			"syllable": "shu",
+			"tone": 1,
+			"pinyin": "shū",
+			"hanzi": "书",
+			"en": "Book",
+			"es": "Libro"
+		},
+		"itemB": {
+			"syllable": "shu",
+			"tone": 4,
+			"pinyin": "shù",
+			"hanzi": "树",
+			"en": "Tree",
+			"es": "Árbol"
+		}
+	},
+	{
+		"id": "mp_shui3_shui4",
+		"contrast": "T3 vs T4",
+		"itemA": {
+			"syllable": "shui",
+			"tone": 3,
+			"pinyin": "shuǐ",
+			"hanzi": "水",
+			"en": "Water",
+			"es": "Agua"
+		},
+		"itemB": {
+			"syllable": "shui",
+			"tone": 4,
+			"pinyin": "shuì",
+			"hanzi": "睡",
+			"en": "Sleep",
+			"es": "Dormir"
+		}
+	},
+	{
+		"id": "mp_ian_iang",
+		"contrast": "ian vs iang",
+		"itemA": {
+			"syllable": "jian",
+			"tone": 1,
+			"pinyin": "jiān",
+			"hanzi": "尖",
+			"en": "Sharp, tip",
+			"es": "Punta, afilado"
+		},
+		"itemB": {
+			"syllable": "jiang",
+			"tone": 1,
+			"pinyin": "jiāng",
+			"hanzi": "江",
+			"en": "River",
+			"es": "Río"
+		}
+	},
+	{
+		"id": "mp_uan_uang",
+		"contrast": "uan vs uang",
+		"itemA": {
+			"syllable": "guan",
+			"tone": 1,
+			"pinyin": "guān",
+			"hanzi": "关",
+			"en": "Close, shut",
+			"es": "Cerrar"
+		},
+		"itemB": {
+			"syllable": "guang",
+			"tone": 1,
+			"pinyin": "guāng",
+			"hanzi": "光",
+			"en": "Light, ray",
+			"es": "Luz, rayo"
+		}
+	},
+	{
+		"id": "mp_fang1_fang2",
+		"contrast": "T1 vs T2",
+		"itemA": {
+			"syllable": "fang",
+			"tone": 1,
+			"pinyin": "fāng",
+			"hanzi": "方",
+			"en": "Square, direction",
+			"es": "Cuadrado, dirección"
+		},
+		"itemB": {
+			"syllable": "fang",
+			"tone": 2,
+			"pinyin": "fáng",
+			"hanzi": "房",
+			"en": "House, room",
+			"es": "Casa, habitación"
+		}
+	},
+	{
+		"id": "mp_j_zh",
+		"contrast": "j vs zh",
+		"itemA": {
+			"syllable": "ji",
+			"tone": 1,
+			"pinyin": "jī",
+			"hanzi": "鸡",
+			"en": "Chicken",
+			"es": "Pollo"
+		},
+		"itemB": {
+			"syllable": "zhi",
+			"tone": 1,
+			"pinyin": "zhī",
+			"hanzi": "知",
+			"en": "Know",
+			"es": "Saber"
+		}
+	},
+	{
+		"id": "mp_shi2_shi4",
+		"contrast": "T2 vs T4",
+		"itemA": {
+			"syllable": "shi",
+			"tone": 2,
+			"pinyin": "shí",
+			"hanzi": "十",
+			"en": "Ten",
+			"es": "Diez"
+		},
+		"itemB": {
+			"syllable": "shi",
+			"tone": 4,
+			"pinyin": "shì",
+			"hanzi": "是",
+			"en": "To be",
+			"es": "Ser"
+		}
+	},
+	{
+		"id": "mp_shi2_shi3",
+		"contrast": "T2 vs T3",
+		"itemA": {
+			"syllable": "shi",
+			"tone": 2,
+			"pinyin": "shí",
+			"hanzi": "十",
+			"en": "Ten",
+			"es": "Diez"
+		},
+		"itemB": {
+			"syllable": "shi",
+			"tone": 3,
+			"pinyin": "shǐ",
+			"hanzi": "使",
+			"en": "Make, cause",
+			"es": "Hacer, causar"
+		}
+	},
+	{
+		"id": "mp_bei1_bei4",
+		"contrast": "T1 vs T4",
+		"itemA": {
+			"syllable": "bei",
+			"tone": 1,
+			"pinyin": "bēi",
+			"hanzi": "杯",
+			"en": "Cup, glass",
+			"es": "Vaso, taza"
+		},
+		"itemB": {
+			"syllable": "bei",
+			"tone": 4,
+			"pinyin": "bèi",
+			"hanzi": "背",
+			"en": "Back (anatomy)",
+			"es": "Espalda"
+		}
 	}
 ]
