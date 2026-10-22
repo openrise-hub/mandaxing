@@ -19,7 +19,7 @@ export const es: TranslationSchema = {
 		search: "Buscar",
 	},
 	navigation: {
-		toneLab: "Laboratorio de tonos",
+		toneLab: "Tonos y Pinyin",
 		hanziStudio: "Estudio Hanzi",
 		dailyReview: "Repaso diario",
 		singleTones: "Tonos individuales",
@@ -27,7 +27,7 @@ export const es: TranslationSchema = {
 		minimalPairs: "Pares mínimos",
 	},
 	toneLab: {
-		title: "Laboratorio de Tonos y Pinyin",
+		title: "Tonos y Pinyin",
 		subtitle:
 			"Escucha la pronunciación nativa y ajusta tu entonación hasta igualarla.",
 		playReference: "Escuchar",
@@ -53,8 +53,11 @@ export const es: TranslationSchema = {
 		backToDictionary: "Volver al Diccionario",
 		toneColumn: "Tono",
 		syllableColumn: "Sílaba",
-		syllablesCount: "sílabas",
+		syllablesCount: "tonos",
+		baseSyllablesCount: "sílabas",
 		allTones: "Todos los tonos",
+		allInitials: "Todas las iniciales",
+		initialsLabel: "Iniciales",
 		toneGuideTitle: "Los 4 tonos del mandarín",
 		toneGuideSubtitle:
 			"El mandarín es una lengua tonal donde el tono cambia el significado. Cada sílaba lleva uno de 4 tonos, más un tono neutro ligero.",
@@ -71,6 +74,40 @@ export const es: TranslationSchema = {
 		tone3Cue: "Baja y luego sube, como dudar pensativo: 'Bueeeno...'",
 		tone4Cue: "Caída firme y tajante, como decir '¡No!' o '¡Basta!'",
 		neutralCue: "Corto y suave, como la última sílaba en 'casa'",
+		pairsGuideTitle: "Las 20 combinaciones de tonos",
+		pairsGuideSubtitle:
+			"La mayoría de palabras en mandarín tienen dos sílabas. La melodía al hablar nace de cómo se encadenan los dos tonos con ritmo fluido.",
+		pairsGuideSandhiTitle: "Cambio de tono Sandhi (3+3 -> 2+3)",
+		pairsGuideSandhiDesc:
+			"Cuando dos terceros tonos se pronuncian seguidos, el primero cambia automáticamente a segundo tono (ejemplo: nǐhǎo se pronuncia níhǎo).",
+		pairsGuideNeutralTitle: "El ritmo del tono neutro",
+		pairsGuideNeutralDesc:
+			"El tono neutro ligero (T0) adapta su altura según el tono que le precede: cae bajo tras tonos 1, 2 y 4, pero se mantiene medio-alto tras el tono 3.",
+		allTonePairs: "Todas las combinaciones",
+		pairStartsLabel: "Empieza con",
+		sandhiBadge: "Sandhi 3+3 -> 2+3",
+		minimalGuideTitle: "Discriminación fonética (Pares mínimos)",
+		minimalGuideSubtitle:
+			"Pares de palabras que difieren por un solo fonema o tono. Entrenar el oído con estas sutilezas evita confusiones habituales.",
+		minimalGuideAspirationTitle: "Aspiración (b/p, d/t, g/k)",
+		minimalGuideAspirationDesc:
+			"En mandarín b, d, g son sordas y no expulsan aire. En cambio p, t, k liberan una ráfaga fuerte y visible de aire.",
+		minimalGuideSibilantsTitle: "Dentales vs retroflejas (z/c/s vs zh/ch/sh)",
+		minimalGuideSibilantsDesc:
+			"Mantén la lengua plana tras los dientes para z, c, s. Curva la punta de la lengua hacia el paladar duro para zh, ch, sh.",
+		minimalGuideTonesTitle: "Contrastes de tono",
+		minimalGuideTonesDesc:
+			"La misma combinación pinyin cambia totalmente de significado según la curva tonal con la que se pronuncie.",
+		allMinimalPairs: "Todos los pares",
+		minimalFilterLabel: "Categoría",
+		minimalCategories: {
+			all: "Todos los contrastes",
+			aspiration: "Aspiración (b/p, d/t, g/k)",
+			sibilants: "Retroflejas vs dentales",
+			palatals: "Palatales y otras",
+			finals: "Finales nasales (-n vs -ng)",
+			tones: "Contrastes de tono",
+		},
 	},
 	wordBank: {
 		title: "Vocabulario de práctica",

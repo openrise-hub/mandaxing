@@ -19,7 +19,7 @@ export const en: TranslationSchema = {
 		search: "Search",
 	},
 	navigation: {
-		toneLab: "Tone Lab",
+		toneLab: "Pinyin and Tones",
 		hanziStudio: "Hanzi Studio",
 		dailyReview: "Daily Review",
 		singleTones: "Single Tones",
@@ -27,9 +27,9 @@ export const en: TranslationSchema = {
 		minimalPairs: "Minimal Pairs",
 	},
 	toneLab: {
-		title: "Tone and Pinyin Lab",
+		title: "Pinyin and Tones",
 		subtitle:
-			"Listen to native speakers and match their pitch with your voice.",
+			"Listen to native pronunciation and match your pitch with your voice.",
 		playReference: "Listen",
 		recordVoice: "Record",
 		stopVoice: "Stop",
@@ -53,8 +53,11 @@ export const en: TranslationSchema = {
 		backToDictionary: "Back to Dictionary",
 		toneColumn: "Tone",
 		syllableColumn: "Syllable",
-		syllablesCount: "syllables",
+		syllablesCount: "tones",
+		baseSyllablesCount: "syllables",
 		allTones: "All Tones",
+		allInitials: "All Initials",
+		initialsLabel: "Initials",
 		toneGuideTitle: "The 4 Mandarin Tones",
 		toneGuideSubtitle:
 			"Mandarin is a tonal language where pitch changes word meaning. Every syllable carries one of 4 tones, plus an unstressed neutral tone.",
@@ -71,6 +74,40 @@ export const en: TranslationSchema = {
 		tone3Cue: "Dips low then rises, like a thoughtful 'Well...'",
 		tone4Cue: "Sharp decisive drop, like saying 'No!'",
 		neutralCue: "Short and soft, like the second syllable in 'carpet'",
+		pairsGuideTitle: "The 20 Tone Combinations",
+		pairsGuideSubtitle:
+			"Most words in Mandarin are two syllables long. The melody of speech comes from how two tones connect in rhythm.",
+		pairsGuideSandhiTitle: "Tone Sandhi (3+3 -> 2+3)",
+		pairsGuideSandhiDesc:
+			"When two third tones follow each other, the first tone transforms into a second tone (for example: nǐhǎo is pronounced níhǎo).",
+		pairsGuideNeutralTitle: "Neutral Tone Rhythm",
+		pairsGuideNeutralDesc:
+			"The unstressed neutral tone (T0) adapts its pitch based on the preceding tone: dropping low after tones 1, 2, and 4, but staying mid-high after tone 3.",
+		allTonePairs: "All Combinations",
+		pairStartsLabel: "Starts with",
+		sandhiBadge: "Sandhi 3+3 -> 2+3",
+		minimalGuideTitle: "Phonetic Contrasts (Minimal Pairs)",
+		minimalGuideSubtitle:
+			"Pairs of words that differ by a single sound or tone. Practicing these subtle acoustic contrasts prevents common misunderstandings.",
+		minimalGuideAspirationTitle: "Aspiration (b/p, d/t, g/k)",
+		minimalGuideAspirationDesc:
+			"Mandarin b, d, g are voiceless and unaspirated (no burst of air). P, t, k release a strong puff of air.",
+		minimalGuideSibilantsTitle: "Dental vs Retroflex (z/c/s vs zh/ch/sh)",
+		minimalGuideSibilantsDesc:
+			"Keep your tongue flat behind teeth for z, c, s. Curl the tip of your tongue backward toward the hard palate for zh, ch, sh.",
+		minimalGuideTonesTitle: "Tone Contrasts",
+		minimalGuideTonesDesc:
+			"Identical pinyin syllables carry completely different meanings depending on the tone pitch contour.",
+		allMinimalPairs: "All Pairs",
+		minimalFilterLabel: "Category",
+		minimalCategories: {
+			all: "All Contrasts",
+			aspiration: "Aspiration (b/p, d/t, g/k)",
+			sibilants: "Retroflex vs Dental",
+			palatals: "Palatals and Other",
+			finals: "Nasal Finals (-n vs -ng)",
+			tones: "Tone Contrasts",
+		},
 	},
 	wordBank: {
 		title: "Practice Vocabulary",

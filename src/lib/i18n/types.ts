@@ -53,7 +53,10 @@ export interface TranslationSchema {
 		toneColumn: string;
 		syllableColumn: string;
 		syllablesCount: string;
+		baseSyllablesCount: string;
 		allTones: string;
+		allInitials: string;
+		initialsLabel: string;
 		toneGuideTitle: string;
 		toneGuideSubtitle: string;
 		contrastColumn: string;
@@ -69,6 +72,33 @@ export interface TranslationSchema {
 		tone3Cue: string;
 		tone4Cue: string;
 		neutralCue: string;
+		pairsGuideTitle: string;
+		pairsGuideSubtitle: string;
+		pairsGuideSandhiTitle: string;
+		pairsGuideSandhiDesc: string;
+		pairsGuideNeutralTitle: string;
+		pairsGuideNeutralDesc: string;
+		allTonePairs: string;
+		pairStartsLabel: string;
+		sandhiBadge: string;
+		minimalGuideTitle: string;
+		minimalGuideSubtitle: string;
+		minimalGuideAspirationTitle: string;
+		minimalGuideAspirationDesc: string;
+		minimalGuideSibilantsTitle: string;
+		minimalGuideSibilantsDesc: string;
+		minimalGuideTonesTitle: string;
+		minimalGuideTonesDesc: string;
+		allMinimalPairs: string;
+		minimalFilterLabel: string;
+		minimalCategories: {
+			all: string;
+			aspiration: string;
+			sibilants: string;
+			palatals: string;
+			finals: string;
+			tones: string;
+		};
 	};
 	wordBank: {
 		title: string;
