@@ -7,7 +7,7 @@ test("loads the lab and switches between all three modes", async ({ page }) => {
 	await page.getByRole("button", { name: "Tones", exact: true }).click();
 
 	await expect(
-		page.getByRole("heading", { name: "Tone and Pinyin Lab" }),
+		page.getByRole("heading", { name: "Pinyin and Tones" }),
 	).toBeVisible();
 
 	await page.getByRole("button", { name: "Tone Pairs" }).click();
@@ -24,13 +24,13 @@ test("persists the language choice across reloads", async ({ page }) => {
 
 	await page.getByRole("button", { name: "es", exact: true }).click();
 	await expect(
-		page.getByRole("heading", { name: "Laboratorio de Tonos y Pinyin" }),
+		page.getByRole("heading", { name: "Tonos y Pinyin" }),
 	).toBeVisible();
 
 	await page.reload();
 	await page.getByRole("button", { name: "Tonos", exact: true }).click();
 	await expect(
-		page.getByRole("heading", { name: "Laboratorio de Tonos y Pinyin" }),
+		page.getByRole("heading", { name: "Tonos y Pinyin" }),
 	).toBeVisible();
 });
 

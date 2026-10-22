@@ -9,6 +9,33 @@
 		"tones": [1, 1]
 	},
 	{
+		"pair": "1+1",
+		"pinyin": "fēijī",
+		"hanzi": "飞机",
+		"en": "Airplane",
+		"es": "Avión",
+		"syllables": ["fei", "ji"],
+		"tones": [1, 1]
+	},
+	{
+		"pair": "1+1",
+		"pinyin": "kāfēi",
+		"hanzi": "咖啡",
+		"en": "Coffee",
+		"es": "Café",
+		"syllables": ["ka", "fei"],
+		"tones": [1, 1]
+	},
+	{
+		"pair": "1+1",
+		"pinyin": "gōngsī",
+		"hanzi": "公司",
+		"en": "Company",
+		"es": "Empresa",
+		"syllables": ["gong", "si"],
+		"tones": [1, 1]
+	},
+	{
 		"pair": "1+2",
 		"pinyin": "xīnnián",
 		"hanzi": "新年",
@@ -18,31 +45,157 @@
 		"tones": [1, 2]
 	},
 	{
+		"pair": "1+2",
+		"pinyin": "zhōngguó",
+		"hanzi": "中国",
+		"en": "China",
+		"es": "China",
+		"syllables": ["zhong", "guo"],
+		"tones": [1, 2]
+	},
+	{
+		"pair": "1+2",
+		"pinyin": "suīrán",
+		"hanzi": "虽然",
+		"en": "Although",
+		"es": "Aunque",
+		"syllables": ["sui", "ran"],
+		"tones": [1, 2]
+	},
+	{
+		"pair": "1+2",
+		"pinyin": "chūfáng",
+		"hanzi": "厨房",
+		"en": "Kitchen",
+		"es": "Cocina",
+		"syllables": ["chu", "fang"],
+		"tones": [1, 2]
+	},
+	{
 		"pair": "1+3",
-		"pinyin": "fēijī",
-		"hanzi": "飞机",
-		"en": "Airplane",
-		"es": "Avión",
-		"syllables": ["fei", "ji"],
+		"pinyin": "jīchǎng",
+		"hanzi": "机场",
+		"en": "Airport",
+		"es": "Aeropuerto",
+		"syllables": ["ji", "chang"],
+		"tones": [1, 3]
+	},
+	{
+		"pair": "1+3",
+		"pinyin": "shēntǐ",
+		"hanzi": "身体",
+		"en": "Body / Health",
+		"es": "Cuerpo / Salud",
+		"syllables": ["shen", "ti"],
+		"tones": [1, 3]
+	},
+	{
+		"pair": "1+3",
+		"pinyin": "kāishǐ",
+		"hanzi": "开始",
+		"en": "To start",
+		"es": "Empezar",
+		"syllables": ["kai", "shi"],
+		"tones": [1, 3]
+	},
+	{
+		"pair": "1+3",
+		"pinyin": "qīngchǔ",
+		"hanzi": "清楚",
+		"en": "Clear",
+		"es": "Claro",
+		"syllables": ["qing", "chu"],
 		"tones": [1, 3]
 	},
 	{
 		"pair": "1+4",
 		"pinyin": "gōngzuò",
 		"hanzi": "工作",
-		"en": "Work",
-		"es": "Trabajo",
+		"en": "To work",
+		"es": "Trabajar",
 		"syllables": ["gong", "zuo"],
+		"tones": [1, 4]
+	},
+	{
+		"pair": "1+4",
+		"pinyin": "yīnyuè",
+		"hanzi": "音乐",
+		"en": "Music",
+		"es": "Música",
+		"syllables": ["yin", "yue"],
+		"tones": [1, 4]
+	},
+	{
+		"pair": "1+4",
+		"pinyin": "fāngbiàn",
+		"hanzi": "方便",
+		"en": "Convenient",
+		"es": "Conveniente",
+		"syllables": ["fang", "bian"],
+		"tones": [1, 4]
+	},
+	{
+		"pair": "1+4",
+		"pinyin": "xīwàng",
+		"hanzi": "希望",
+		"en": "To hope",
+		"es": "Esperar / Desear",
+		"syllables": ["xi", "wang"],
 		"tones": [1, 4]
 	},
 	{
 		"pair": "1+0",
 		"pinyin": "māma",
 		"hanzi": "妈妈",
-		"en": "Mom",
+		"en": "Mother",
 		"es": "Mamá",
 		"syllables": ["ma", "ma"],
 		"tones": [1, 0]
+	},
+	{
+		"pair": "1+0",
+		"pinyin": "chīle",
+		"hanzi": "吃了",
+		"en": "Ate",
+		"es": "Comió",
+		"syllables": ["chi", "le"],
+		"tones": [1, 0]
+	},
+	{
+		"pair": "1+0",
+		"pinyin": "tāde",
+		"hanzi": "他的",
+		"en": "His",
+		"es": "Suyo (de él)",
+		"syllables": ["ta", "de"],
+		"tones": [1, 0]
+	},
+	{
+		"pair": "1+0",
+		"pinyin": "hēle",
+		"hanzi": "喝了",
+		"en": "Drank",
+		"es": "Bebió",
+		"syllables": ["he", "le"],
+		"tones": [1, 0]
+	},
+	{
+		"pair": "2+1",
+		"pinyin": "míngtiān",
+		"hanzi": "明天",
+		"en": "Tomorrow",
+		"es": "Mañana",
+		"syllables": ["ming", "tian"],
+		"tones": [2, 1]
+	},
+	{
+		"pair": "2+1",
+		"pinyin": "guójiā",
+		"hanzi": "国家",
+		"en": "Country",
+		"es": "País",
+		"syllables": ["guo", "jia"],
+		"tones": [2, 1]
 	},
 	{
 		"pair": "2+1",
@@ -51,6 +204,15 @@
 		"en": "Time",
 		"es": "Tiempo",
 		"syllables": ["shi", "jian"],
+		"tones": [2, 1]
+	},
+	{
+		"pair": "2+1",
+		"pinyin": "chángjiāng",
+		"hanzi": "长江",
+		"en": "Yangtze River",
+		"es": "Río Yangtsé",
+		"syllables": ["chang", "jiang"],
 		"tones": [2, 1]
 	},
 	{
@@ -63,12 +225,66 @@
 		"tones": [2, 2]
 	},
 	{
+		"pair": "2+2",
+		"pinyin": "xuéxí",
+		"hanzi": "学习",
+		"en": "To study",
+		"es": "Estudiar",
+		"syllables": ["xue", "xi"],
+		"tones": [2, 2]
+	},
+	{
+		"pair": "2+2",
+		"pinyin": "huídá",
+		"hanzi": "回答",
+		"en": "To answer",
+		"es": "Responder",
+		"syllables": ["hui", "da"],
+		"tones": [2, 2]
+	},
+	{
+		"pair": "2+2",
+		"pinyin": "tóngxué",
+		"hanzi": "同学",
+		"en": "Classmate",
+		"es": "Compañero de clase",
+		"syllables": ["tong", "xue"],
+		"tones": [2, 2]
+	},
+	{
 		"pair": "2+3",
 		"pinyin": "píngguǒ",
 		"hanzi": "苹果",
 		"en": "Apple",
 		"es": "Manzana",
 		"syllables": ["ping", "guo"],
+		"tones": [2, 3]
+	},
+	{
+		"pair": "2+3",
+		"pinyin": "yóuyǒng",
+		"hanzi": "游泳",
+		"en": "To swim",
+		"es": "Nadar",
+		"syllables": ["you", "yong"],
+		"tones": [2, 3]
+	},
+	{
+		"pair": "2+3",
+		"pinyin": "báijiǔ",
+		"hanzi": "白酒",
+		"en": "White liquor",
+		"es": "Licor blanco",
+		"syllables": ["bai", "jiu"],
+		"tones": [2, 3]
+	},
+	{
+		"pair": "2+3",
+		"pinyin": "yáoyuǎn",
+		"hanzi": "遥远",
+		"en": "Distant",
+		"es": "Lejano",
+		"syllables": ["yao", "yuan"],
 		"tones": [2, 3]
 	},
 	{
@@ -81,12 +297,66 @@
 		"tones": [2, 4]
 	},
 	{
+		"pair": "2+4",
+		"pinyin": "juédìng",
+		"hanzi": "决定",
+		"en": "To decide",
+		"es": "Decidir",
+		"syllables": ["jue", "ding"],
+		"tones": [2, 4]
+	},
+	{
+		"pair": "2+4",
+		"pinyin": "róngyì",
+		"hanzi": "容易",
+		"en": "Easy",
+		"es": "Fácil",
+		"syllables": ["rong", "yi"],
+		"tones": [2, 4]
+	},
+	{
+		"pair": "2+4",
+		"pinyin": "míngzì",
+		"hanzi": "名字",
+		"en": "Name",
+		"es": "Nombre",
+		"syllables": ["ming", "zi"],
+		"tones": [2, 4]
+	},
+	{
 		"pair": "2+0",
-		"pinyin": "yéye",
-		"hanzi": "爷爷",
-		"en": "Grandpa",
-		"es": "Abuelo",
-		"syllables": ["ye", "ye"],
+		"pinyin": "láile",
+		"hanzi": "来了",
+		"en": "Arrived",
+		"es": "Llegó",
+		"syllables": ["lai", "le"],
+		"tones": [2, 0]
+	},
+	{
+		"pair": "2+0",
+		"pinyin": "shíde",
+		"hanzi": "实得",
+		"en": "Actually received",
+		"es": "Recibido realmente",
+		"syllables": ["shi", "de"],
+		"tones": [2, 0]
+	},
+	{
+		"pair": "2+0",
+		"pinyin": "hóngde",
+		"hanzi": "红的",
+		"en": "Red one",
+		"es": "El rojo",
+		"syllables": ["hong", "de"],
+		"tones": [2, 0]
+	},
+	{
+		"pair": "2+0",
+		"pinyin": "xuéle",
+		"hanzi": "学了",
+		"en": "Learned",
+		"es": "Aprendió",
+		"syllables": ["xue", "le"],
 		"tones": [2, 0]
 	},
 	{
@@ -99,12 +369,66 @@
 		"tones": [3, 1]
 	},
 	{
+		"pair": "3+1",
+		"pinyin": "běijīng",
+		"hanzi": "北京",
+		"en": "Beijing",
+		"es": "Pekín",
+		"syllables": ["bei", "jing"],
+		"tones": [3, 1]
+	},
+	{
+		"pair": "3+1",
+		"pinyin": "lǎoshī",
+		"hanzi": "老师",
+		"en": "Teacher",
+		"es": "Profesor",
+		"syllables": ["lao", "shi"],
+		"tones": [3, 1]
+	},
+	{
+		"pair": "3+1",
+		"pinyin": "qǐfēi",
+		"hanzi": "起飞",
+		"en": "Take off",
+		"es": "Despegar",
+		"syllables": ["qi", "fei"],
+		"tones": [3, 1]
+	},
+	{
+		"pair": "3+2",
+		"pinyin": "yǔyán",
+		"hanzi": "语言",
+		"en": "Language",
+		"es": "Idioma",
+		"syllables": ["yu", "yan"],
+		"tones": [3, 2]
+	},
+	{
 		"pair": "3+2",
 		"pinyin": "lǚxíng",
 		"hanzi": "旅行",
 		"en": "Travel",
 		"es": "Viajar",
 		"syllables": ["lv", "xing"],
+		"tones": [3, 2]
+	},
+	{
+		"pair": "3+2",
+		"pinyin": "qǐchuáng",
+		"hanzi": "起床",
+		"en": "Get out of bed",
+		"es": "Levantarse",
+		"syllables": ["qi", "chuang"],
+		"tones": [3, 2]
+	},
+	{
+		"pair": "3+2",
+		"pinyin": "bǐrú",
+		"hanzi": "比如",
+		"en": "For example",
+		"es": "Por ejemplo",
+		"syllables": ["bi", "ru"],
 		"tones": [3, 2]
 	},
 	{
@@ -117,6 +441,33 @@
 		"tones": [2, 3]
 	},
 	{
+		"pair": "3+3",
+		"pinyin": "shǒubiǎo",
+		"hanzi": "手表",
+		"en": "Wristwatch",
+		"es": "Reloj de pulsera",
+		"syllables": ["shou", "biao"],
+		"tones": [2, 3]
+	},
+	{
+		"pair": "3+3",
+		"pinyin": "yǔfǎ",
+		"hanzi": "语法",
+		"en": "Grammar",
+		"es": "Gramática",
+		"syllables": ["yu", "fa"],
+		"tones": [2, 3]
+	},
+	{
+		"pair": "3+3",
+		"pinyin": "liǎojiě",
+		"hanzi": "了解",
+		"en": "To understand",
+		"es": "Entender",
+		"syllables": ["liao", "jie"],
+		"tones": [2, 3]
+	},
+	{
 		"pair": "3+4",
 		"pinyin": "kǎoshì",
 		"hanzi": "考试",
@@ -126,13 +477,94 @@
 		"tones": [3, 4]
 	},
 	{
+		"pair": "3+4",
+		"pinyin": "bǐsài",
+		"hanzi": "比赛",
+		"en": "Competition",
+		"es": "Competencia",
+		"syllables": ["bi", "sai"],
+		"tones": [3, 4]
+	},
+	{
+		"pair": "3+4",
+		"pinyin": "zhǔyào",
+		"hanzi": "主要",
+		"en": "Main",
+		"es": "Principal",
+		"syllables": ["zhu", "yao"],
+		"tones": [3, 4]
+	},
+	{
+		"pair": "3+4",
+		"pinyin": "mǎshàng",
+		"hanzi": "马上",
+		"en": "Immediately",
+		"es": "Inmediatamente",
+		"syllables": ["ma", "shang"],
+		"tones": [3, 4]
+	},
+	{
 		"pair": "3+0",
-		"pinyin": "nǎinai",
-		"hanzi": "奶奶",
-		"en": "Grandma",
-		"es": "Abuela",
-		"syllables": ["nai", "nai"],
+		"pinyin": "hǎole",
+		"hanzi": "好了",
+		"en": "Ready",
+		"es": "Listo",
+		"syllables": ["hao", "le"],
 		"tones": [3, 0]
+	},
+	{
+		"pair": "3+0",
+		"pinyin": "nǐde",
+		"hanzi": "你的",
+		"en": "Yours",
+		"es": "Tuyo",
+		"syllables": ["ni", "de"],
+		"tones": [3, 0]
+	},
+	{
+		"pair": "3+0",
+		"pinyin": "wǒde",
+		"hanzi": "我的",
+		"en": "Mine",
+		"es": "Mío",
+		"syllables": ["wo", "de"],
+		"tones": [3, 0]
+	},
+	{
+		"pair": "3+0",
+		"pinyin": "mǎile",
+		"hanzi": "买了",
+		"en": "Bought",
+		"es": "Compró",
+		"syllables": ["mai", "le"],
+		"tones": [3, 0]
+	},
+	{
+		"pair": "4+1",
+		"pinyin": "dìyī",
+		"hanzi": "第一",
+		"en": "First",
+		"es": "Primero",
+		"syllables": ["di", "yi"],
+		"tones": [4, 1]
+	},
+	{
+		"pair": "4+1",
+		"pinyin": "qìchē",
+		"hanzi": "汽车",
+		"en": "Car",
+		"es": "Automóvil",
+		"syllables": ["qi", "che"],
+		"tones": [4, 1]
+	},
+	{
+		"pair": "4+1",
+		"pinyin": "dàtīng",
+		"hanzi": "大厅",
+		"en": "Lobby",
+		"es": "Vestíbulo",
+		"syllables": ["da", "ting"],
+		"tones": [4, 1]
 	},
 	{
 		"pair": "4+1",
@@ -145,6 +577,33 @@
 	},
 	{
 		"pair": "4+2",
+		"pinyin": "wèntí",
+		"hanzi": "问题",
+		"en": "Question / Problem",
+		"es": "Pregunta / Problema",
+		"syllables": ["wen", "ti"],
+		"tones": [4, 2]
+	},
+	{
+		"pair": "4+2",
+		"pinyin": "fùxí",
+		"hanzi": "复习",
+		"en": "To review",
+		"es": "Repasar",
+		"syllables": ["fu", "xi"],
+		"tones": [4, 2]
+	},
+	{
+		"pair": "4+2",
+		"pinyin": "miàntiáo",
+		"hanzi": "面条",
+		"en": "Noodles",
+		"es": "Fideos",
+		"syllables": ["mian", "tiao"],
+		"tones": [4, 2]
+	},
+	{
+		"pair": "4+2",
 		"pinyin": "dàxué",
 		"hanzi": "大学",
 		"en": "University",
@@ -154,11 +613,38 @@
 	},
 	{
 		"pair": "4+3",
+		"pinyin": "diànnǎo",
+		"hanzi": "电脑",
+		"en": "Computer",
+		"es": "Computadora",
+		"syllables": ["dian", "nao"],
+		"tones": [4, 3]
+	},
+	{
+		"pair": "4+3",
+		"pinyin": "diànyǐng",
+		"hanzi": "电影",
+		"en": "Movie",
+		"es": "Película",
+		"syllables": ["dian", "ying"],
+		"tones": [4, 3]
+	},
+	{
+		"pair": "4+3",
 		"pinyin": "hànyǔ",
 		"hanzi": "汉语",
-		"en": "Chinese",
-		"es": "Chino",
+		"en": "Chinese language",
+		"es": "Idioma chino",
 		"syllables": ["han", "yu"],
+		"tones": [4, 3]
+	},
+	{
+		"pair": "4+3",
+		"pinyin": "dìzhǐ",
+		"hanzi": "地址",
+		"en": "Address",
+		"es": "Dirección",
+		"syllables": ["di", "zhi"],
 		"tones": [4, 3]
 	},
 	{
@@ -171,12 +657,66 @@
 		"tones": [4, 4]
 	},
 	{
+		"pair": "4+4",
+		"pinyin": "diànshì",
+		"hanzi": "电视",
+		"en": "Television",
+		"es": "Televisión",
+		"syllables": ["dian", "shi"],
+		"tones": [4, 4]
+	},
+	{
+		"pair": "4+4",
+		"pinyin": "kuàilè",
+		"hanzi": "快乐",
+		"en": "Happy",
+		"es": "Feliz",
+		"syllables": ["kuai", "le"],
+		"tones": [4, 4]
+	},
+	{
+		"pair": "4+4",
+		"pinyin": "yùndòng",
+		"hanzi": "运动",
+		"en": "Sport / Exercise",
+		"es": "Deporte / Ejercicio",
+		"syllables": ["yun", "dong"],
+		"tones": [4, 4]
+	},
+	{
 		"pair": "4+0",
-		"pinyin": "bàba",
-		"hanzi": "爸爸",
-		"en": "Dad",
-		"es": "Papá",
-		"syllables": ["ba", "ba"],
+		"pinyin": "duìle",
+		"hanzi": "对了",
+		"en": "Correct / By the way",
+		"es": "Correcto / Por cierto",
+		"syllables": ["dui", "le"],
+		"tones": [4, 0]
+	},
+	{
+		"pair": "4+0",
+		"pinyin": "dàde",
+		"hanzi": "大的",
+		"en": "The big one",
+		"es": "El grande",
+		"syllables": ["da", "de"],
+		"tones": [4, 0]
+	},
+	{
+		"pair": "4+0",
+		"pinyin": "kànle",
+		"hanzi": "看了",
+		"en": "Watched / Looked",
+		"es": "Miró / Vio",
+		"syllables": ["kan", "le"],
+		"tones": [4, 0]
+	},
+	{
+		"pair": "4+0",
+		"pinyin": "shìde",
+		"hanzi": "是的",
+		"en": "Yes / That is so",
+		"es": "Sí / Así es",
+		"syllables": ["shi", "de"],
 		"tones": [4, 0]
 	}
 ]

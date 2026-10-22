@@ -41,6 +41,8 @@ export interface Stimulus {
 	es: string;
 	tones: number[];
 	label?: string;
+	itemA?: MinimalPairItem["itemA"];
+	itemB?: MinimalPairItem["itemB"];
 	syllables: Array<{ syllable: string; tone: number }>;
 }
 
@@ -59,8 +61,8 @@ function buildSingleStimuli(): Stimulus[] {
 }
 
 function buildPairStimuli(): Stimulus[] {
-	return (tonePairs as TonePairItem[]).map((pair) => ({
-		id: `pair-${pair.pair}`,
+	return (tonePairs as TonePairItem[]).map((pair, index) => ({
+		id: `pair-${pair.pair}-${index}`,
 		pinyin: pair.pinyin,
 		hanzi: pair.hanzi,
 		en: pair.en,
@@ -78,12 +80,17 @@ function buildMinimalStimuli(): Stimulus[] {
 	return (minimalPairs as MinimalPairItem[]).map((item) => ({
 		id: item.id,
 		pinyin: `${item.itemA.pinyin} / ${item.itemB.pinyin}`,
-		hanzi: "",
+		hanzi: `${item.itemA.hanzi} / ${item.itemB.hanzi}`,
 		en: `${item.itemA.en} / ${item.itemB.en}`,
 		es: `${item.itemA.es} / ${item.itemB.es}`,
-		tones: [item.itemA.tone],
+		tones: [item.itemA.tone, item.itemB.tone],
 		label: item.contrast,
-		syllables: [{ syllable: item.itemA.syllable, tone: item.itemA.tone }],
+		itemA: item.itemA,
+		itemB: item.itemB,
+		syllables: [
+			{ syllable: item.itemA.syllable, tone: item.itemA.tone },
+			{ syllable: item.itemB.syllable, tone: item.itemB.tone },
+		],
 	}));
 }
 
@@ -167,6 +174,15 @@ class ToneLab {
 		this.resetAttempt();
 	}
 
+	selectStimulusById(id: string): void {
+		const targetIndex = this.list.findIndex((s) => s.id === id);
+		if (targetIndex >= 0) {
+			this.index = targetIndex;
+			this.override = null;
+			this.resetAttempt();
+		}
+	}
+
 	private resetAttempt(): void {
 		this.status = "idle";
 		this.reference = [];
@@ -225,6 +241,21 @@ class ToneLab {
 		await playSequence(getAudioContext(), this.referenceBuffers);
 		if (this.status === "playing") {
 			this.status = "idle";
+		}
+	}
+
+	async playSyllable(syllable: string, tone: number): Promise<void> {
+		if (this.status === "playing" || this.status === "recording") return;
+		this.status = "loading";
+		try {
+			const context = getAudioContext();
+			const buffer = await fetchAudioBuffer(context, syllable, tone);
+			await resumeAudioContext();
+			this.status = "playing";
+			await playSequence(context, [buffer]);
+			this.status = "idle";
+		} catch (error) {
+			this.handleAudioFailure(error, `syl_${syllable}-${tone}`);
 		}
 	}
 

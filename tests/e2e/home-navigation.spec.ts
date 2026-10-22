@@ -33,7 +33,7 @@ test.describe("Home dashboard navigation", () => {
 	test("navigates to Tone Lab and returns to dashboard", async ({ page }) => {
 		await page.getByRole("button", { name: "Tones", exact: true }).click();
 		await expect(
-			page.getByRole("heading", { name: "Tone and Pinyin Lab" }),
+			page.getByRole("heading", { name: "Pinyin and Tones" }),
 		).toBeVisible();
 
 		await page

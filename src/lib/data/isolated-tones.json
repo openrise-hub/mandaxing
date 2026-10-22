@@ -1,93 +1,8988 @@
 [
 	{
-		"id": "vowel_a",
+		"id": "syl_a",
 		"syllable": "a",
 		"tones": [
-			{ "tone": 1, "pinyin": "ā" },
-			{ "tone": 2, "pinyin": "á" },
-			{ "tone": 3, "pinyin": "ǎ" },
-			{ "tone": 4, "pinyin": "à" }
+			{
+				"tone": 1,
+				"pinyin": "ā"
+			},
+			{
+				"tone": 2,
+				"pinyin": "á"
+			},
+			{
+				"tone": 3,
+				"pinyin": "ǎ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "à"
+			}
 		]
 	},
 	{
-		"id": "vowel_o",
-		"syllable": "o",
+		"id": "syl_ai",
+		"syllable": "ai",
 		"tones": [
-			{ "tone": 1, "pinyin": "ō" },
-			{ "tone": 2, "pinyin": "ó" },
-			{ "tone": 3, "pinyin": "ǒ" },
-			{ "tone": 4, "pinyin": "ò" }
+			{
+				"tone": 1,
+				"pinyin": "āi"
+			},
+			{
+				"tone": 2,
+				"pinyin": "ái"
+			},
+			{
+				"tone": 3,
+				"pinyin": "ǎi"
+			},
+			{
+				"tone": 4,
+				"pinyin": "ài"
+			}
 		]
 	},
 	{
-		"id": "vowel_e",
-		"syllable": "e",
+		"id": "syl_an",
+		"syllable": "an",
 		"tones": [
-			{ "tone": 1, "pinyin": "ē" },
-			{ "tone": 2, "pinyin": "é" },
-			{ "tone": 3, "pinyin": "ě" },
-			{ "tone": 4, "pinyin": "è" }
+			{
+				"tone": 1,
+				"pinyin": "ān"
+			},
+			{
+				"tone": 2,
+				"pinyin": "án"
+			},
+			{
+				"tone": 3,
+				"pinyin": "ǎn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "àn"
+			}
 		]
 	},
 	{
-		"id": "vowel_i",
-		"syllable": "yi",
+		"id": "syl_ang",
+		"syllable": "ang",
 		"tones": [
-			{ "tone": 1, "pinyin": "yī" },
-			{ "tone": 2, "pinyin": "yí" },
-			{ "tone": 3, "pinyin": "yǐ" },
-			{ "tone": 4, "pinyin": "yì" }
+			{
+				"tone": 1,
+				"pinyin": "āng"
+			},
+			{
+				"tone": 2,
+				"pinyin": "áng"
+			},
+			{
+				"tone": 3,
+				"pinyin": "ǎng"
+			},
+			{
+				"tone": 4,
+				"pinyin": "àng"
+			}
 		]
 	},
 	{
-		"id": "vowel_u",
-		"syllable": "wu",
+		"id": "syl_ao",
+		"syllable": "ao",
 		"tones": [
-			{ "tone": 1, "pinyin": "wū" },
-			{ "tone": 2, "pinyin": "wú" },
-			{ "tone": 3, "pinyin": "wǔ" },
-			{ "tone": 4, "pinyin": "wù" }
-		]
-	},
-	{
-		"id": "vowel_v",
-		"syllable": "yu",
-		"tones": [
-			{ "tone": 1, "pinyin": "yū" },
-			{ "tone": 2, "pinyin": "yú" },
-			{ "tone": 3, "pinyin": "yǔ" },
-			{ "tone": 4, "pinyin": "yù" }
-		]
-	},
-	{
-		"id": "syl_ma",
-		"syllable": "ma",
-		"tones": [
-			{ "tone": 1, "pinyin": "mā" },
-			{ "tone": 2, "pinyin": "má" },
-			{ "tone": 3, "pinyin": "mǎ" },
-			{ "tone": 4, "pinyin": "mà" },
-			{ "tone": 0, "pinyin": "ma" }
+			{
+				"tone": 1,
+				"pinyin": "āo"
+			},
+			{
+				"tone": 2,
+				"pinyin": "áo"
+			},
+			{
+				"tone": 3,
+				"pinyin": "ǎo"
+			},
+			{
+				"tone": 4,
+				"pinyin": "ào"
+			}
 		]
 	},
 	{
 		"id": "syl_ba",
 		"syllable": "ba",
 		"tones": [
-			{ "tone": 1, "pinyin": "bā" },
-			{ "tone": 2, "pinyin": "bá" },
-			{ "tone": 3, "pinyin": "bǎ" },
-			{ "tone": 4, "pinyin": "bà" }
+			{
+				"tone": 1,
+				"pinyin": "bā"
+			},
+			{
+				"tone": 2,
+				"pinyin": "bá"
+			},
+			{
+				"tone": 3,
+				"pinyin": "bǎ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "bà"
+			}
+		]
+	},
+	{
+		"id": "syl_bai",
+		"syllable": "bai",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "bāi"
+			},
+			{
+				"tone": 2,
+				"pinyin": "bái"
+			},
+			{
+				"tone": 3,
+				"pinyin": "bǎi"
+			},
+			{
+				"tone": 4,
+				"pinyin": "bài"
+			}
+		]
+	},
+	{
+		"id": "syl_ban",
+		"syllable": "ban",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "bān"
+			},
+			{
+				"tone": 2,
+				"pinyin": "bán"
+			},
+			{
+				"tone": 3,
+				"pinyin": "bǎn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "bàn"
+			}
+		]
+	},
+	{
+		"id": "syl_bang",
+		"syllable": "bang",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "bāng"
+			},
+			{
+				"tone": 2,
+				"pinyin": "báng"
+			},
+			{
+				"tone": 3,
+				"pinyin": "bǎng"
+			},
+			{
+				"tone": 4,
+				"pinyin": "bàng"
+			}
+		]
+	},
+	{
+		"id": "syl_bao",
+		"syllable": "bao",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "bāo"
+			},
+			{
+				"tone": 2,
+				"pinyin": "báo"
+			},
+			{
+				"tone": 3,
+				"pinyin": "bǎo"
+			},
+			{
+				"tone": 4,
+				"pinyin": "bào"
+			}
+		]
+	},
+	{
+		"id": "syl_bei",
+		"syllable": "bei",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "bēi"
+			},
+			{
+				"tone": 2,
+				"pinyin": "béi"
+			},
+			{
+				"tone": 3,
+				"pinyin": "běi"
+			},
+			{
+				"tone": 4,
+				"pinyin": "bèi"
+			}
+		]
+	},
+	{
+		"id": "syl_ben",
+		"syllable": "ben",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "bēn"
+			},
+			{
+				"tone": 2,
+				"pinyin": "bén"
+			},
+			{
+				"tone": 3,
+				"pinyin": "běn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "bèn"
+			}
+		]
+	},
+	{
+		"id": "syl_beng",
+		"syllable": "beng",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "bēng"
+			},
+			{
+				"tone": 2,
+				"pinyin": "béng"
+			},
+			{
+				"tone": 3,
+				"pinyin": "běng"
+			},
+			{
+				"tone": 4,
+				"pinyin": "bèng"
+			}
+		]
+	},
+	{
+		"id": "syl_bi",
+		"syllable": "bi",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "bī"
+			},
+			{
+				"tone": 2,
+				"pinyin": "bí"
+			},
+			{
+				"tone": 3,
+				"pinyin": "bǐ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "bì"
+			}
+		]
+	},
+	{
+		"id": "syl_bian",
+		"syllable": "bian",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "biān"
+			},
+			{
+				"tone": 2,
+				"pinyin": "bián"
+			},
+			{
+				"tone": 3,
+				"pinyin": "biǎn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "biàn"
+			}
+		]
+	},
+	{
+		"id": "syl_biao",
+		"syllable": "biao",
+		"tones": [
+			{
+				"tone": 2,
+				"pinyin": "biáo"
+			},
+			{
+				"tone": 3,
+				"pinyin": "biǎo"
+			},
+			{
+				"tone": 4,
+				"pinyin": "biào"
+			}
+		]
+	},
+	{
+		"id": "syl_bie",
+		"syllable": "bie",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "biē"
+			},
+			{
+				"tone": 2,
+				"pinyin": "bié"
+			},
+			{
+				"tone": 3,
+				"pinyin": "biě"
+			},
+			{
+				"tone": 4,
+				"pinyin": "biè"
+			}
+		]
+	},
+	{
+		"id": "syl_bin",
+		"syllable": "bin",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "bīn"
+			},
+			{
+				"tone": 2,
+				"pinyin": "bín"
+			},
+			{
+				"tone": 3,
+				"pinyin": "bǐn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "bìn"
+			}
+		]
+	},
+	{
+		"id": "syl_bing",
+		"syllable": "bing",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "bīng"
+			},
+			{
+				"tone": 2,
+				"pinyin": "bíng"
+			},
+			{
+				"tone": 3,
+				"pinyin": "bǐng"
+			},
+			{
+				"tone": 4,
+				"pinyin": "bìng"
+			}
+		]
+	},
+	{
+		"id": "syl_bo",
+		"syllable": "bo",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "bō"
+			},
+			{
+				"tone": 2,
+				"pinyin": "bó"
+			},
+			{
+				"tone": 3,
+				"pinyin": "bǒ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "bò"
+			}
+		]
+	},
+	{
+		"id": "syl_bu",
+		"syllable": "bu",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "bū"
+			},
+			{
+				"tone": 2,
+				"pinyin": "bú"
+			},
+			{
+				"tone": 3,
+				"pinyin": "bǔ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "bù"
+			}
+		]
+	},
+	{
+		"id": "syl_ca",
+		"syllable": "ca",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "cā"
+			},
+			{
+				"tone": 2,
+				"pinyin": "cá"
+			},
+			{
+				"tone": 3,
+				"pinyin": "cǎ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "cà"
+			}
+		]
+	},
+	{
+		"id": "syl_cai",
+		"syllable": "cai",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "cāi"
+			},
+			{
+				"tone": 2,
+				"pinyin": "cái"
+			},
+			{
+				"tone": 3,
+				"pinyin": "cǎi"
+			},
+			{
+				"tone": 4,
+				"pinyin": "cài"
+			}
+		]
+	},
+	{
+		"id": "syl_can",
+		"syllable": "can",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "cān"
+			},
+			{
+				"tone": 2,
+				"pinyin": "cán"
+			},
+			{
+				"tone": 3,
+				"pinyin": "cǎn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "càn"
+			}
+		]
+	},
+	{
+		"id": "syl_cang",
+		"syllable": "cang",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "cāng"
+			},
+			{
+				"tone": 2,
+				"pinyin": "cáng"
+			},
+			{
+				"tone": 3,
+				"pinyin": "cǎng"
+			},
+			{
+				"tone": 4,
+				"pinyin": "càng"
+			}
+		]
+	},
+	{
+		"id": "syl_cao",
+		"syllable": "cao",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "cāo"
+			},
+			{
+				"tone": 2,
+				"pinyin": "cáo"
+			},
+			{
+				"tone": 3,
+				"pinyin": "cǎo"
+			},
+			{
+				"tone": 4,
+				"pinyin": "cào"
+			}
+		]
+	},
+	{
+		"id": "syl_ce",
+		"syllable": "ce",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "cē"
+			},
+			{
+				"tone": 2,
+				"pinyin": "cé"
+			},
+			{
+				"tone": 3,
+				"pinyin": "cě"
+			},
+			{
+				"tone": 4,
+				"pinyin": "cè"
+			}
+		]
+	},
+	{
+		"id": "syl_cen",
+		"syllable": "cen",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "cēn"
+			},
+			{
+				"tone": 2,
+				"pinyin": "cén"
+			},
+			{
+				"tone": 3,
+				"pinyin": "cěn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "cèn"
+			}
+		]
+	},
+	{
+		"id": "syl_ceng",
+		"syllable": "ceng",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "cēng"
+			},
+			{
+				"tone": 2,
+				"pinyin": "céng"
+			},
+			{
+				"tone": 3,
+				"pinyin": "cěng"
+			},
+			{
+				"tone": 4,
+				"pinyin": "cèng"
+			}
+		]
+	},
+	{
+		"id": "syl_cha",
+		"syllable": "cha",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "chā"
+			},
+			{
+				"tone": 2,
+				"pinyin": "chá"
+			},
+			{
+				"tone": 3,
+				"pinyin": "chǎ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "chà"
+			}
+		]
+	},
+	{
+		"id": "syl_chai",
+		"syllable": "chai",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "chāi"
+			},
+			{
+				"tone": 2,
+				"pinyin": "chái"
+			},
+			{
+				"tone": 3,
+				"pinyin": "chǎi"
+			},
+			{
+				"tone": 4,
+				"pinyin": "chài"
+			}
+		]
+	},
+	{
+		"id": "syl_chan",
+		"syllable": "chan",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "chān"
+			},
+			{
+				"tone": 2,
+				"pinyin": "chán"
+			},
+			{
+				"tone": 3,
+				"pinyin": "chǎn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "chàn"
+			}
+		]
+	},
+	{
+		"id": "syl_chang",
+		"syllable": "chang",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "chāng"
+			},
+			{
+				"tone": 2,
+				"pinyin": "cháng"
+			},
+			{
+				"tone": 3,
+				"pinyin": "chǎng"
+			},
+			{
+				"tone": 4,
+				"pinyin": "chàng"
+			}
+		]
+	},
+	{
+		"id": "syl_chao",
+		"syllable": "chao",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "chāo"
+			},
+			{
+				"tone": 2,
+				"pinyin": "cháo"
+			},
+			{
+				"tone": 3,
+				"pinyin": "chǎo"
+			},
+			{
+				"tone": 4,
+				"pinyin": "chào"
+			}
+		]
+	},
+	{
+		"id": "syl_che",
+		"syllable": "che",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "chē"
+			},
+			{
+				"tone": 2,
+				"pinyin": "ché"
+			},
+			{
+				"tone": 3,
+				"pinyin": "chě"
+			},
+			{
+				"tone": 4,
+				"pinyin": "chè"
+			}
+		]
+	},
+	{
+		"id": "syl_chen",
+		"syllable": "chen",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "chēn"
+			},
+			{
+				"tone": 2,
+				"pinyin": "chén"
+			},
+			{
+				"tone": 3,
+				"pinyin": "chěn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "chèn"
+			}
+		]
+	},
+	{
+		"id": "syl_cheng",
+		"syllable": "cheng",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "chēng"
+			},
+			{
+				"tone": 2,
+				"pinyin": "chéng"
+			},
+			{
+				"tone": 3,
+				"pinyin": "chěng"
+			},
+			{
+				"tone": 4,
+				"pinyin": "chèng"
+			}
+		]
+	},
+	{
+		"id": "syl_chi",
+		"syllable": "chi",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "chī"
+			},
+			{
+				"tone": 2,
+				"pinyin": "chí"
+			},
+			{
+				"tone": 3,
+				"pinyin": "chǐ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "chì"
+			}
+		]
+	},
+	{
+		"id": "syl_chong",
+		"syllable": "chong",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "chōng"
+			},
+			{
+				"tone": 2,
+				"pinyin": "chóng"
+			},
+			{
+				"tone": 3,
+				"pinyin": "chǒng"
+			},
+			{
+				"tone": 4,
+				"pinyin": "chòng"
+			}
+		]
+	},
+	{
+		"id": "syl_chou",
+		"syllable": "chou",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "chōu"
+			},
+			{
+				"tone": 2,
+				"pinyin": "chóu"
+			},
+			{
+				"tone": 3,
+				"pinyin": "chǒu"
+			},
+			{
+				"tone": 4,
+				"pinyin": "chòu"
+			}
+		]
+	},
+	{
+		"id": "syl_chu",
+		"syllable": "chu",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "chū"
+			},
+			{
+				"tone": 2,
+				"pinyin": "chú"
+			},
+			{
+				"tone": 3,
+				"pinyin": "chǔ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "chù"
+			}
+		]
+	},
+	{
+		"id": "syl_chua",
+		"syllable": "chua",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "chuā"
+			},
+			{
+				"tone": 2,
+				"pinyin": "chuá"
+			},
+			{
+				"tone": 3,
+				"pinyin": "chuǎ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "chuà"
+			}
+		]
+	},
+	{
+		"id": "syl_chuai",
+		"syllable": "chuai",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "chuāi"
+			},
+			{
+				"tone": 2,
+				"pinyin": "chuái"
+			},
+			{
+				"tone": 3,
+				"pinyin": "chuǎi"
+			},
+			{
+				"tone": 4,
+				"pinyin": "chuài"
+			}
+		]
+	},
+	{
+		"id": "syl_chuan",
+		"syllable": "chuan",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "chuān"
+			},
+			{
+				"tone": 2,
+				"pinyin": "chuán"
+			},
+			{
+				"tone": 3,
+				"pinyin": "chuǎn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "chuàn"
+			}
+		]
+	},
+	{
+		"id": "syl_chuang",
+		"syllable": "chuang",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "chuāng"
+			},
+			{
+				"tone": 2,
+				"pinyin": "chuáng"
+			},
+			{
+				"tone": 3,
+				"pinyin": "chuǎng"
+			},
+			{
+				"tone": 4,
+				"pinyin": "chuàng"
+			}
+		]
+	},
+	{
+		"id": "syl_chui",
+		"syllable": "chui",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "chuī"
+			},
+			{
+				"tone": 2,
+				"pinyin": "chuí"
+			},
+			{
+				"tone": 3,
+				"pinyin": "chuǐ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "chuì"
+			}
+		]
+	},
+	{
+		"id": "syl_chun",
+		"syllable": "chun",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "chūn"
+			},
+			{
+				"tone": 2,
+				"pinyin": "chún"
+			},
+			{
+				"tone": 3,
+				"pinyin": "chǔn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "chùn"
+			}
+		]
+	},
+	{
+		"id": "syl_chuo",
+		"syllable": "chuo",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "chuō"
+			},
+			{
+				"tone": 2,
+				"pinyin": "chuó"
+			},
+			{
+				"tone": 3,
+				"pinyin": "chuǒ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "chuò"
+			}
+		]
+	},
+	{
+		"id": "syl_ci",
+		"syllable": "ci",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "cī"
+			},
+			{
+				"tone": 2,
+				"pinyin": "cí"
+			},
+			{
+				"tone": 3,
+				"pinyin": "cǐ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "cì"
+			}
+		]
+	},
+	{
+		"id": "syl_cong",
+		"syllable": "cong",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "cōng"
+			},
+			{
+				"tone": 2,
+				"pinyin": "cóng"
+			},
+			{
+				"tone": 3,
+				"pinyin": "cǒng"
+			},
+			{
+				"tone": 4,
+				"pinyin": "còng"
+			}
+		]
+	},
+	{
+		"id": "syl_cou",
+		"syllable": "cou",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "cōu"
+			},
+			{
+				"tone": 2,
+				"pinyin": "cóu"
+			},
+			{
+				"tone": 3,
+				"pinyin": "cǒu"
+			},
+			{
+				"tone": 4,
+				"pinyin": "còu"
+			}
+		]
+	},
+	{
+		"id": "syl_cu",
+		"syllable": "cu",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "cū"
+			},
+			{
+				"tone": 2,
+				"pinyin": "cú"
+			},
+			{
+				"tone": 3,
+				"pinyin": "cǔ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "cù"
+			}
+		]
+	},
+	{
+		"id": "syl_cuan",
+		"syllable": "cuan",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "cuān"
+			},
+			{
+				"tone": 2,
+				"pinyin": "cuán"
+			},
+			{
+				"tone": 3,
+				"pinyin": "cuǎn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "cuàn"
+			}
+		]
+	},
+	{
+		"id": "syl_cui",
+		"syllable": "cui",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "cuī"
+			},
+			{
+				"tone": 2,
+				"pinyin": "cuí"
+			},
+			{
+				"tone": 3,
+				"pinyin": "cuǐ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "cuì"
+			}
+		]
+	},
+	{
+		"id": "syl_cun",
+		"syllable": "cun",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "cūn"
+			},
+			{
+				"tone": 2,
+				"pinyin": "cún"
+			},
+			{
+				"tone": 3,
+				"pinyin": "cǔn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "cùn"
+			}
+		]
+	},
+	{
+		"id": "syl_cuo",
+		"syllable": "cuo",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "cuō"
+			},
+			{
+				"tone": 3,
+				"pinyin": "cuǒ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "cuò"
+			}
+		]
+	},
+	{
+		"id": "syl_da",
+		"syllable": "da",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "dā"
+			},
+			{
+				"tone": 2,
+				"pinyin": "dá"
+			},
+			{
+				"tone": 3,
+				"pinyin": "dǎ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "dà"
+			}
+		]
+	},
+	{
+		"id": "syl_dai",
+		"syllable": "dai",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "dāi"
+			},
+			{
+				"tone": 2,
+				"pinyin": "dái"
+			},
+			{
+				"tone": 3,
+				"pinyin": "dǎi"
+			},
+			{
+				"tone": 4,
+				"pinyin": "dài"
+			}
+		]
+	},
+	{
+		"id": "syl_dan",
+		"syllable": "dan",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "dān"
+			},
+			{
+				"tone": 2,
+				"pinyin": "dán"
+			},
+			{
+				"tone": 3,
+				"pinyin": "dǎn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "dàn"
+			}
+		]
+	},
+	{
+		"id": "syl_dang",
+		"syllable": "dang",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "dāng"
+			},
+			{
+				"tone": 2,
+				"pinyin": "dáng"
+			},
+			{
+				"tone": 3,
+				"pinyin": "dǎng"
+			},
+			{
+				"tone": 4,
+				"pinyin": "dàng"
+			}
+		]
+	},
+	{
+		"id": "syl_dao",
+		"syllable": "dao",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "dāo"
+			},
+			{
+				"tone": 2,
+				"pinyin": "dáo"
+			},
+			{
+				"tone": 3,
+				"pinyin": "dǎo"
+			},
+			{
+				"tone": 4,
+				"pinyin": "dào"
+			}
+		]
+	},
+	{
+		"id": "syl_de",
+		"syllable": "de",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "dē"
+			},
+			{
+				"tone": 2,
+				"pinyin": "dé"
+			},
+			{
+				"tone": 3,
+				"pinyin": "dě"
+			},
+			{
+				"tone": 4,
+				"pinyin": "dè"
+			},
+			{
+				"tone": 0,
+				"pinyin": "de"
+			}
+		]
+	},
+	{
+		"id": "syl_dei",
+		"syllable": "dei",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "dēi"
+			},
+			{
+				"tone": 2,
+				"pinyin": "déi"
+			},
+			{
+				"tone": 3,
+				"pinyin": "děi"
+			},
+			{
+				"tone": 4,
+				"pinyin": "dèi"
+			},
+			{
+				"tone": 0,
+				"pinyin": "dei"
+			}
+		]
+	},
+	{
+		"id": "syl_den",
+		"syllable": "den",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "dēn"
+			},
+			{
+				"tone": 2,
+				"pinyin": "dén"
+			},
+			{
+				"tone": 3,
+				"pinyin": "děn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "dèn"
+			}
+		]
+	},
+	{
+		"id": "syl_deng",
+		"syllable": "deng",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "dēng"
+			},
+			{
+				"tone": 2,
+				"pinyin": "déng"
+			},
+			{
+				"tone": 3,
+				"pinyin": "děng"
+			},
+			{
+				"tone": 4,
+				"pinyin": "dèng"
+			}
+		]
+	},
+	{
+		"id": "syl_di",
+		"syllable": "di",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "dī"
+			},
+			{
+				"tone": 2,
+				"pinyin": "dí"
+			},
+			{
+				"tone": 3,
+				"pinyin": "dǐ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "dì"
+			}
+		]
+	},
+	{
+		"id": "syl_dian",
+		"syllable": "dian",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "diān"
+			},
+			{
+				"tone": 2,
+				"pinyin": "dián"
+			},
+			{
+				"tone": 3,
+				"pinyin": "diǎn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "diàn"
+			}
+		]
+	},
+	{
+		"id": "syl_diang",
+		"syllable": "diang",
+		"tones": [
+			{
+				"tone": 2,
+				"pinyin": "diáng"
+			},
+			{
+				"tone": 3,
+				"pinyin": "diǎng"
+			},
+			{
+				"tone": 4,
+				"pinyin": "diàng"
+			}
+		]
+	},
+	{
+		"id": "syl_diao",
+		"syllable": "diao",
+		"tones": [
+			{
+				"tone": 2,
+				"pinyin": "diáo"
+			},
+			{
+				"tone": 3,
+				"pinyin": "diǎo"
+			},
+			{
+				"tone": 4,
+				"pinyin": "diào"
+			}
+		]
+	},
+	{
+		"id": "syl_die",
+		"syllable": "die",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "diē"
+			},
+			{
+				"tone": 2,
+				"pinyin": "dié"
+			},
+			{
+				"tone": 3,
+				"pinyin": "diě"
+			},
+			{
+				"tone": 4,
+				"pinyin": "diè"
+			}
+		]
+	},
+	{
+		"id": "syl_ding",
+		"syllable": "ding",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "dīng"
+			},
+			{
+				"tone": 2,
+				"pinyin": "díng"
+			},
+			{
+				"tone": 3,
+				"pinyin": "dǐng"
+			},
+			{
+				"tone": 4,
+				"pinyin": "dìng"
+			}
+		]
+	},
+	{
+		"id": "syl_diu",
+		"syllable": "diu",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "diū"
+			},
+			{
+				"tone": 2,
+				"pinyin": "diú"
+			},
+			{
+				"tone": 3,
+				"pinyin": "diǔ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "diù"
+			}
+		]
+	},
+	{
+		"id": "syl_dong",
+		"syllable": "dong",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "dōng"
+			},
+			{
+				"tone": 2,
+				"pinyin": "dóng"
+			},
+			{
+				"tone": 3,
+				"pinyin": "dǒng"
+			},
+			{
+				"tone": 4,
+				"pinyin": "dòng"
+			}
+		]
+	},
+	{
+		"id": "syl_dou",
+		"syllable": "dou",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "dōu"
+			},
+			{
+				"tone": 2,
+				"pinyin": "dóu"
+			},
+			{
+				"tone": 3,
+				"pinyin": "dǒu"
+			},
+			{
+				"tone": 4,
+				"pinyin": "dòu"
+			}
+		]
+	},
+	{
+		"id": "syl_du",
+		"syllable": "du",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "dū"
+			},
+			{
+				"tone": 2,
+				"pinyin": "dú"
+			},
+			{
+				"tone": 3,
+				"pinyin": "dǔ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "dù"
+			}
+		]
+	},
+	{
+		"id": "syl_duan",
+		"syllable": "duan",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "duān"
+			},
+			{
+				"tone": 2,
+				"pinyin": "duán"
+			},
+			{
+				"tone": 3,
+				"pinyin": "duǎn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "duàn"
+			}
+		]
+	},
+	{
+		"id": "syl_dui",
+		"syllable": "dui",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "duī"
+			},
+			{
+				"tone": 2,
+				"pinyin": "duí"
+			},
+			{
+				"tone": 3,
+				"pinyin": "duǐ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "duì"
+			}
+		]
+	},
+	{
+		"id": "syl_dun",
+		"syllable": "dun",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "dūn"
+			},
+			{
+				"tone": 2,
+				"pinyin": "dún"
+			},
+			{
+				"tone": 3,
+				"pinyin": "dǔn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "dùn"
+			}
+		]
+	},
+	{
+		"id": "syl_duo",
+		"syllable": "duo",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "duō"
+			},
+			{
+				"tone": 2,
+				"pinyin": "duó"
+			},
+			{
+				"tone": 3,
+				"pinyin": "duǒ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "duò"
+			}
+		]
+	},
+	{
+		"id": "syl_e",
+		"syllable": "e",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "ē"
+			},
+			{
+				"tone": 2,
+				"pinyin": "é"
+			},
+			{
+				"tone": 3,
+				"pinyin": "ě"
+			},
+			{
+				"tone": 4,
+				"pinyin": "è"
+			}
+		]
+	},
+	{
+		"id": "syl_ei",
+		"syllable": "ei",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "ēi"
+			},
+			{
+				"tone": 2,
+				"pinyin": "éi"
+			},
+			{
+				"tone": 3,
+				"pinyin": "ěi"
+			},
+			{
+				"tone": 4,
+				"pinyin": "èi"
+			}
+		]
+	},
+	{
+		"id": "syl_en",
+		"syllable": "en",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "ēn"
+			},
+			{
+				"tone": 2,
+				"pinyin": "én"
+			},
+			{
+				"tone": 3,
+				"pinyin": "ěn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "èn"
+			}
+		]
+	},
+	{
+		"id": "syl_er",
+		"syllable": "er",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "ēr"
+			},
+			{
+				"tone": 2,
+				"pinyin": "ér"
+			},
+			{
+				"tone": 3,
+				"pinyin": "ěr"
+			},
+			{
+				"tone": 4,
+				"pinyin": "èr"
+			}
+		]
+	},
+	{
+		"id": "syl_fa",
+		"syllable": "fa",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "fā"
+			},
+			{
+				"tone": 2,
+				"pinyin": "fá"
+			},
+			{
+				"tone": 3,
+				"pinyin": "fǎ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "fà"
+			}
+		]
+	},
+	{
+		"id": "syl_fan",
+		"syllable": "fan",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "fān"
+			},
+			{
+				"tone": 2,
+				"pinyin": "fán"
+			},
+			{
+				"tone": 3,
+				"pinyin": "fǎn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "fàn"
+			}
+		]
+	},
+	{
+		"id": "syl_fang",
+		"syllable": "fang",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "fāng"
+			},
+			{
+				"tone": 2,
+				"pinyin": "fáng"
+			},
+			{
+				"tone": 3,
+				"pinyin": "fǎng"
+			},
+			{
+				"tone": 4,
+				"pinyin": "fàng"
+			}
+		]
+	},
+	{
+		"id": "syl_fei",
+		"syllable": "fei",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "fēi"
+			},
+			{
+				"tone": 2,
+				"pinyin": "féi"
+			},
+			{
+				"tone": 3,
+				"pinyin": "fěi"
+			},
+			{
+				"tone": 4,
+				"pinyin": "fèi"
+			}
+		]
+	},
+	{
+		"id": "syl_fen",
+		"syllable": "fen",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "fēn"
+			},
+			{
+				"tone": 2,
+				"pinyin": "fén"
+			},
+			{
+				"tone": 3,
+				"pinyin": "fěn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "fèn"
+			}
+		]
+	},
+	{
+		"id": "syl_feng",
+		"syllable": "feng",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "fēng"
+			},
+			{
+				"tone": 2,
+				"pinyin": "féng"
+			},
+			{
+				"tone": 3,
+				"pinyin": "fěng"
+			},
+			{
+				"tone": 4,
+				"pinyin": "fèng"
+			}
+		]
+	},
+	{
+		"id": "syl_fo",
+		"syllable": "fo",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "fō"
+			},
+			{
+				"tone": 2,
+				"pinyin": "fó"
+			},
+			{
+				"tone": 3,
+				"pinyin": "fǒ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "fò"
+			}
+		]
+	},
+	{
+		"id": "syl_fou",
+		"syllable": "fou",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "fōu"
+			},
+			{
+				"tone": 2,
+				"pinyin": "fóu"
+			},
+			{
+				"tone": 3,
+				"pinyin": "fǒu"
+			},
+			{
+				"tone": 4,
+				"pinyin": "fòu"
+			}
+		]
+	},
+	{
+		"id": "syl_fu",
+		"syllable": "fu",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "fū"
+			},
+			{
+				"tone": 2,
+				"pinyin": "fú"
+			},
+			{
+				"tone": 3,
+				"pinyin": "fǔ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "fù"
+			}
+		]
+	},
+	{
+		"id": "syl_ga",
+		"syllable": "ga",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "gā"
+			},
+			{
+				"tone": 2,
+				"pinyin": "gá"
+			},
+			{
+				"tone": 3,
+				"pinyin": "gǎ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "gà"
+			}
+		]
+	},
+	{
+		"id": "syl_gai",
+		"syllable": "gai",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "gāi"
+			},
+			{
+				"tone": 2,
+				"pinyin": "gái"
+			},
+			{
+				"tone": 3,
+				"pinyin": "gǎi"
+			},
+			{
+				"tone": 4,
+				"pinyin": "gài"
+			}
+		]
+	},
+	{
+		"id": "syl_gan",
+		"syllable": "gan",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "gān"
+			},
+			{
+				"tone": 2,
+				"pinyin": "gán"
+			},
+			{
+				"tone": 3,
+				"pinyin": "gǎn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "gàn"
+			}
+		]
+	},
+	{
+		"id": "syl_gang",
+		"syllable": "gang",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "gāng"
+			},
+			{
+				"tone": 2,
+				"pinyin": "gáng"
+			},
+			{
+				"tone": 3,
+				"pinyin": "gǎng"
+			},
+			{
+				"tone": 4,
+				"pinyin": "gàng"
+			}
+		]
+	},
+	{
+		"id": "syl_gao",
+		"syllable": "gao",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "gāo"
+			},
+			{
+				"tone": 2,
+				"pinyin": "gáo"
+			},
+			{
+				"tone": 3,
+				"pinyin": "gǎo"
+			},
+			{
+				"tone": 4,
+				"pinyin": "gào"
+			}
+		]
+	},
+	{
+		"id": "syl_ge",
+		"syllable": "ge",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "gē"
+			},
+			{
+				"tone": 2,
+				"pinyin": "gé"
+			},
+			{
+				"tone": 3,
+				"pinyin": "gě"
+			},
+			{
+				"tone": 4,
+				"pinyin": "gè"
+			}
+		]
+	},
+	{
+		"id": "syl_gei",
+		"syllable": "gei",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "gēi"
+			},
+			{
+				"tone": 2,
+				"pinyin": "géi"
+			},
+			{
+				"tone": 3,
+				"pinyin": "gěi"
+			},
+			{
+				"tone": 4,
+				"pinyin": "gèi"
+			}
+		]
+	},
+	{
+		"id": "syl_gen",
+		"syllable": "gen",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "gēn"
+			},
+			{
+				"tone": 2,
+				"pinyin": "gén"
+			},
+			{
+				"tone": 3,
+				"pinyin": "gěn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "gèn"
+			}
+		]
+	},
+	{
+		"id": "syl_geng",
+		"syllable": "geng",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "gēng"
+			},
+			{
+				"tone": 2,
+				"pinyin": "géng"
+			},
+			{
+				"tone": 3,
+				"pinyin": "gěng"
+			},
+			{
+				"tone": 4,
+				"pinyin": "gèng"
+			}
+		]
+	},
+	{
+		"id": "syl_gong",
+		"syllable": "gong",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "gōng"
+			},
+			{
+				"tone": 2,
+				"pinyin": "góng"
+			},
+			{
+				"tone": 3,
+				"pinyin": "gǒng"
+			},
+			{
+				"tone": 4,
+				"pinyin": "gòng"
+			}
+		]
+	},
+	{
+		"id": "syl_gou",
+		"syllable": "gou",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "gōu"
+			},
+			{
+				"tone": 2,
+				"pinyin": "góu"
+			},
+			{
+				"tone": 3,
+				"pinyin": "gǒu"
+			},
+			{
+				"tone": 4,
+				"pinyin": "gòu"
+			}
+		]
+	},
+	{
+		"id": "syl_gu",
+		"syllable": "gu",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "gū"
+			},
+			{
+				"tone": 2,
+				"pinyin": "gú"
+			},
+			{
+				"tone": 3,
+				"pinyin": "gǔ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "gù"
+			}
+		]
+	},
+	{
+		"id": "syl_gua",
+		"syllable": "gua",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "guā"
+			},
+			{
+				"tone": 2,
+				"pinyin": "guá"
+			},
+			{
+				"tone": 3,
+				"pinyin": "guǎ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "guà"
+			}
+		]
+	},
+	{
+		"id": "syl_guai",
+		"syllable": "guai",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "guāi"
+			},
+			{
+				"tone": 2,
+				"pinyin": "guái"
+			},
+			{
+				"tone": 3,
+				"pinyin": "guǎi"
+			},
+			{
+				"tone": 4,
+				"pinyin": "guài"
+			}
+		]
+	},
+	{
+		"id": "syl_guan",
+		"syllable": "guan",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "guān"
+			},
+			{
+				"tone": 2,
+				"pinyin": "guán"
+			},
+			{
+				"tone": 3,
+				"pinyin": "guǎn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "guàn"
+			}
+		]
+	},
+	{
+		"id": "syl_guang",
+		"syllable": "guang",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "guāng"
+			},
+			{
+				"tone": 2,
+				"pinyin": "guáng"
+			},
+			{
+				"tone": 3,
+				"pinyin": "guǎng"
+			},
+			{
+				"tone": 4,
+				"pinyin": "guàng"
+			}
+		]
+	},
+	{
+		"id": "syl_gui",
+		"syllable": "gui",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "guī"
+			},
+			{
+				"tone": 2,
+				"pinyin": "guí"
+			},
+			{
+				"tone": 3,
+				"pinyin": "guǐ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "guì"
+			}
+		]
+	},
+	{
+		"id": "syl_gun",
+		"syllable": "gun",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "gūn"
+			},
+			{
+				"tone": 2,
+				"pinyin": "gún"
+			},
+			{
+				"tone": 3,
+				"pinyin": "gǔn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "gùn"
+			}
+		]
+	},
+	{
+		"id": "syl_guo",
+		"syllable": "guo",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "guō"
+			},
+			{
+				"tone": 2,
+				"pinyin": "guó"
+			},
+			{
+				"tone": 3,
+				"pinyin": "guǒ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "guò"
+			}
+		]
+	},
+	{
+		"id": "syl_ha",
+		"syllable": "ha",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "hā"
+			},
+			{
+				"tone": 2,
+				"pinyin": "há"
+			},
+			{
+				"tone": 3,
+				"pinyin": "hǎ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "hà"
+			}
+		]
+	},
+	{
+		"id": "syl_hai",
+		"syllable": "hai",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "hāi"
+			},
+			{
+				"tone": 2,
+				"pinyin": "hái"
+			},
+			{
+				"tone": 3,
+				"pinyin": "hǎi"
+			},
+			{
+				"tone": 4,
+				"pinyin": "hài"
+			}
+		]
+	},
+	{
+		"id": "syl_han",
+		"syllable": "han",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "hān"
+			},
+			{
+				"tone": 2,
+				"pinyin": "hán"
+			},
+			{
+				"tone": 3,
+				"pinyin": "hǎn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "hàn"
+			}
+		]
+	},
+	{
+		"id": "syl_hang",
+		"syllable": "hang",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "hāng"
+			},
+			{
+				"tone": 2,
+				"pinyin": "háng"
+			},
+			{
+				"tone": 3,
+				"pinyin": "hǎng"
+			},
+			{
+				"tone": 4,
+				"pinyin": "hàng"
+			}
+		]
+	},
+	{
+		"id": "syl_hao",
+		"syllable": "hao",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "hāo"
+			},
+			{
+				"tone": 2,
+				"pinyin": "háo"
+			},
+			{
+				"tone": 3,
+				"pinyin": "hǎo"
+			},
+			{
+				"tone": 4,
+				"pinyin": "hào"
+			}
+		]
+	},
+	{
+		"id": "syl_he",
+		"syllable": "he",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "hē"
+			},
+			{
+				"tone": 2,
+				"pinyin": "hé"
+			},
+			{
+				"tone": 3,
+				"pinyin": "hě"
+			},
+			{
+				"tone": 4,
+				"pinyin": "hè"
+			}
+		]
+	},
+	{
+		"id": "syl_hei",
+		"syllable": "hei",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "hēi"
+			},
+			{
+				"tone": 2,
+				"pinyin": "héi"
+			},
+			{
+				"tone": 3,
+				"pinyin": "hěi"
+			},
+			{
+				"tone": 4,
+				"pinyin": "hèi"
+			}
+		]
+	},
+	{
+		"id": "syl_hen",
+		"syllable": "hen",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "hēn"
+			},
+			{
+				"tone": 2,
+				"pinyin": "hén"
+			},
+			{
+				"tone": 3,
+				"pinyin": "hěn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "hèn"
+			}
+		]
+	},
+	{
+		"id": "syl_heng",
+		"syllable": "heng",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "hēng"
+			},
+			{
+				"tone": 2,
+				"pinyin": "héng"
+			},
+			{
+				"tone": 3,
+				"pinyin": "hěng"
+			},
+			{
+				"tone": 4,
+				"pinyin": "hèng"
+			}
+		]
+	},
+	{
+		"id": "syl_hong",
+		"syllable": "hong",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "hōng"
+			},
+			{
+				"tone": 2,
+				"pinyin": "hóng"
+			},
+			{
+				"tone": 3,
+				"pinyin": "hǒng"
+			},
+			{
+				"tone": 4,
+				"pinyin": "hòng"
+			}
+		]
+	},
+	{
+		"id": "syl_hou",
+		"syllable": "hou",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "hōu"
+			},
+			{
+				"tone": 2,
+				"pinyin": "hóu"
+			},
+			{
+				"tone": 3,
+				"pinyin": "hǒu"
+			},
+			{
+				"tone": 4,
+				"pinyin": "hòu"
+			}
+		]
+	},
+	{
+		"id": "syl_hu",
+		"syllable": "hu",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "hū"
+			},
+			{
+				"tone": 2,
+				"pinyin": "hú"
+			},
+			{
+				"tone": 3,
+				"pinyin": "hǔ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "hù"
+			}
+		]
+	},
+	{
+		"id": "syl_hua",
+		"syllable": "hua",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "huā"
+			},
+			{
+				"tone": 2,
+				"pinyin": "huá"
+			},
+			{
+				"tone": 3,
+				"pinyin": "huǎ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "huà"
+			}
+		]
+	},
+	{
+		"id": "syl_huai",
+		"syllable": "huai",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "huāi"
+			},
+			{
+				"tone": 2,
+				"pinyin": "huái"
+			},
+			{
+				"tone": 3,
+				"pinyin": "huǎi"
+			},
+			{
+				"tone": 4,
+				"pinyin": "huài"
+			}
+		]
+	},
+	{
+		"id": "syl_huan",
+		"syllable": "huan",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "huān"
+			},
+			{
+				"tone": 2,
+				"pinyin": "huán"
+			},
+			{
+				"tone": 3,
+				"pinyin": "huǎn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "huàn"
+			}
+		]
+	},
+	{
+		"id": "syl_huang",
+		"syllable": "huang",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "huāng"
+			},
+			{
+				"tone": 2,
+				"pinyin": "huáng"
+			},
+			{
+				"tone": 3,
+				"pinyin": "huǎng"
+			},
+			{
+				"tone": 4,
+				"pinyin": "huàng"
+			}
+		]
+	},
+	{
+		"id": "syl_hui",
+		"syllable": "hui",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "huī"
+			},
+			{
+				"tone": 2,
+				"pinyin": "huí"
+			},
+			{
+				"tone": 3,
+				"pinyin": "huǐ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "huì"
+			}
+		]
+	},
+	{
+		"id": "syl_hun",
+		"syllable": "hun",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "hūn"
+			},
+			{
+				"tone": 2,
+				"pinyin": "hún"
+			},
+			{
+				"tone": 3,
+				"pinyin": "hǔn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "hùn"
+			}
+		]
+	},
+	{
+		"id": "syl_huo",
+		"syllable": "huo",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "huō"
+			},
+			{
+				"tone": 2,
+				"pinyin": "huó"
+			},
+			{
+				"tone": 3,
+				"pinyin": "huǒ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "huò"
+			}
+		]
+	},
+	{
+		"id": "syl_ji",
+		"syllable": "ji",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "jī"
+			},
+			{
+				"tone": 2,
+				"pinyin": "jí"
+			},
+			{
+				"tone": 3,
+				"pinyin": "jǐ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "jì"
+			}
+		]
+	},
+	{
+		"id": "syl_jia",
+		"syllable": "jia",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "jiā"
+			},
+			{
+				"tone": 2,
+				"pinyin": "jiá"
+			},
+			{
+				"tone": 3,
+				"pinyin": "jiǎ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "jià"
+			}
+		]
+	},
+	{
+		"id": "syl_jian",
+		"syllable": "jian",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "jiān"
+			},
+			{
+				"tone": 2,
+				"pinyin": "jián"
+			},
+			{
+				"tone": 3,
+				"pinyin": "jiǎn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "jiàn"
+			}
+		]
+	},
+	{
+		"id": "syl_jiang",
+		"syllable": "jiang",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "jiāng"
+			},
+			{
+				"tone": 2,
+				"pinyin": "jiáng"
+			},
+			{
+				"tone": 3,
+				"pinyin": "jiǎng"
+			},
+			{
+				"tone": 4,
+				"pinyin": "jiàng"
+			}
+		]
+	},
+	{
+		"id": "syl_jiao",
+		"syllable": "jiao",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "jiāo"
+			},
+			{
+				"tone": 2,
+				"pinyin": "jiáo"
+			},
+			{
+				"tone": 3,
+				"pinyin": "jiǎo"
+			},
+			{
+				"tone": 4,
+				"pinyin": "jiào"
+			}
+		]
+	},
+	{
+		"id": "syl_jie",
+		"syllable": "jie",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "jiē"
+			},
+			{
+				"tone": 2,
+				"pinyin": "jié"
+			},
+			{
+				"tone": 3,
+				"pinyin": "jiě"
+			},
+			{
+				"tone": 4,
+				"pinyin": "jiè"
+			}
+		]
+	},
+	{
+		"id": "syl_jin",
+		"syllable": "jin",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "jīn"
+			},
+			{
+				"tone": 2,
+				"pinyin": "jín"
+			},
+			{
+				"tone": 3,
+				"pinyin": "jǐn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "jìn"
+			}
+		]
+	},
+	{
+		"id": "syl_jing",
+		"syllable": "jing",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "jīng"
+			},
+			{
+				"tone": 3,
+				"pinyin": "jǐng"
+			},
+			{
+				"tone": 4,
+				"pinyin": "jìng"
+			}
+		]
+	},
+	{
+		"id": "syl_jiong",
+		"syllable": "jiong",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "jiōng"
+			},
+			{
+				"tone": 2,
+				"pinyin": "jióng"
+			},
+			{
+				"tone": 3,
+				"pinyin": "jiǒng"
+			},
+			{
+				"tone": 4,
+				"pinyin": "jiòng"
+			}
+		]
+	},
+	{
+		"id": "syl_jiu",
+		"syllable": "jiu",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "jiū"
+			},
+			{
+				"tone": 2,
+				"pinyin": "jiú"
+			},
+			{
+				"tone": 3,
+				"pinyin": "jiǔ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "jiù"
+			}
+		]
+	},
+	{
+		"id": "syl_ju",
+		"syllable": "ju",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "jū"
+			},
+			{
+				"tone": 2,
+				"pinyin": "jú"
+			},
+			{
+				"tone": 3,
+				"pinyin": "jǔ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "jù"
+			}
+		]
+	},
+	{
+		"id": "syl_juan",
+		"syllable": "juan",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "juān"
+			},
+			{
+				"tone": 2,
+				"pinyin": "juán"
+			},
+			{
+				"tone": 3,
+				"pinyin": "juǎn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "juàn"
+			}
+		]
+	},
+	{
+		"id": "syl_jue",
+		"syllable": "jue",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "juē"
+			},
+			{
+				"tone": 2,
+				"pinyin": "jué"
+			},
+			{
+				"tone": 3,
+				"pinyin": "juě"
+			},
+			{
+				"tone": 4,
+				"pinyin": "juè"
+			}
+		]
+	},
+	{
+		"id": "syl_jun",
+		"syllable": "jun",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "jūn"
+			},
+			{
+				"tone": 2,
+				"pinyin": "jún"
+			},
+			{
+				"tone": 3,
+				"pinyin": "jǔn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "jùn"
+			}
+		]
+	},
+	{
+		"id": "syl_ka",
+		"syllable": "ka",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "kā"
+			},
+			{
+				"tone": 2,
+				"pinyin": "ká"
+			},
+			{
+				"tone": 3,
+				"pinyin": "kǎ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "kà"
+			}
+		]
+	},
+	{
+		"id": "syl_kai",
+		"syllable": "kai",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "kāi"
+			},
+			{
+				"tone": 2,
+				"pinyin": "kái"
+			},
+			{
+				"tone": 3,
+				"pinyin": "kǎi"
+			},
+			{
+				"tone": 4,
+				"pinyin": "kài"
+			}
+		]
+	},
+	{
+		"id": "syl_kan",
+		"syllable": "kan",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "kān"
+			},
+			{
+				"tone": 2,
+				"pinyin": "kán"
+			},
+			{
+				"tone": 3,
+				"pinyin": "kǎn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "kàn"
+			}
+		]
+	},
+	{
+		"id": "syl_kang",
+		"syllable": "kang",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "kāng"
+			},
+			{
+				"tone": 2,
+				"pinyin": "káng"
+			},
+			{
+				"tone": 4,
+				"pinyin": "kàng"
+			}
+		]
+	},
+	{
+		"id": "syl_kao",
+		"syllable": "kao",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "kāo"
+			},
+			{
+				"tone": 2,
+				"pinyin": "káo"
+			},
+			{
+				"tone": 3,
+				"pinyin": "kǎo"
+			},
+			{
+				"tone": 4,
+				"pinyin": "kào"
+			}
+		]
+	},
+	{
+		"id": "syl_ke",
+		"syllable": "ke",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "kē"
+			},
+			{
+				"tone": 2,
+				"pinyin": "ké"
+			},
+			{
+				"tone": 3,
+				"pinyin": "kě"
+			},
+			{
+				"tone": 4,
+				"pinyin": "kè"
+			}
+		]
+	},
+	{
+		"id": "syl_ken",
+		"syllable": "ken",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "kēn"
+			},
+			{
+				"tone": 2,
+				"pinyin": "kén"
+			},
+			{
+				"tone": 3,
+				"pinyin": "kěn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "kèn"
+			}
+		]
+	},
+	{
+		"id": "syl_keng",
+		"syllable": "keng",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "kēng"
+			},
+			{
+				"tone": 2,
+				"pinyin": "kéng"
+			},
+			{
+				"tone": 3,
+				"pinyin": "kěng"
+			},
+			{
+				"tone": 4,
+				"pinyin": "kèng"
+			}
+		]
+	},
+	{
+		"id": "syl_kong",
+		"syllable": "kong",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "kōng"
+			},
+			{
+				"tone": 2,
+				"pinyin": "kóng"
+			},
+			{
+				"tone": 3,
+				"pinyin": "kǒng"
+			},
+			{
+				"tone": 4,
+				"pinyin": "kòng"
+			}
+		]
+	},
+	{
+		"id": "syl_kou",
+		"syllable": "kou",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "kōu"
+			},
+			{
+				"tone": 2,
+				"pinyin": "kóu"
+			},
+			{
+				"tone": 3,
+				"pinyin": "kǒu"
+			},
+			{
+				"tone": 4,
+				"pinyin": "kòu"
+			}
+		]
+	},
+	{
+		"id": "syl_ku",
+		"syllable": "ku",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "kū"
+			},
+			{
+				"tone": 2,
+				"pinyin": "kú"
+			},
+			{
+				"tone": 3,
+				"pinyin": "kǔ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "kù"
+			}
+		]
+	},
+	{
+		"id": "syl_kua",
+		"syllable": "kua",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "kuā"
+			},
+			{
+				"tone": 2,
+				"pinyin": "kuá"
+			},
+			{
+				"tone": 3,
+				"pinyin": "kuǎ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "kuà"
+			}
+		]
+	},
+	{
+		"id": "syl_kuai",
+		"syllable": "kuai",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "kuāi"
+			},
+			{
+				"tone": 2,
+				"pinyin": "kuái"
+			},
+			{
+				"tone": 3,
+				"pinyin": "kuǎi"
+			},
+			{
+				"tone": 4,
+				"pinyin": "kuài"
+			}
+		]
+	},
+	{
+		"id": "syl_kuan",
+		"syllable": "kuan",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "kuān"
+			},
+			{
+				"tone": 2,
+				"pinyin": "kuán"
+			},
+			{
+				"tone": 3,
+				"pinyin": "kuǎn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "kuàn"
+			}
+		]
+	},
+	{
+		"id": "syl_kuang",
+		"syllable": "kuang",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "kuāng"
+			},
+			{
+				"tone": 2,
+				"pinyin": "kuáng"
+			},
+			{
+				"tone": 3,
+				"pinyin": "kuǎng"
+			},
+			{
+				"tone": 4,
+				"pinyin": "kuàng"
+			}
+		]
+	},
+	{
+		"id": "syl_kui",
+		"syllable": "kui",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "kuī"
+			},
+			{
+				"tone": 2,
+				"pinyin": "kuí"
+			},
+			{
+				"tone": 3,
+				"pinyin": "kuǐ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "kuì"
+			}
+		]
+	},
+	{
+		"id": "syl_kun",
+		"syllable": "kun",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "kūn"
+			},
+			{
+				"tone": 2,
+				"pinyin": "kún"
+			},
+			{
+				"tone": 3,
+				"pinyin": "kǔn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "kùn"
+			}
+		]
+	},
+	{
+		"id": "syl_kuo",
+		"syllable": "kuo",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "kuō"
+			},
+			{
+				"tone": 2,
+				"pinyin": "kuó"
+			},
+			{
+				"tone": 3,
+				"pinyin": "kuǒ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "kuò"
+			}
+		]
+	},
+	{
+		"id": "syl_la",
+		"syllable": "la",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "lā"
+			},
+			{
+				"tone": 2,
+				"pinyin": "lá"
+			},
+			{
+				"tone": 3,
+				"pinyin": "lǎ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "là"
+			}
+		]
+	},
+	{
+		"id": "syl_lai",
+		"syllable": "lai",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "lāi"
+			},
+			{
+				"tone": 2,
+				"pinyin": "lái"
+			},
+			{
+				"tone": 3,
+				"pinyin": "lǎi"
+			},
+			{
+				"tone": 4,
+				"pinyin": "lài"
+			}
+		]
+	},
+	{
+		"id": "syl_lan",
+		"syllable": "lan",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "lān"
+			},
+			{
+				"tone": 2,
+				"pinyin": "lán"
+			},
+			{
+				"tone": 3,
+				"pinyin": "lǎn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "làn"
+			}
+		]
+	},
+	{
+		"id": "syl_lang",
+		"syllable": "lang",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "lāng"
+			},
+			{
+				"tone": 2,
+				"pinyin": "láng"
+			},
+			{
+				"tone": 3,
+				"pinyin": "lǎng"
+			},
+			{
+				"tone": 4,
+				"pinyin": "làng"
+			}
+		]
+	},
+	{
+		"id": "syl_lao",
+		"syllable": "lao",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "lāo"
+			},
+			{
+				"tone": 2,
+				"pinyin": "láo"
+			},
+			{
+				"tone": 3,
+				"pinyin": "lǎo"
+			},
+			{
+				"tone": 4,
+				"pinyin": "lào"
+			}
+		]
+	},
+	{
+		"id": "syl_le",
+		"syllable": "le",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "lē"
+			},
+			{
+				"tone": 2,
+				"pinyin": "lé"
+			},
+			{
+				"tone": 3,
+				"pinyin": "lě"
+			},
+			{
+				"tone": 4,
+				"pinyin": "lè"
+			},
+			{
+				"tone": 0,
+				"pinyin": "le"
+			}
+		]
+	},
+	{
+		"id": "syl_lei",
+		"syllable": "lei",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "lēi"
+			},
+			{
+				"tone": 2,
+				"pinyin": "léi"
+			},
+			{
+				"tone": 3,
+				"pinyin": "lěi"
+			},
+			{
+				"tone": 4,
+				"pinyin": "lèi"
+			}
+		]
+	},
+	{
+		"id": "syl_leng",
+		"syllable": "leng",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "lēng"
+			},
+			{
+				"tone": 2,
+				"pinyin": "léng"
+			},
+			{
+				"tone": 3,
+				"pinyin": "lěng"
+			},
+			{
+				"tone": 4,
+				"pinyin": "lèng"
+			}
+		]
+	},
+	{
+		"id": "syl_li",
+		"syllable": "li",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "lī"
+			},
+			{
+				"tone": 2,
+				"pinyin": "lí"
+			},
+			{
+				"tone": 3,
+				"pinyin": "lǐ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "lì"
+			}
+		]
+	},
+	{
+		"id": "syl_lia",
+		"syllable": "lia",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "liā"
+			},
+			{
+				"tone": 2,
+				"pinyin": "liá"
+			},
+			{
+				"tone": 3,
+				"pinyin": "liǎ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "lià"
+			}
+		]
+	},
+	{
+		"id": "syl_lian",
+		"syllable": "lian",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "liān"
+			},
+			{
+				"tone": 2,
+				"pinyin": "lián"
+			},
+			{
+				"tone": 3,
+				"pinyin": "liǎn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "liàn"
+			}
+		]
+	},
+	{
+		"id": "syl_liang",
+		"syllable": "liang",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "liāng"
+			},
+			{
+				"tone": 2,
+				"pinyin": "liáng"
+			},
+			{
+				"tone": 3,
+				"pinyin": "liǎng"
+			},
+			{
+				"tone": 4,
+				"pinyin": "liàng"
+			}
+		]
+	},
+	{
+		"id": "syl_liao",
+		"syllable": "liao",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "liāo"
+			},
+			{
+				"tone": 2,
+				"pinyin": "liáo"
+			},
+			{
+				"tone": 3,
+				"pinyin": "liǎo"
+			},
+			{
+				"tone": 4,
+				"pinyin": "liào"
+			}
+		]
+	},
+	{
+		"id": "syl_lie",
+		"syllable": "lie",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "liē"
+			},
+			{
+				"tone": 2,
+				"pinyin": "lié"
+			},
+			{
+				"tone": 3,
+				"pinyin": "liě"
+			},
+			{
+				"tone": 4,
+				"pinyin": "liè"
+			}
+		]
+	},
+	{
+		"id": "syl_lin",
+		"syllable": "lin",
+		"tones": [
+			{
+				"tone": 2,
+				"pinyin": "lín"
+			},
+			{
+				"tone": 3,
+				"pinyin": "lǐn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "lìn"
+			}
+		]
+	},
+	{
+		"id": "syl_ling",
+		"syllable": "ling",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "līng"
+			},
+			{
+				"tone": 2,
+				"pinyin": "líng"
+			},
+			{
+				"tone": 3,
+				"pinyin": "lǐng"
+			},
+			{
+				"tone": 4,
+				"pinyin": "lìng"
+			}
+		]
+	},
+	{
+		"id": "syl_liu",
+		"syllable": "liu",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "liū"
+			},
+			{
+				"tone": 2,
+				"pinyin": "liú"
+			},
+			{
+				"tone": 3,
+				"pinyin": "liǔ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "liù"
+			}
+		]
+	},
+	{
+		"id": "syl_lo",
+		"syllable": "lo",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "lō"
+			},
+			{
+				"tone": 2,
+				"pinyin": "ló"
+			},
+			{
+				"tone": 3,
+				"pinyin": "lǒ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "lò"
+			}
+		]
+	},
+	{
+		"id": "syl_long",
+		"syllable": "long",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "lōng"
+			},
+			{
+				"tone": 2,
+				"pinyin": "lóng"
+			},
+			{
+				"tone": 3,
+				"pinyin": "lǒng"
+			},
+			{
+				"tone": 4,
+				"pinyin": "lòng"
+			}
+		]
+	},
+	{
+		"id": "syl_lou",
+		"syllable": "lou",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "lōu"
+			},
+			{
+				"tone": 2,
+				"pinyin": "lóu"
+			},
+			{
+				"tone": 3,
+				"pinyin": "lǒu"
+			},
+			{
+				"tone": 4,
+				"pinyin": "lòu"
+			}
+		]
+	},
+	{
+		"id": "syl_lu",
+		"syllable": "lu",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "lū"
+			},
+			{
+				"tone": 2,
+				"pinyin": "lú"
+			},
+			{
+				"tone": 3,
+				"pinyin": "lǔ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "lù"
+			}
+		]
+	},
+	{
+		"id": "syl_luan",
+		"syllable": "luan",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "luān"
+			},
+			{
+				"tone": 2,
+				"pinyin": "luán"
+			},
+			{
+				"tone": 3,
+				"pinyin": "luǎn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "luàn"
+			}
+		]
+	},
+	{
+		"id": "syl_lun",
+		"syllable": "lun",
+		"tones": [
+			{
+				"tone": 2,
+				"pinyin": "lún"
+			},
+			{
+				"tone": 3,
+				"pinyin": "lǔn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "lùn"
+			}
+		]
+	},
+	{
+		"id": "syl_luo",
+		"syllable": "luo",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "luō"
+			},
+			{
+				"tone": 2,
+				"pinyin": "luó"
+			},
+			{
+				"tone": 3,
+				"pinyin": "luǒ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "luò"
+			}
+		]
+	},
+	{
+		"id": "syl_luu",
+		"syllable": "luu",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "luū"
+			},
+			{
+				"tone": 2,
+				"pinyin": "luú"
+			},
+			{
+				"tone": 3,
+				"pinyin": "luǔ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "luù"
+			}
+		]
+	},
+	{
+		"id": "syl_luue",
+		"syllable": "luue",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "luuē"
+			},
+			{
+				"tone": 2,
+				"pinyin": "luué"
+			},
+			{
+				"tone": 3,
+				"pinyin": "luuě"
+			},
+			{
+				"tone": 4,
+				"pinyin": "luuè"
+			}
+		]
+	},
+	{
+		"id": "syl_luun",
+		"syllable": "luun",
+		"tones": [
+			{
+				"tone": 2,
+				"pinyin": "luún"
+			},
+			{
+				"tone": 3,
+				"pinyin": "luǔn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "luùn"
+			}
+		]
+	},
+	{
+		"id": "syl_ma",
+		"syllable": "ma",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "mā"
+			},
+			{
+				"tone": 2,
+				"pinyin": "má"
+			},
+			{
+				"tone": 3,
+				"pinyin": "mǎ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "mà"
+			},
+			{
+				"tone": 0,
+				"pinyin": "ma"
+			}
+		]
+	},
+	{
+		"id": "syl_mai",
+		"syllable": "mai",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "māi"
+			},
+			{
+				"tone": 2,
+				"pinyin": "mái"
+			},
+			{
+				"tone": 3,
+				"pinyin": "mǎi"
+			},
+			{
+				"tone": 4,
+				"pinyin": "mài"
+			}
+		]
+	},
+	{
+		"id": "syl_man",
+		"syllable": "man",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "mān"
+			},
+			{
+				"tone": 2,
+				"pinyin": "mán"
+			},
+			{
+				"tone": 3,
+				"pinyin": "mǎn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "màn"
+			}
+		]
+	},
+	{
+		"id": "syl_mang",
+		"syllable": "mang",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "māng"
+			},
+			{
+				"tone": 2,
+				"pinyin": "máng"
+			},
+			{
+				"tone": 3,
+				"pinyin": "mǎng"
+			},
+			{
+				"tone": 4,
+				"pinyin": "màng"
+			}
+		]
+	},
+	{
+		"id": "syl_mao",
+		"syllable": "mao",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "māo"
+			},
+			{
+				"tone": 2,
+				"pinyin": "máo"
+			},
+			{
+				"tone": 3,
+				"pinyin": "mǎo"
+			},
+			{
+				"tone": 4,
+				"pinyin": "mào"
+			}
+		]
+	},
+	{
+		"id": "syl_me",
+		"syllable": "me",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "mē"
+			},
+			{
+				"tone": 2,
+				"pinyin": "mé"
+			},
+			{
+				"tone": 3,
+				"pinyin": "mě"
+			},
+			{
+				"tone": 4,
+				"pinyin": "mè"
+			}
+		]
+	},
+	{
+		"id": "syl_mei",
+		"syllable": "mei",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "mēi"
+			},
+			{
+				"tone": 2,
+				"pinyin": "méi"
+			},
+			{
+				"tone": 3,
+				"pinyin": "měi"
+			},
+			{
+				"tone": 4,
+				"pinyin": "mèi"
+			}
+		]
+	},
+	{
+		"id": "syl_men",
+		"syllable": "men",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "mēn"
+			},
+			{
+				"tone": 2,
+				"pinyin": "mén"
+			},
+			{
+				"tone": 3,
+				"pinyin": "měn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "mèn"
+			}
+		]
+	},
+	{
+		"id": "syl_meng",
+		"syllable": "meng",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "mēng"
+			},
+			{
+				"tone": 2,
+				"pinyin": "méng"
+			},
+			{
+				"tone": 3,
+				"pinyin": "měng"
+			},
+			{
+				"tone": 4,
+				"pinyin": "mèng"
+			}
+		]
+	},
+	{
+		"id": "syl_mi",
+		"syllable": "mi",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "mī"
+			},
+			{
+				"tone": 2,
+				"pinyin": "mí"
+			},
+			{
+				"tone": 3,
+				"pinyin": "mǐ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "mì"
+			}
+		]
+	},
+	{
+		"id": "syl_mian",
+		"syllable": "mian",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "miān"
+			},
+			{
+				"tone": 2,
+				"pinyin": "mián"
+			},
+			{
+				"tone": 3,
+				"pinyin": "miǎn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "miàn"
+			}
+		]
+	},
+	{
+		"id": "syl_miao",
+		"syllable": "miao",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "miāo"
+			},
+			{
+				"tone": 2,
+				"pinyin": "miáo"
+			},
+			{
+				"tone": 3,
+				"pinyin": "miǎo"
+			},
+			{
+				"tone": 4,
+				"pinyin": "miào"
+			}
+		]
+	},
+	{
+		"id": "syl_mie",
+		"syllable": "mie",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "miē"
+			},
+			{
+				"tone": 2,
+				"pinyin": "mié"
+			},
+			{
+				"tone": 3,
+				"pinyin": "miě"
+			},
+			{
+				"tone": 4,
+				"pinyin": "miè"
+			}
+		]
+	},
+	{
+		"id": "syl_min",
+		"syllable": "min",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "mīn"
+			},
+			{
+				"tone": 2,
+				"pinyin": "mín"
+			},
+			{
+				"tone": 3,
+				"pinyin": "mǐn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "mìn"
+			}
+		]
+	},
+	{
+		"id": "syl_ming",
+		"syllable": "ming",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "mīng"
+			},
+			{
+				"tone": 2,
+				"pinyin": "míng"
+			},
+			{
+				"tone": 3,
+				"pinyin": "mǐng"
+			},
+			{
+				"tone": 4,
+				"pinyin": "mìng"
+			}
+		]
+	},
+	{
+		"id": "syl_miu",
+		"syllable": "miu",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "miū"
+			},
+			{
+				"tone": 2,
+				"pinyin": "miú"
+			},
+			{
+				"tone": 3,
+				"pinyin": "miǔ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "miù"
+			}
+		]
+	},
+	{
+		"id": "syl_mo",
+		"syllable": "mo",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "mō"
+			},
+			{
+				"tone": 2,
+				"pinyin": "mó"
+			},
+			{
+				"tone": 3,
+				"pinyin": "mǒ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "mò"
+			}
+		]
+	},
+	{
+		"id": "syl_mou",
+		"syllable": "mou",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "mōu"
+			},
+			{
+				"tone": 2,
+				"pinyin": "móu"
+			},
+			{
+				"tone": 4,
+				"pinyin": "mòu"
+			}
+		]
+	},
+	{
+		"id": "syl_mu",
+		"syllable": "mu",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "mū"
+			},
+			{
+				"tone": 2,
+				"pinyin": "mú"
+			},
+			{
+				"tone": 3,
+				"pinyin": "mǔ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "mù"
+			}
+		]
+	},
+	{
+		"id": "syl_muo",
+		"syllable": "muo",
+		"tones": [
+			{
+				"tone": 3,
+				"pinyin": "muǒ"
+			}
+		]
+	},
+	{
+		"id": "syl_na",
+		"syllable": "na",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "nā"
+			},
+			{
+				"tone": 2,
+				"pinyin": "ná"
+			},
+			{
+				"tone": 3,
+				"pinyin": "nǎ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "nà"
+			}
+		]
+	},
+	{
+		"id": "syl_nai",
+		"syllable": "nai",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "nāi"
+			},
+			{
+				"tone": 2,
+				"pinyin": "nái"
+			},
+			{
+				"tone": 3,
+				"pinyin": "nǎi"
+			},
+			{
+				"tone": 4,
+				"pinyin": "nài"
+			}
+		]
+	},
+	{
+		"id": "syl_nan",
+		"syllable": "nan",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "nān"
+			},
+			{
+				"tone": 2,
+				"pinyin": "nán"
+			},
+			{
+				"tone": 3,
+				"pinyin": "nǎn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "nàn"
+			}
+		]
+	},
+	{
+		"id": "syl_nang",
+		"syllable": "nang",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "nāng"
+			},
+			{
+				"tone": 2,
+				"pinyin": "náng"
+			},
+			{
+				"tone": 3,
+				"pinyin": "nǎng"
+			},
+			{
+				"tone": 4,
+				"pinyin": "nàng"
+			}
+		]
+	},
+	{
+		"id": "syl_nao",
+		"syllable": "nao",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "nāo"
+			},
+			{
+				"tone": 2,
+				"pinyin": "náo"
+			},
+			{
+				"tone": 3,
+				"pinyin": "nǎo"
+			},
+			{
+				"tone": 4,
+				"pinyin": "nào"
+			}
+		]
+	},
+	{
+		"id": "syl_ne",
+		"syllable": "ne",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "nē"
+			},
+			{
+				"tone": 2,
+				"pinyin": "né"
+			},
+			{
+				"tone": 3,
+				"pinyin": "ně"
+			},
+			{
+				"tone": 4,
+				"pinyin": "nè"
+			},
+			{
+				"tone": 0,
+				"pinyin": "ne"
+			}
+		]
+	},
+	{
+		"id": "syl_nei",
+		"syllable": "nei",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "nēi"
+			},
+			{
+				"tone": 2,
+				"pinyin": "néi"
+			},
+			{
+				"tone": 3,
+				"pinyin": "něi"
+			},
+			{
+				"tone": 4,
+				"pinyin": "nèi"
+			}
+		]
+	},
+	{
+		"id": "syl_nen",
+		"syllable": "nen",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "nēn"
+			},
+			{
+				"tone": 2,
+				"pinyin": "nén"
+			},
+			{
+				"tone": 3,
+				"pinyin": "něn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "nèn"
+			}
+		]
+	},
+	{
+		"id": "syl_neng",
+		"syllable": "neng",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "nēng"
+			},
+			{
+				"tone": 2,
+				"pinyin": "néng"
+			},
+			{
+				"tone": 3,
+				"pinyin": "něng"
+			},
+			{
+				"tone": 4,
+				"pinyin": "nèng"
+			}
+		]
+	},
+	{
+		"id": "syl_ni",
+		"syllable": "ni",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "nī"
+			},
+			{
+				"tone": 2,
+				"pinyin": "ní"
+			},
+			{
+				"tone": 3,
+				"pinyin": "nǐ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "nì"
+			}
+		]
+	},
+	{
+		"id": "syl_nia",
+		"syllable": "nia",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "niā"
+			},
+			{
+				"tone": 2,
+				"pinyin": "niá"
+			},
+			{
+				"tone": 3,
+				"pinyin": "niǎ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "nià"
+			}
+		]
+	},
+	{
+		"id": "syl_nian",
+		"syllable": "nian",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "niān"
+			},
+			{
+				"tone": 2,
+				"pinyin": "nián"
+			},
+			{
+				"tone": 3,
+				"pinyin": "niǎn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "niàn"
+			}
+		]
+	},
+	{
+		"id": "syl_niang",
+		"syllable": "niang",
+		"tones": [
+			{
+				"tone": 2,
+				"pinyin": "niáng"
+			},
+			{
+				"tone": 3,
+				"pinyin": "niǎng"
+			},
+			{
+				"tone": 4,
+				"pinyin": "niàng"
+			}
+		]
+	},
+	{
+		"id": "syl_niao",
+		"syllable": "niao",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "niāo"
+			},
+			{
+				"tone": 2,
+				"pinyin": "niáo"
+			},
+			{
+				"tone": 3,
+				"pinyin": "niǎo"
+			},
+			{
+				"tone": 4,
+				"pinyin": "niào"
+			}
+		]
+	},
+	{
+		"id": "syl_nie",
+		"syllable": "nie",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "niē"
+			},
+			{
+				"tone": 2,
+				"pinyin": "nié"
+			},
+			{
+				"tone": 3,
+				"pinyin": "niě"
+			},
+			{
+				"tone": 4,
+				"pinyin": "niè"
+			}
+		]
+	},
+	{
+		"id": "syl_nin",
+		"syllable": "nin",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "nīn"
+			},
+			{
+				"tone": 2,
+				"pinyin": "nín"
+			},
+			{
+				"tone": 3,
+				"pinyin": "nǐn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "nìn"
+			}
+		]
+	},
+	{
+		"id": "syl_ning",
+		"syllable": "ning",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "nīng"
+			},
+			{
+				"tone": 2,
+				"pinyin": "níng"
+			},
+			{
+				"tone": 3,
+				"pinyin": "nǐng"
+			},
+			{
+				"tone": 4,
+				"pinyin": "nìng"
+			}
+		]
+	},
+	{
+		"id": "syl_niu",
+		"syllable": "niu",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "niū"
+			},
+			{
+				"tone": 2,
+				"pinyin": "niú"
+			},
+			{
+				"tone": 3,
+				"pinyin": "niǔ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "niù"
+			}
+		]
+	},
+	{
+		"id": "syl_nong",
+		"syllable": "nong",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "nōng"
+			},
+			{
+				"tone": 2,
+				"pinyin": "nóng"
+			},
+			{
+				"tone": 3,
+				"pinyin": "nǒng"
+			},
+			{
+				"tone": 4,
+				"pinyin": "nòng"
+			}
+		]
+	},
+	{
+		"id": "syl_nou",
+		"syllable": "nou",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "nōu"
+			},
+			{
+				"tone": 2,
+				"pinyin": "nóu"
+			},
+			{
+				"tone": 3,
+				"pinyin": "nǒu"
+			},
+			{
+				"tone": 4,
+				"pinyin": "nòu"
+			}
+		]
+	},
+	{
+		"id": "syl_nu",
+		"syllable": "nu",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "nū"
+			},
+			{
+				"tone": 2,
+				"pinyin": "nú"
+			},
+			{
+				"tone": 3,
+				"pinyin": "nǔ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "nù"
+			}
+		]
+	},
+	{
+		"id": "syl_nuan",
+		"syllable": "nuan",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "nuān"
+			},
+			{
+				"tone": 2,
+				"pinyin": "nuán"
+			},
+			{
+				"tone": 3,
+				"pinyin": "nuǎn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "nuàn"
+			}
+		]
+	},
+	{
+		"id": "syl_nue",
+		"syllable": "nue",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "nuē"
+			}
+		]
+	},
+	{
+		"id": "syl_nun",
+		"syllable": "nun",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "nūn"
+			},
+			{
+				"tone": 2,
+				"pinyin": "nún"
+			},
+			{
+				"tone": 3,
+				"pinyin": "nǔn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "nùn"
+			}
+		]
+	},
+	{
+		"id": "syl_nuo",
+		"syllable": "nuo",
+		"tones": [
+			{
+				"tone": 2,
+				"pinyin": "nuó"
+			},
+			{
+				"tone": 3,
+				"pinyin": "nuǒ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "nuò"
+			}
+		]
+	},
+	{
+		"id": "syl_nuu",
+		"syllable": "nuu",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "nuū"
+			},
+			{
+				"tone": 2,
+				"pinyin": "nuú"
+			},
+			{
+				"tone": 3,
+				"pinyin": "nuǔ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "nuù"
+			}
+		]
+	},
+	{
+		"id": "syl_nuue",
+		"syllable": "nuue",
+		"tones": [
+			{
+				"tone": 2,
+				"pinyin": "nuué"
+			},
+			{
+				"tone": 3,
+				"pinyin": "nuuě"
+			},
+			{
+				"tone": 4,
+				"pinyin": "nuuè"
+			}
+		]
+	},
+	{
+		"id": "syl_ou",
+		"syllable": "ou",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "ōu"
+			},
+			{
+				"tone": 2,
+				"pinyin": "óu"
+			},
+			{
+				"tone": 3,
+				"pinyin": "ǒu"
+			},
+			{
+				"tone": 4,
+				"pinyin": "òu"
+			}
+		]
+	},
+	{
+		"id": "syl_pa",
+		"syllable": "pa",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "pā"
+			},
+			{
+				"tone": 2,
+				"pinyin": "pá"
+			},
+			{
+				"tone": 3,
+				"pinyin": "pǎ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "pà"
+			}
+		]
+	},
+	{
+		"id": "syl_pai",
+		"syllable": "pai",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "pāi"
+			},
+			{
+				"tone": 2,
+				"pinyin": "pái"
+			},
+			{
+				"tone": 3,
+				"pinyin": "pǎi"
+			},
+			{
+				"tone": 4,
+				"pinyin": "pài"
+			}
+		]
+	},
+	{
+		"id": "syl_pan",
+		"syllable": "pan",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "pān"
+			},
+			{
+				"tone": 2,
+				"pinyin": "pán"
+			},
+			{
+				"tone": 3,
+				"pinyin": "pǎn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "pàn"
+			}
+		]
+	},
+	{
+		"id": "syl_pang",
+		"syllable": "pang",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "pāng"
+			},
+			{
+				"tone": 2,
+				"pinyin": "páng"
+			},
+			{
+				"tone": 3,
+				"pinyin": "pǎng"
+			},
+			{
+				"tone": 4,
+				"pinyin": "pàng"
+			}
+		]
+	},
+	{
+		"id": "syl_pao",
+		"syllable": "pao",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "pāo"
+			},
+			{
+				"tone": 2,
+				"pinyin": "páo"
+			},
+			{
+				"tone": 3,
+				"pinyin": "pǎo"
+			},
+			{
+				"tone": 4,
+				"pinyin": "pào"
+			}
+		]
+	},
+	{
+		"id": "syl_pei",
+		"syllable": "pei",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "pēi"
+			},
+			{
+				"tone": 2,
+				"pinyin": "péi"
+			},
+			{
+				"tone": 3,
+				"pinyin": "pěi"
+			},
+			{
+				"tone": 4,
+				"pinyin": "pèi"
+			}
+		]
+	},
+	{
+		"id": "syl_pen",
+		"syllable": "pen",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "pēn"
+			},
+			{
+				"tone": 2,
+				"pinyin": "pén"
+			},
+			{
+				"tone": 3,
+				"pinyin": "pěn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "pèn"
+			}
+		]
+	},
+	{
+		"id": "syl_peng",
+		"syllable": "peng",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "pēng"
+			},
+			{
+				"tone": 2,
+				"pinyin": "péng"
+			},
+			{
+				"tone": 3,
+				"pinyin": "pěng"
+			},
+			{
+				"tone": 4,
+				"pinyin": "pèng"
+			}
+		]
+	},
+	{
+		"id": "syl_pi",
+		"syllable": "pi",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "pī"
+			},
+			{
+				"tone": 2,
+				"pinyin": "pí"
+			},
+			{
+				"tone": 3,
+				"pinyin": "pǐ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "pì"
+			}
+		]
+	},
+	{
+		"id": "syl_pian",
+		"syllable": "pian",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "piān"
+			},
+			{
+				"tone": 2,
+				"pinyin": "pián"
+			},
+			{
+				"tone": 3,
+				"pinyin": "piǎn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "piàn"
+			}
+		]
+	},
+	{
+		"id": "syl_piao",
+		"syllable": "piao",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "piāo"
+			},
+			{
+				"tone": 2,
+				"pinyin": "piáo"
+			},
+			{
+				"tone": 3,
+				"pinyin": "piǎo"
+			},
+			{
+				"tone": 4,
+				"pinyin": "piào"
+			}
+		]
+	},
+	{
+		"id": "syl_pie",
+		"syllable": "pie",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "piē"
+			},
+			{
+				"tone": 2,
+				"pinyin": "pié"
+			},
+			{
+				"tone": 3,
+				"pinyin": "piě"
+			},
+			{
+				"tone": 4,
+				"pinyin": "piè"
+			}
+		]
+	},
+	{
+		"id": "syl_pin",
+		"syllable": "pin",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "pīn"
+			},
+			{
+				"tone": 2,
+				"pinyin": "pín"
+			},
+			{
+				"tone": 3,
+				"pinyin": "pǐn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "pìn"
+			}
+		]
+	},
+	{
+		"id": "syl_ping",
+		"syllable": "ping",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "pīng"
+			},
+			{
+				"tone": 2,
+				"pinyin": "píng"
+			},
+			{
+				"tone": 3,
+				"pinyin": "pǐng"
+			},
+			{
+				"tone": 4,
+				"pinyin": "pìng"
+			}
+		]
+	},
+	{
+		"id": "syl_po",
+		"syllable": "po",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "pō"
+			},
+			{
+				"tone": 2,
+				"pinyin": "pó"
+			},
+			{
+				"tone": 3,
+				"pinyin": "pǒ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "pò"
+			}
+		]
+	},
+	{
+		"id": "syl_pou",
+		"syllable": "pou",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "pōu"
+			},
+			{
+				"tone": 2,
+				"pinyin": "póu"
+			},
+			{
+				"tone": 3,
+				"pinyin": "pǒu"
+			},
+			{
+				"tone": 4,
+				"pinyin": "pòu"
+			}
+		]
+	},
+	{
+		"id": "syl_pu",
+		"syllable": "pu",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "pū"
+			},
+			{
+				"tone": 2,
+				"pinyin": "pú"
+			},
+			{
+				"tone": 3,
+				"pinyin": "pǔ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "pù"
+			}
+		]
+	},
+	{
+		"id": "syl_qi",
+		"syllable": "qi",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "qī"
+			},
+			{
+				"tone": 2,
+				"pinyin": "qí"
+			},
+			{
+				"tone": 3,
+				"pinyin": "qǐ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "qì"
+			}
+		]
+	},
+	{
+		"id": "syl_qia",
+		"syllable": "qia",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "qiā"
+			},
+			{
+				"tone": 2,
+				"pinyin": "qiá"
+			},
+			{
+				"tone": 3,
+				"pinyin": "qiǎ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "qià"
+			}
+		]
+	},
+	{
+		"id": "syl_qian",
+		"syllable": "qian",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "qiān"
+			},
+			{
+				"tone": 2,
+				"pinyin": "qián"
+			},
+			{
+				"tone": 3,
+				"pinyin": "qiǎn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "qiàn"
+			}
+		]
+	},
+	{
+		"id": "syl_qiang",
+		"syllable": "qiang",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "qiāng"
+			},
+			{
+				"tone": 2,
+				"pinyin": "qiáng"
+			},
+			{
+				"tone": 3,
+				"pinyin": "qiǎng"
+			},
+			{
+				"tone": 4,
+				"pinyin": "qiàng"
+			}
+		]
+	},
+	{
+		"id": "syl_qiao",
+		"syllable": "qiao",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "qiāo"
+			},
+			{
+				"tone": 2,
+				"pinyin": "qiáo"
+			},
+			{
+				"tone": 3,
+				"pinyin": "qiǎo"
+			},
+			{
+				"tone": 4,
+				"pinyin": "qiào"
+			}
+		]
+	},
+	{
+		"id": "syl_qie",
+		"syllable": "qie",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "qiē"
+			},
+			{
+				"tone": 2,
+				"pinyin": "qié"
+			},
+			{
+				"tone": 3,
+				"pinyin": "qiě"
+			},
+			{
+				"tone": 4,
+				"pinyin": "qiè"
+			}
+		]
+	},
+	{
+		"id": "syl_qin",
+		"syllable": "qin",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "qīn"
+			},
+			{
+				"tone": 2,
+				"pinyin": "qín"
+			},
+			{
+				"tone": 3,
+				"pinyin": "qǐn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "qìn"
+			}
+		]
+	},
+	{
+		"id": "syl_qing",
+		"syllable": "qing",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "qīng"
+			},
+			{
+				"tone": 2,
+				"pinyin": "qíng"
+			},
+			{
+				"tone": 3,
+				"pinyin": "qǐng"
+			},
+			{
+				"tone": 4,
+				"pinyin": "qìng"
+			}
+		]
+	},
+	{
+		"id": "syl_qiong",
+		"syllable": "qiong",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "qiōng"
+			},
+			{
+				"tone": 2,
+				"pinyin": "qióng"
+			},
+			{
+				"tone": 3,
+				"pinyin": "qiǒng"
+			},
+			{
+				"tone": 4,
+				"pinyin": "qiòng"
+			}
+		]
+	},
+	{
+		"id": "syl_qiu",
+		"syllable": "qiu",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "qiū"
+			},
+			{
+				"tone": 2,
+				"pinyin": "qiú"
+			},
+			{
+				"tone": 3,
+				"pinyin": "qiǔ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "qiù"
+			}
+		]
+	},
+	{
+		"id": "syl_qu",
+		"syllable": "qu",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "qū"
+			},
+			{
+				"tone": 2,
+				"pinyin": "qú"
+			},
+			{
+				"tone": 3,
+				"pinyin": "qǔ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "qù"
+			}
+		]
+	},
+	{
+		"id": "syl_quan",
+		"syllable": "quan",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "quān"
+			},
+			{
+				"tone": 2,
+				"pinyin": "quán"
+			},
+			{
+				"tone": 3,
+				"pinyin": "quǎn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "quàn"
+			}
+		]
+	},
+	{
+		"id": "syl_que",
+		"syllable": "que",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "quē"
+			},
+			{
+				"tone": 2,
+				"pinyin": "qué"
+			},
+			{
+				"tone": 3,
+				"pinyin": "quě"
+			},
+			{
+				"tone": 4,
+				"pinyin": "què"
+			}
+		]
+	},
+	{
+		"id": "syl_qun",
+		"syllable": "qun",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "qūn"
+			},
+			{
+				"tone": 2,
+				"pinyin": "qún"
+			},
+			{
+				"tone": 3,
+				"pinyin": "qǔn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "qùn"
+			}
+		]
+	},
+	{
+		"id": "syl_ran",
+		"syllable": "ran",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "rān"
+			},
+			{
+				"tone": 2,
+				"pinyin": "rán"
+			},
+			{
+				"tone": 3,
+				"pinyin": "rǎn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "ràn"
+			}
+		]
+	},
+	{
+		"id": "syl_rang",
+		"syllable": "rang",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "rāng"
+			},
+			{
+				"tone": 2,
+				"pinyin": "ráng"
+			},
+			{
+				"tone": 3,
+				"pinyin": "rǎng"
+			},
+			{
+				"tone": 4,
+				"pinyin": "ràng"
+			}
+		]
+	},
+	{
+		"id": "syl_rao",
+		"syllable": "rao",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "rāo"
+			},
+			{
+				"tone": 2,
+				"pinyin": "ráo"
+			},
+			{
+				"tone": 3,
+				"pinyin": "rǎo"
+			},
+			{
+				"tone": 4,
+				"pinyin": "rào"
+			}
+		]
+	},
+	{
+		"id": "syl_re",
+		"syllable": "re",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "rē"
+			},
+			{
+				"tone": 2,
+				"pinyin": "ré"
+			},
+			{
+				"tone": 3,
+				"pinyin": "rě"
+			},
+			{
+				"tone": 4,
+				"pinyin": "rè"
+			}
+		]
+	},
+	{
+		"id": "syl_rei",
+		"syllable": "rei",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "rēi"
+			}
+		]
+	},
+	{
+		"id": "syl_ren",
+		"syllable": "ren",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "rēn"
+			},
+			{
+				"tone": 2,
+				"pinyin": "rén"
+			},
+			{
+				"tone": 3,
+				"pinyin": "rěn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "rèn"
+			}
+		]
+	},
+	{
+		"id": "syl_reng",
+		"syllable": "reng",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "rēng"
+			},
+			{
+				"tone": 2,
+				"pinyin": "réng"
+			},
+			{
+				"tone": 3,
+				"pinyin": "rěng"
+			},
+			{
+				"tone": 4,
+				"pinyin": "rèng"
+			}
+		]
+	},
+	{
+		"id": "syl_ri",
+		"syllable": "ri",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "rī"
+			},
+			{
+				"tone": 2,
+				"pinyin": "rí"
+			},
+			{
+				"tone": 3,
+				"pinyin": "rǐ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "rì"
+			}
+		]
+	},
+	{
+		"id": "syl_rong",
+		"syllable": "rong",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "rōng"
+			},
+			{
+				"tone": 2,
+				"pinyin": "róng"
+			},
+			{
+				"tone": 3,
+				"pinyin": "rǒng"
+			},
+			{
+				"tone": 4,
+				"pinyin": "ròng"
+			}
+		]
+	},
+	{
+		"id": "syl_rou",
+		"syllable": "rou",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "rōu"
+			},
+			{
+				"tone": 2,
+				"pinyin": "róu"
+			},
+			{
+				"tone": 3,
+				"pinyin": "rǒu"
+			},
+			{
+				"tone": 4,
+				"pinyin": "ròu"
+			}
+		]
+	},
+	{
+		"id": "syl_ru",
+		"syllable": "ru",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "rū"
+			},
+			{
+				"tone": 2,
+				"pinyin": "rú"
+			},
+			{
+				"tone": 3,
+				"pinyin": "rǔ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "rù"
+			}
+		]
+	},
+	{
+		"id": "syl_ruan",
+		"syllable": "ruan",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "ruān"
+			},
+			{
+				"tone": 2,
+				"pinyin": "ruán"
+			},
+			{
+				"tone": 3,
+				"pinyin": "ruǎn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "ruàn"
+			}
+		]
+	},
+	{
+		"id": "syl_rui",
+		"syllable": "rui",
+		"tones": [
+			{
+				"tone": 2,
+				"pinyin": "ruí"
+			},
+			{
+				"tone": 3,
+				"pinyin": "ruǐ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "ruì"
+			}
+		]
+	},
+	{
+		"id": "syl_run",
+		"syllable": "run",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "rūn"
+			},
+			{
+				"tone": 2,
+				"pinyin": "rún"
+			},
+			{
+				"tone": 3,
+				"pinyin": "rǔn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "rùn"
+			}
+		]
+	},
+	{
+		"id": "syl_ruo",
+		"syllable": "ruo",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "ruō"
+			},
+			{
+				"tone": 2,
+				"pinyin": "ruó"
+			},
+			{
+				"tone": 3,
+				"pinyin": "ruǒ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "ruò"
+			}
+		]
+	},
+	{
+		"id": "syl_sa",
+		"syllable": "sa",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "sā"
+			},
+			{
+				"tone": 2,
+				"pinyin": "sá"
+			},
+			{
+				"tone": 3,
+				"pinyin": "sǎ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "sà"
+			}
+		]
+	},
+	{
+		"id": "syl_sai",
+		"syllable": "sai",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "sāi"
+			},
+			{
+				"tone": 2,
+				"pinyin": "sái"
+			},
+			{
+				"tone": 3,
+				"pinyin": "sǎi"
+			},
+			{
+				"tone": 4,
+				"pinyin": "sài"
+			}
+		]
+	},
+	{
+		"id": "syl_san",
+		"syllable": "san",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "sān"
+			},
+			{
+				"tone": 2,
+				"pinyin": "sán"
+			},
+			{
+				"tone": 3,
+				"pinyin": "sǎn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "sàn"
+			}
+		]
+	},
+	{
+		"id": "syl_sang",
+		"syllable": "sang",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "sāng"
+			},
+			{
+				"tone": 2,
+				"pinyin": "sáng"
+			},
+			{
+				"tone": 4,
+				"pinyin": "sàng"
+			}
+		]
+	},
+	{
+		"id": "syl_sao",
+		"syllable": "sao",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "sāo"
+			},
+			{
+				"tone": 2,
+				"pinyin": "sáo"
+			},
+			{
+				"tone": 3,
+				"pinyin": "sǎo"
+			},
+			{
+				"tone": 4,
+				"pinyin": "sào"
+			}
+		]
+	},
+	{
+		"id": "syl_se",
+		"syllable": "se",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "sē"
+			},
+			{
+				"tone": 2,
+				"pinyin": "sé"
+			},
+			{
+				"tone": 3,
+				"pinyin": "sě"
+			},
+			{
+				"tone": 4,
+				"pinyin": "sè"
+			}
+		]
+	},
+	{
+		"id": "syl_sei",
+		"syllable": "sei",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "sēi"
+			},
+			{
+				"tone": 2,
+				"pinyin": "séi"
+			},
+			{
+				"tone": 3,
+				"pinyin": "sěi"
+			},
+			{
+				"tone": 4,
+				"pinyin": "sèi"
+			}
+		]
+	},
+	{
+		"id": "syl_sen",
+		"syllable": "sen",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "sēn"
+			},
+			{
+				"tone": 2,
+				"pinyin": "sén"
+			},
+			{
+				"tone": 3,
+				"pinyin": "sěn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "sèn"
+			}
+		]
+	},
+	{
+		"id": "syl_seng",
+		"syllable": "seng",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "sēng"
+			},
+			{
+				"tone": 2,
+				"pinyin": "séng"
+			},
+			{
+				"tone": 3,
+				"pinyin": "sěng"
+			},
+			{
+				"tone": 4,
+				"pinyin": "sèng"
+			}
+		]
+	},
+	{
+		"id": "syl_sha",
+		"syllable": "sha",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "shā"
+			},
+			{
+				"tone": 2,
+				"pinyin": "shá"
+			},
+			{
+				"tone": 3,
+				"pinyin": "shǎ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "shà"
+			}
+		]
+	},
+	{
+		"id": "syl_shai",
+		"syllable": "shai",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "shāi"
+			},
+			{
+				"tone": 2,
+				"pinyin": "shái"
+			},
+			{
+				"tone": 3,
+				"pinyin": "shǎi"
+			},
+			{
+				"tone": 4,
+				"pinyin": "shài"
+			}
+		]
+	},
+	{
+		"id": "syl_shan",
+		"syllable": "shan",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "shān"
+			},
+			{
+				"tone": 2,
+				"pinyin": "shán"
+			},
+			{
+				"tone": 3,
+				"pinyin": "shǎn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "shàn"
+			}
+		]
+	},
+	{
+		"id": "syl_shang",
+		"syllable": "shang",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "shāng"
+			},
+			{
+				"tone": 2,
+				"pinyin": "sháng"
+			},
+			{
+				"tone": 3,
+				"pinyin": "shǎng"
+			},
+			{
+				"tone": 4,
+				"pinyin": "shàng"
+			}
+		]
+	},
+	{
+		"id": "syl_shao",
+		"syllable": "shao",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "shāo"
+			},
+			{
+				"tone": 2,
+				"pinyin": "sháo"
+			},
+			{
+				"tone": 3,
+				"pinyin": "shǎo"
+			},
+			{
+				"tone": 4,
+				"pinyin": "shào"
+			}
+		]
+	},
+	{
+		"id": "syl_she",
+		"syllable": "she",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "shē"
+			},
+			{
+				"tone": 2,
+				"pinyin": "shé"
+			},
+			{
+				"tone": 3,
+				"pinyin": "shě"
+			},
+			{
+				"tone": 4,
+				"pinyin": "shè"
+			}
+		]
+	},
+	{
+		"id": "syl_shei",
+		"syllable": "shei",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "shēi"
+			},
+			{
+				"tone": 2,
+				"pinyin": "shéi"
+			},
+			{
+				"tone": 3,
+				"pinyin": "shěi"
+			},
+			{
+				"tone": 4,
+				"pinyin": "shèi"
+			}
+		]
+	},
+	{
+		"id": "syl_shen",
+		"syllable": "shen",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "shēn"
+			},
+			{
+				"tone": 2,
+				"pinyin": "shén"
+			},
+			{
+				"tone": 3,
+				"pinyin": "shěn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "shèn"
+			}
+		]
+	},
+	{
+		"id": "syl_sheng",
+		"syllable": "sheng",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "shēng"
+			},
+			{
+				"tone": 2,
+				"pinyin": "shéng"
+			},
+			{
+				"tone": 3,
+				"pinyin": "shěng"
+			},
+			{
+				"tone": 4,
+				"pinyin": "shèng"
+			}
+		]
+	},
+	{
+		"id": "syl_shi",
+		"syllable": "shi",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "shī"
+			},
+			{
+				"tone": 2,
+				"pinyin": "shí"
+			},
+			{
+				"tone": 3,
+				"pinyin": "shǐ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "shì"
+			}
+		]
+	},
+	{
+		"id": "syl_shong",
+		"syllable": "shong",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "shōng"
+			},
+			{
+				"tone": 2,
+				"pinyin": "shóng"
+			},
+			{
+				"tone": 3,
+				"pinyin": "shǒng"
+			},
+			{
+				"tone": 4,
+				"pinyin": "shòng"
+			}
+		]
+	},
+	{
+		"id": "syl_shou",
+		"syllable": "shou",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "shōu"
+			},
+			{
+				"tone": 2,
+				"pinyin": "shóu"
+			},
+			{
+				"tone": 3,
+				"pinyin": "shǒu"
+			},
+			{
+				"tone": 4,
+				"pinyin": "shòu"
+			}
+		]
+	},
+	{
+		"id": "syl_shu",
+		"syllable": "shu",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "shū"
+			},
+			{
+				"tone": 2,
+				"pinyin": "shú"
+			},
+			{
+				"tone": 3,
+				"pinyin": "shǔ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "shù"
+			}
+		]
+	},
+	{
+		"id": "syl_shua",
+		"syllable": "shua",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "shuā"
+			},
+			{
+				"tone": 2,
+				"pinyin": "shuá"
+			},
+			{
+				"tone": 3,
+				"pinyin": "shuǎ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "shuà"
+			}
+		]
+	},
+	{
+		"id": "syl_shuai",
+		"syllable": "shuai",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "shuāi"
+			},
+			{
+				"tone": 2,
+				"pinyin": "shuái"
+			},
+			{
+				"tone": 3,
+				"pinyin": "shuǎi"
+			},
+			{
+				"tone": 4,
+				"pinyin": "shuài"
+			}
+		]
+	},
+	{
+		"id": "syl_shuan",
+		"syllable": "shuan",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "shuān"
+			},
+			{
+				"tone": 2,
+				"pinyin": "shuán"
+			},
+			{
+				"tone": 3,
+				"pinyin": "shuǎn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "shuàn"
+			}
+		]
+	},
+	{
+		"id": "syl_shuang",
+		"syllable": "shuang",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "shuāng"
+			},
+			{
+				"tone": 2,
+				"pinyin": "shuáng"
+			},
+			{
+				"tone": 3,
+				"pinyin": "shuǎng"
+			},
+			{
+				"tone": 4,
+				"pinyin": "shuàng"
+			}
+		]
+	},
+	{
+		"id": "syl_shui",
+		"syllable": "shui",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "shuī"
+			},
+			{
+				"tone": 2,
+				"pinyin": "shuí"
+			},
+			{
+				"tone": 3,
+				"pinyin": "shuǐ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "shuì"
+			}
+		]
+	},
+	{
+		"id": "syl_shun",
+		"syllable": "shun",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "shūn"
+			},
+			{
+				"tone": 2,
+				"pinyin": "shún"
+			},
+			{
+				"tone": 3,
+				"pinyin": "shǔn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "shùn"
+			}
+		]
+	},
+	{
+		"id": "syl_shuo",
+		"syllable": "shuo",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "shuō"
+			},
+			{
+				"tone": 2,
+				"pinyin": "shuó"
+			},
+			{
+				"tone": 3,
+				"pinyin": "shuǒ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "shuò"
+			}
+		]
+	},
+	{
+		"id": "syl_si",
+		"syllable": "si",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "sī"
+			},
+			{
+				"tone": 2,
+				"pinyin": "sí"
+			},
+			{
+				"tone": 3,
+				"pinyin": "sǐ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "sì"
+			}
+		]
+	},
+	{
+		"id": "syl_song",
+		"syllable": "song",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "sōng"
+			},
+			{
+				"tone": 2,
+				"pinyin": "sóng"
+			},
+			{
+				"tone": 3,
+				"pinyin": "sǒng"
+			},
+			{
+				"tone": 4,
+				"pinyin": "sòng"
+			}
+		]
+	},
+	{
+		"id": "syl_sou",
+		"syllable": "sou",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "sōu"
+			},
+			{
+				"tone": 2,
+				"pinyin": "sóu"
+			},
+			{
+				"tone": 3,
+				"pinyin": "sǒu"
+			},
+			{
+				"tone": 4,
+				"pinyin": "sòu"
+			}
+		]
+	},
+	{
+		"id": "syl_su",
+		"syllable": "su",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "sū"
+			},
+			{
+				"tone": 2,
+				"pinyin": "sú"
+			},
+			{
+				"tone": 3,
+				"pinyin": "sǔ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "sù"
+			}
+		]
+	},
+	{
+		"id": "syl_suan",
+		"syllable": "suan",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "suān"
+			},
+			{
+				"tone": 2,
+				"pinyin": "suán"
+			},
+			{
+				"tone": 3,
+				"pinyin": "suǎn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "suàn"
+			}
+		]
+	},
+	{
+		"id": "syl_sui",
+		"syllable": "sui",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "suī"
+			},
+			{
+				"tone": 2,
+				"pinyin": "suí"
+			},
+			{
+				"tone": 3,
+				"pinyin": "suǐ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "suì"
+			}
+		]
+	},
+	{
+		"id": "syl_sun",
+		"syllable": "sun",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "sūn"
+			},
+			{
+				"tone": 2,
+				"pinyin": "sún"
+			},
+			{
+				"tone": 3,
+				"pinyin": "sǔn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "sùn"
+			}
+		]
+	},
+	{
+		"id": "syl_suo",
+		"syllable": "suo",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "suō"
+			},
+			{
+				"tone": 2,
+				"pinyin": "suó"
+			},
+			{
+				"tone": 3,
+				"pinyin": "suǒ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "suò"
+			}
 		]
 	},
 	{
 		"id": "syl_ta",
 		"syllable": "ta",
 		"tones": [
-			{ "tone": 1, "pinyin": "tā" },
-			{ "tone": 2, "pinyin": "tá" },
-			{ "tone": 3, "pinyin": "tǎ" },
-			{ "tone": 4, "pinyin": "tà" }
+			{
+				"tone": 1,
+				"pinyin": "tā"
+			},
+			{
+				"tone": 2,
+				"pinyin": "tá"
+			},
+			{
+				"tone": 3,
+				"pinyin": "tǎ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "tà"
+			}
+		]
+	},
+	{
+		"id": "syl_tai",
+		"syllable": "tai",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "tāi"
+			},
+			{
+				"tone": 2,
+				"pinyin": "tái"
+			},
+			{
+				"tone": 3,
+				"pinyin": "tǎi"
+			},
+			{
+				"tone": 4,
+				"pinyin": "tài"
+			}
+		]
+	},
+	{
+		"id": "syl_tan",
+		"syllable": "tan",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "tān"
+			},
+			{
+				"tone": 2,
+				"pinyin": "tán"
+			},
+			{
+				"tone": 3,
+				"pinyin": "tǎn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "tàn"
+			}
+		]
+	},
+	{
+		"id": "syl_tang",
+		"syllable": "tang",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "tāng"
+			},
+			{
+				"tone": 2,
+				"pinyin": "táng"
+			},
+			{
+				"tone": 3,
+				"pinyin": "tǎng"
+			},
+			{
+				"tone": 4,
+				"pinyin": "tàng"
+			}
+		]
+	},
+	{
+		"id": "syl_tao",
+		"syllable": "tao",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "tāo"
+			},
+			{
+				"tone": 2,
+				"pinyin": "táo"
+			},
+			{
+				"tone": 3,
+				"pinyin": "tǎo"
+			},
+			{
+				"tone": 4,
+				"pinyin": "tào"
+			}
+		]
+	},
+	{
+		"id": "syl_te",
+		"syllable": "te",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "tē"
+			},
+			{
+				"tone": 2,
+				"pinyin": "té"
+			},
+			{
+				"tone": 3,
+				"pinyin": "tě"
+			},
+			{
+				"tone": 4,
+				"pinyin": "tè"
+			}
+		]
+	},
+	{
+		"id": "syl_teng",
+		"syllable": "teng",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "tēng"
+			},
+			{
+				"tone": 2,
+				"pinyin": "téng"
+			},
+			{
+				"tone": 3,
+				"pinyin": "těng"
+			},
+			{
+				"tone": 4,
+				"pinyin": "tèng"
+			}
+		]
+	},
+	{
+		"id": "syl_ti",
+		"syllable": "ti",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "tī"
+			},
+			{
+				"tone": 2,
+				"pinyin": "tí"
+			},
+			{
+				"tone": 3,
+				"pinyin": "tǐ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "tì"
+			}
+		]
+	},
+	{
+		"id": "syl_tian",
+		"syllable": "tian",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "tiān"
+			},
+			{
+				"tone": 2,
+				"pinyin": "tián"
+			},
+			{
+				"tone": 3,
+				"pinyin": "tiǎn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "tiàn"
+			}
+		]
+	},
+	{
+		"id": "syl_tiao",
+		"syllable": "tiao",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "tiāo"
+			},
+			{
+				"tone": 2,
+				"pinyin": "tiáo"
+			},
+			{
+				"tone": 3,
+				"pinyin": "tiǎo"
+			},
+			{
+				"tone": 4,
+				"pinyin": "tiào"
+			}
+		]
+	},
+	{
+		"id": "syl_tie",
+		"syllable": "tie",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "tiē"
+			},
+			{
+				"tone": 2,
+				"pinyin": "tié"
+			},
+			{
+				"tone": 3,
+				"pinyin": "tiě"
+			},
+			{
+				"tone": 4,
+				"pinyin": "tiè"
+			}
+		]
+	},
+	{
+		"id": "syl_ting",
+		"syllable": "ting",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "tīng"
+			},
+			{
+				"tone": 2,
+				"pinyin": "tíng"
+			},
+			{
+				"tone": 3,
+				"pinyin": "tǐng"
+			},
+			{
+				"tone": 4,
+				"pinyin": "tìng"
+			}
+		]
+	},
+	{
+		"id": "syl_tong",
+		"syllable": "tong",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "tōng"
+			},
+			{
+				"tone": 2,
+				"pinyin": "tóng"
+			},
+			{
+				"tone": 3,
+				"pinyin": "tǒng"
+			},
+			{
+				"tone": 4,
+				"pinyin": "tòng"
+			}
+		]
+	},
+	{
+		"id": "syl_tou",
+		"syllable": "tou",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "tōu"
+			},
+			{
+				"tone": 2,
+				"pinyin": "tóu"
+			},
+			{
+				"tone": 3,
+				"pinyin": "tǒu"
+			},
+			{
+				"tone": 4,
+				"pinyin": "tòu"
+			}
+		]
+	},
+	{
+		"id": "syl_tu",
+		"syllable": "tu",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "tū"
+			},
+			{
+				"tone": 2,
+				"pinyin": "tú"
+			},
+			{
+				"tone": 3,
+				"pinyin": "tǔ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "tù"
+			}
+		]
+	},
+	{
+		"id": "syl_tuan",
+		"syllable": "tuan",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "tuān"
+			},
+			{
+				"tone": 2,
+				"pinyin": "tuán"
+			},
+			{
+				"tone": 3,
+				"pinyin": "tuǎn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "tuàn"
+			}
+		]
+	},
+	{
+		"id": "syl_tui",
+		"syllable": "tui",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "tuī"
+			},
+			{
+				"tone": 2,
+				"pinyin": "tuí"
+			},
+			{
+				"tone": 3,
+				"pinyin": "tuǐ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "tuì"
+			}
+		]
+	},
+	{
+		"id": "syl_tun",
+		"syllable": "tun",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "tūn"
+			},
+			{
+				"tone": 2,
+				"pinyin": "tún"
+			},
+			{
+				"tone": 3,
+				"pinyin": "tǔn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "tùn"
+			}
+		]
+	},
+	{
+		"id": "syl_tuo",
+		"syllable": "tuo",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "tuō"
+			},
+			{
+				"tone": 2,
+				"pinyin": "tuó"
+			},
+			{
+				"tone": 3,
+				"pinyin": "tuǒ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "tuò"
+			}
+		]
+	},
+	{
+		"id": "syl_wa",
+		"syllable": "wa",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "wā"
+			},
+			{
+				"tone": 2,
+				"pinyin": "wá"
+			},
+			{
+				"tone": 3,
+				"pinyin": "wǎ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "wà"
+			}
+		]
+	},
+	{
+		"id": "syl_wai",
+		"syllable": "wai",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "wāi"
+			},
+			{
+				"tone": 2,
+				"pinyin": "wái"
+			},
+			{
+				"tone": 3,
+				"pinyin": "wǎi"
+			},
+			{
+				"tone": 4,
+				"pinyin": "wài"
+			}
+		]
+	},
+	{
+		"id": "syl_wan",
+		"syllable": "wan",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "wān"
+			},
+			{
+				"tone": 2,
+				"pinyin": "wán"
+			},
+			{
+				"tone": 3,
+				"pinyin": "wǎn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "wàn"
+			}
+		]
+	},
+	{
+		"id": "syl_wang",
+		"syllable": "wang",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "wāng"
+			},
+			{
+				"tone": 2,
+				"pinyin": "wáng"
+			},
+			{
+				"tone": 3,
+				"pinyin": "wǎng"
+			},
+			{
+				"tone": 4,
+				"pinyin": "wàng"
+			}
+		]
+	},
+	{
+		"id": "syl_wei",
+		"syllable": "wei",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "wēi"
+			},
+			{
+				"tone": 2,
+				"pinyin": "wéi"
+			},
+			{
+				"tone": 3,
+				"pinyin": "wěi"
+			},
+			{
+				"tone": 4,
+				"pinyin": "wèi"
+			}
+		]
+	},
+	{
+		"id": "syl_wen",
+		"syllable": "wen",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "wēn"
+			},
+			{
+				"tone": 2,
+				"pinyin": "wén"
+			},
+			{
+				"tone": 3,
+				"pinyin": "wěn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "wèn"
+			}
+		]
+	},
+	{
+		"id": "syl_weng",
+		"syllable": "weng",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "wēng"
+			},
+			{
+				"tone": 2,
+				"pinyin": "wéng"
+			},
+			{
+				"tone": 3,
+				"pinyin": "wěng"
+			},
+			{
+				"tone": 4,
+				"pinyin": "wèng"
+			}
+		]
+	},
+	{
+		"id": "syl_wo",
+		"syllable": "wo",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "wō"
+			},
+			{
+				"tone": 2,
+				"pinyin": "wó"
+			},
+			{
+				"tone": 3,
+				"pinyin": "wǒ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "wò"
+			}
+		]
+	},
+	{
+		"id": "syl_wu",
+		"syllable": "wu",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "wū"
+			},
+			{
+				"tone": 2,
+				"pinyin": "wú"
+			},
+			{
+				"tone": 3,
+				"pinyin": "wǔ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "wù"
+			}
+		]
+	},
+	{
+		"id": "syl_xi",
+		"syllable": "xi",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "xī"
+			},
+			{
+				"tone": 2,
+				"pinyin": "xí"
+			},
+			{
+				"tone": 3,
+				"pinyin": "xǐ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "xì"
+			}
+		]
+	},
+	{
+		"id": "syl_xia",
+		"syllable": "xia",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "xiā"
+			},
+			{
+				"tone": 2,
+				"pinyin": "xiá"
+			},
+			{
+				"tone": 3,
+				"pinyin": "xiǎ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "xià"
+			}
+		]
+	},
+	{
+		"id": "syl_xian",
+		"syllable": "xian",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "xiān"
+			},
+			{
+				"tone": 2,
+				"pinyin": "xián"
+			},
+			{
+				"tone": 3,
+				"pinyin": "xiǎn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "xiàn"
+			}
+		]
+	},
+	{
+		"id": "syl_xiang",
+		"syllable": "xiang",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "xiāng"
+			},
+			{
+				"tone": 3,
+				"pinyin": "xiǎng"
+			},
+			{
+				"tone": 4,
+				"pinyin": "xiàng"
+			}
+		]
+	},
+	{
+		"id": "syl_xiao",
+		"syllable": "xiao",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "xiāo"
+			},
+			{
+				"tone": 2,
+				"pinyin": "xiáo"
+			},
+			{
+				"tone": 3,
+				"pinyin": "xiǎo"
+			},
+			{
+				"tone": 4,
+				"pinyin": "xiào"
+			}
+		]
+	},
+	{
+		"id": "syl_xie",
+		"syllable": "xie",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "xiē"
+			},
+			{
+				"tone": 2,
+				"pinyin": "xié"
+			},
+			{
+				"tone": 3,
+				"pinyin": "xiě"
+			},
+			{
+				"tone": 4,
+				"pinyin": "xiè"
+			}
+		]
+	},
+	{
+		"id": "syl_xin",
+		"syllable": "xin",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "xīn"
+			},
+			{
+				"tone": 2,
+				"pinyin": "xín"
+			},
+			{
+				"tone": 4,
+				"pinyin": "xìn"
+			}
+		]
+	},
+	{
+		"id": "syl_xing",
+		"syllable": "xing",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "xīng"
+			},
+			{
+				"tone": 2,
+				"pinyin": "xíng"
+			},
+			{
+				"tone": 3,
+				"pinyin": "xǐng"
+			},
+			{
+				"tone": 4,
+				"pinyin": "xìng"
+			}
+		]
+	},
+	{
+		"id": "syl_xiong",
+		"syllable": "xiong",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "xiōng"
+			},
+			{
+				"tone": 2,
+				"pinyin": "xióng"
+			},
+			{
+				"tone": 3,
+				"pinyin": "xiǒng"
+			},
+			{
+				"tone": 4,
+				"pinyin": "xiòng"
+			}
+		]
+	},
+	{
+		"id": "syl_xiu",
+		"syllable": "xiu",
+		"tones": [
+			{
+				"tone": 2,
+				"pinyin": "xiú"
+			},
+			{
+				"tone": 3,
+				"pinyin": "xiǔ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "xiù"
+			}
+		]
+	},
+	{
+		"id": "syl_xu",
+		"syllable": "xu",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "xū"
+			},
+			{
+				"tone": 2,
+				"pinyin": "xú"
+			},
+			{
+				"tone": 3,
+				"pinyin": "xǔ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "xù"
+			}
+		]
+	},
+	{
+		"id": "syl_xuan",
+		"syllable": "xuan",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "xuān"
+			},
+			{
+				"tone": 2,
+				"pinyin": "xuán"
+			},
+			{
+				"tone": 3,
+				"pinyin": "xuǎn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "xuàn"
+			}
+		]
+	},
+	{
+		"id": "syl_xue",
+		"syllable": "xue",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "xuē"
+			},
+			{
+				"tone": 2,
+				"pinyin": "xué"
+			},
+			{
+				"tone": 3,
+				"pinyin": "xuě"
+			},
+			{
+				"tone": 4,
+				"pinyin": "xuè"
+			}
+		]
+	},
+	{
+		"id": "syl_xun",
+		"syllable": "xun",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "xūn"
+			},
+			{
+				"tone": 2,
+				"pinyin": "xún"
+			},
+			{
+				"tone": 3,
+				"pinyin": "xǔn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "xùn"
+			}
+		]
+	},
+	{
+		"id": "syl_ya",
+		"syllable": "ya",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "yā"
+			},
+			{
+				"tone": 2,
+				"pinyin": "yá"
+			},
+			{
+				"tone": 3,
+				"pinyin": "yǎ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "yà"
+			}
+		]
+	},
+	{
+		"id": "syl_yan",
+		"syllable": "yan",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "yān"
+			},
+			{
+				"tone": 2,
+				"pinyin": "yán"
+			},
+			{
+				"tone": 3,
+				"pinyin": "yǎn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "yàn"
+			}
+		]
+	},
+	{
+		"id": "syl_yang",
+		"syllable": "yang",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "yāng"
+			},
+			{
+				"tone": 2,
+				"pinyin": "yáng"
+			},
+			{
+				"tone": 3,
+				"pinyin": "yǎng"
+			},
+			{
+				"tone": 4,
+				"pinyin": "yàng"
+			}
+		]
+	},
+	{
+		"id": "syl_yao",
+		"syllable": "yao",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "yāo"
+			},
+			{
+				"tone": 2,
+				"pinyin": "yáo"
+			},
+			{
+				"tone": 3,
+				"pinyin": "yǎo"
+			},
+			{
+				"tone": 4,
+				"pinyin": "yào"
+			}
+		]
+	},
+	{
+		"id": "syl_ye",
+		"syllable": "ye",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "yē"
+			},
+			{
+				"tone": 2,
+				"pinyin": "yé"
+			},
+			{
+				"tone": 3,
+				"pinyin": "yě"
+			},
+			{
+				"tone": 4,
+				"pinyin": "yè"
+			}
+		]
+	},
+	{
+		"id": "syl_yi",
+		"syllable": "yi",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "yī"
+			},
+			{
+				"tone": 2,
+				"pinyin": "yí"
+			},
+			{
+				"tone": 3,
+				"pinyin": "yǐ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "yì"
+			}
+		]
+	},
+	{
+		"id": "syl_yin",
+		"syllable": "yin",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "yīn"
+			},
+			{
+				"tone": 2,
+				"pinyin": "yín"
+			},
+			{
+				"tone": 3,
+				"pinyin": "yǐn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "yìn"
+			}
+		]
+	},
+	{
+		"id": "syl_ying",
+		"syllable": "ying",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "yīng"
+			},
+			{
+				"tone": 2,
+				"pinyin": "yíng"
+			},
+			{
+				"tone": 3,
+				"pinyin": "yǐng"
+			},
+			{
+				"tone": 4,
+				"pinyin": "yìng"
+			}
+		]
+	},
+	{
+		"id": "syl_yong",
+		"syllable": "yong",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "yōng"
+			},
+			{
+				"tone": 2,
+				"pinyin": "yóng"
+			},
+			{
+				"tone": 3,
+				"pinyin": "yǒng"
+			},
+			{
+				"tone": 4,
+				"pinyin": "yòng"
+			}
+		]
+	},
+	{
+		"id": "syl_you",
+		"syllable": "you",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "yōu"
+			},
+			{
+				"tone": 2,
+				"pinyin": "yóu"
+			},
+			{
+				"tone": 3,
+				"pinyin": "yǒu"
+			},
+			{
+				"tone": 4,
+				"pinyin": "yòu"
+			}
+		]
+	},
+	{
+		"id": "syl_yu",
+		"syllable": "yu",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "yū"
+			},
+			{
+				"tone": 2,
+				"pinyin": "yú"
+			},
+			{
+				"tone": 3,
+				"pinyin": "yǔ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "yù"
+			}
+		]
+	},
+	{
+		"id": "syl_yuan",
+		"syllable": "yuan",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "yuān"
+			},
+			{
+				"tone": 2,
+				"pinyin": "yuán"
+			},
+			{
+				"tone": 3,
+				"pinyin": "yuǎn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "yuàn"
+			}
+		]
+	},
+	{
+		"id": "syl_yue",
+		"syllable": "yue",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "yuē"
+			},
+			{
+				"tone": 2,
+				"pinyin": "yué"
+			},
+			{
+				"tone": 3,
+				"pinyin": "yuě"
+			},
+			{
+				"tone": 4,
+				"pinyin": "yuè"
+			}
+		]
+	},
+	{
+		"id": "syl_yun",
+		"syllable": "yun",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "yūn"
+			},
+			{
+				"tone": 2,
+				"pinyin": "yún"
+			},
+			{
+				"tone": 3,
+				"pinyin": "yǔn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "yùn"
+			}
+		]
+	},
+	{
+		"id": "syl_za",
+		"syllable": "za",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "zā"
+			},
+			{
+				"tone": 2,
+				"pinyin": "zá"
+			},
+			{
+				"tone": 3,
+				"pinyin": "zǎ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "zà"
+			}
+		]
+	},
+	{
+		"id": "syl_zai",
+		"syllable": "zai",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "zāi"
+			},
+			{
+				"tone": 3,
+				"pinyin": "zǎi"
+			},
+			{
+				"tone": 4,
+				"pinyin": "zài"
+			}
+		]
+	},
+	{
+		"id": "syl_zan",
+		"syllable": "zan",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "zān"
+			},
+			{
+				"tone": 2,
+				"pinyin": "zán"
+			},
+			{
+				"tone": 3,
+				"pinyin": "zǎn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "zàn"
+			}
+		]
+	},
+	{
+		"id": "syl_zang",
+		"syllable": "zang",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "zāng"
+			},
+			{
+				"tone": 2,
+				"pinyin": "záng"
+			},
+			{
+				"tone": 3,
+				"pinyin": "zǎng"
+			},
+			{
+				"tone": 4,
+				"pinyin": "zàng"
+			}
+		]
+	},
+	{
+		"id": "syl_zao",
+		"syllable": "zao",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "zāo"
+			},
+			{
+				"tone": 2,
+				"pinyin": "záo"
+			},
+			{
+				"tone": 3,
+				"pinyin": "zǎo"
+			},
+			{
+				"tone": 4,
+				"pinyin": "zào"
+			}
+		]
+	},
+	{
+		"id": "syl_ze",
+		"syllable": "ze",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "zē"
+			},
+			{
+				"tone": 2,
+				"pinyin": "zé"
+			},
+			{
+				"tone": 3,
+				"pinyin": "zě"
+			},
+			{
+				"tone": 4,
+				"pinyin": "zè"
+			}
+		]
+	},
+	{
+		"id": "syl_zei",
+		"syllable": "zei",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "zēi"
+			},
+			{
+				"tone": 2,
+				"pinyin": "zéi"
+			},
+			{
+				"tone": 3,
+				"pinyin": "zěi"
+			},
+			{
+				"tone": 4,
+				"pinyin": "zèi"
+			}
+		]
+	},
+	{
+		"id": "syl_zen",
+		"syllable": "zen",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "zēn"
+			},
+			{
+				"tone": 2,
+				"pinyin": "zén"
+			},
+			{
+				"tone": 3,
+				"pinyin": "zěn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "zèn"
+			}
+		]
+	},
+	{
+		"id": "syl_zeng",
+		"syllable": "zeng",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "zēng"
+			},
+			{
+				"tone": 2,
+				"pinyin": "zéng"
+			},
+			{
+				"tone": 3,
+				"pinyin": "zěng"
+			},
+			{
+				"tone": 4,
+				"pinyin": "zèng"
+			}
+		]
+	},
+	{
+		"id": "syl_zha",
+		"syllable": "zha",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "zhā"
+			},
+			{
+				"tone": 2,
+				"pinyin": "zhá"
+			},
+			{
+				"tone": 3,
+				"pinyin": "zhǎ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "zhà"
+			}
+		]
+	},
+	{
+		"id": "syl_zhai",
+		"syllable": "zhai",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "zhāi"
+			},
+			{
+				"tone": 2,
+				"pinyin": "zhái"
+			},
+			{
+				"tone": 3,
+				"pinyin": "zhǎi"
+			}
+		]
+	},
+	{
+		"id": "syl_zhan",
+		"syllable": "zhan",
+		"tones": [
+			{
+				"tone": 2,
+				"pinyin": "zhán"
+			},
+			{
+				"tone": 3,
+				"pinyin": "zhǎn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "zhàn"
+			}
+		]
+	},
+	{
+		"id": "syl_zhang",
+		"syllable": "zhang",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "zhāng"
+			},
+			{
+				"tone": 2,
+				"pinyin": "zháng"
+			},
+			{
+				"tone": 3,
+				"pinyin": "zhǎng"
+			},
+			{
+				"tone": 4,
+				"pinyin": "zhàng"
+			}
+		]
+	},
+	{
+		"id": "syl_zhao",
+		"syllable": "zhao",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "zhāo"
+			},
+			{
+				"tone": 2,
+				"pinyin": "zháo"
+			},
+			{
+				"tone": 3,
+				"pinyin": "zhǎo"
+			},
+			{
+				"tone": 4,
+				"pinyin": "zhào"
+			}
+		]
+	},
+	{
+		"id": "syl_zhe",
+		"syllable": "zhe",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "zhē"
+			},
+			{
+				"tone": 2,
+				"pinyin": "zhé"
+			},
+			{
+				"tone": 3,
+				"pinyin": "zhě"
+			},
+			{
+				"tone": 4,
+				"pinyin": "zhè"
+			}
+		]
+	},
+	{
+		"id": "syl_zhei",
+		"syllable": "zhei",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "zhēi"
+			},
+			{
+				"tone": 2,
+				"pinyin": "zhéi"
+			},
+			{
+				"tone": 3,
+				"pinyin": "zhěi"
+			},
+			{
+				"tone": 4,
+				"pinyin": "zhèi"
+			}
+		]
+	},
+	{
+		"id": "syl_zhen",
+		"syllable": "zhen",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "zhēn"
+			},
+			{
+				"tone": 2,
+				"pinyin": "zhén"
+			},
+			{
+				"tone": 3,
+				"pinyin": "zhěn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "zhèn"
+			}
+		]
+	},
+	{
+		"id": "syl_zheng",
+		"syllable": "zheng",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "zhēng"
+			},
+			{
+				"tone": 2,
+				"pinyin": "zhéng"
+			},
+			{
+				"tone": 3,
+				"pinyin": "zhěng"
+			},
+			{
+				"tone": 4,
+				"pinyin": "zhèng"
+			}
+		]
+	},
+	{
+		"id": "syl_zhi",
+		"syllable": "zhi",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "zhī"
+			},
+			{
+				"tone": 2,
+				"pinyin": "zhí"
+			},
+			{
+				"tone": 3,
+				"pinyin": "zhǐ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "zhì"
+			}
+		]
+	},
+	{
+		"id": "syl_zhong",
+		"syllable": "zhong",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "zhōng"
+			},
+			{
+				"tone": 2,
+				"pinyin": "zhóng"
+			},
+			{
+				"tone": 3,
+				"pinyin": "zhǒng"
+			},
+			{
+				"tone": 4,
+				"pinyin": "zhòng"
+			}
+		]
+	},
+	{
+		"id": "syl_zhou",
+		"syllable": "zhou",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "zhōu"
+			},
+			{
+				"tone": 2,
+				"pinyin": "zhóu"
+			},
+			{
+				"tone": 3,
+				"pinyin": "zhǒu"
+			},
+			{
+				"tone": 4,
+				"pinyin": "zhòu"
+			}
+		]
+	},
+	{
+		"id": "syl_zhu",
+		"syllable": "zhu",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "zhū"
+			},
+			{
+				"tone": 2,
+				"pinyin": "zhú"
+			},
+			{
+				"tone": 3,
+				"pinyin": "zhǔ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "zhù"
+			}
+		]
+	},
+	{
+		"id": "syl_zhua",
+		"syllable": "zhua",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "zhuā"
+			},
+			{
+				"tone": 2,
+				"pinyin": "zhuá"
+			},
+			{
+				"tone": 3,
+				"pinyin": "zhuǎ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "zhuà"
+			}
+		]
+	},
+	{
+		"id": "syl_zhuai",
+		"syllable": "zhuai",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "zhuāi"
+			},
+			{
+				"tone": 2,
+				"pinyin": "zhuái"
+			},
+			{
+				"tone": 3,
+				"pinyin": "zhuǎi"
+			},
+			{
+				"tone": 4,
+				"pinyin": "zhuài"
+			}
+		]
+	},
+	{
+		"id": "syl_zhuan",
+		"syllable": "zhuan",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "zhuān"
+			},
+			{
+				"tone": 2,
+				"pinyin": "zhuán"
+			},
+			{
+				"tone": 3,
+				"pinyin": "zhuǎn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "zhuàn"
+			}
+		]
+	},
+	{
+		"id": "syl_zhuang",
+		"syllable": "zhuang",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "zhuāng"
+			},
+			{
+				"tone": 2,
+				"pinyin": "zhuáng"
+			},
+			{
+				"tone": 3,
+				"pinyin": "zhuǎng"
+			},
+			{
+				"tone": 4,
+				"pinyin": "zhuàng"
+			}
+		]
+	},
+	{
+		"id": "syl_zhui",
+		"syllable": "zhui",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "zhuī"
+			},
+			{
+				"tone": 2,
+				"pinyin": "zhuí"
+			},
+			{
+				"tone": 3,
+				"pinyin": "zhuǐ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "zhuì"
+			}
+		]
+	},
+	{
+		"id": "syl_zhun",
+		"syllable": "zhun",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "zhūn"
+			},
+			{
+				"tone": 2,
+				"pinyin": "zhún"
+			},
+			{
+				"tone": 3,
+				"pinyin": "zhǔn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "zhùn"
+			}
+		]
+	},
+	{
+		"id": "syl_zhuo",
+		"syllable": "zhuo",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "zhuō"
+			},
+			{
+				"tone": 2,
+				"pinyin": "zhuó"
+			},
+			{
+				"tone": 3,
+				"pinyin": "zhuǒ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "zhuò"
+			}
+		]
+	},
+	{
+		"id": "syl_zi",
+		"syllable": "zi",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "zī"
+			},
+			{
+				"tone": 2,
+				"pinyin": "zí"
+			},
+			{
+				"tone": 3,
+				"pinyin": "zǐ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "zì"
+			}
+		]
+	},
+	{
+		"id": "syl_zong",
+		"syllable": "zong",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "zōng"
+			},
+			{
+				"tone": 2,
+				"pinyin": "zóng"
+			},
+			{
+				"tone": 3,
+				"pinyin": "zǒng"
+			},
+			{
+				"tone": 4,
+				"pinyin": "zòng"
+			}
+		]
+	},
+	{
+		"id": "syl_zou",
+		"syllable": "zou",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "zōu"
+			},
+			{
+				"tone": 2,
+				"pinyin": "zóu"
+			},
+			{
+				"tone": 3,
+				"pinyin": "zǒu"
+			},
+			{
+				"tone": 4,
+				"pinyin": "zòu"
+			}
+		]
+	},
+	{
+		"id": "syl_zu",
+		"syllable": "zu",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "zū"
+			},
+			{
+				"tone": 2,
+				"pinyin": "zú"
+			},
+			{
+				"tone": 3,
+				"pinyin": "zǔ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "zù"
+			}
+		]
+	},
+	{
+		"id": "syl_zuan",
+		"syllable": "zuan",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "zuān"
+			},
+			{
+				"tone": 2,
+				"pinyin": "zuán"
+			},
+			{
+				"tone": 3,
+				"pinyin": "zuǎn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "zuàn"
+			}
+		]
+	},
+	{
+		"id": "syl_zui",
+		"syllable": "zui",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "zuī"
+			},
+			{
+				"tone": 2,
+				"pinyin": "zuí"
+			},
+			{
+				"tone": 3,
+				"pinyin": "zuǐ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "zuì"
+			}
+		]
+	},
+	{
+		"id": "syl_zun",
+		"syllable": "zun",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "zūn"
+			},
+			{
+				"tone": 2,
+				"pinyin": "zún"
+			},
+			{
+				"tone": 3,
+				"pinyin": "zǔn"
+			},
+			{
+				"tone": 4,
+				"pinyin": "zùn"
+			}
+		]
+	},
+	{
+		"id": "syl_zuo",
+		"syllable": "zuo",
+		"tones": [
+			{
+				"tone": 1,
+				"pinyin": "zuō"
+			},
+			{
+				"tone": 2,
+				"pinyin": "zuó"
+			},
+			{
+				"tone": 3,
+				"pinyin": "zuǒ"
+			},
+			{
+				"tone": 4,
+				"pinyin": "zuò"
+			}
 		]
 	}
 ]
